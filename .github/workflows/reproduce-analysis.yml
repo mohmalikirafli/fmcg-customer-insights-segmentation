@@ -1,0 +1,63 @@
+name: Reproduce analysis
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '02_Script/**'
+      - 'requirements.txt'
+      - '.github/workflows/reproduce-analysis.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run reproducible workflow
+        env:
+          OMP_NUM_THREADS: 1
+          OPENBLAS_NUM_THREADS: 1
+          MKL_NUM_THREADS: 1
+          NUMEXPR_NUM_THREADS: 1
+        run: |
+          python 02_Script/01_Generate_Synthetic_Data.py
+          python 02_Script/02_FMCG_Customer_Insights_Analysis.py
+          python 02_Script/03_Build_Analysis_Notebook.py
+          jupyter nbconvert --to notebook --execute --inplace 02_Script/FMCG_Customer_Insights_Analysis.ipynb --ExecutePreprocessor.timeout=180
+          python 02_Script/04_Build_Portfolio_PDFs.py
+
+      - name: Verify expected outputs
+        run: |
+          test -f 03_Data/processed/fmcg_consumer_scored.csv
+          test -f 04_Output/tables/key_metrics.json
+          test -f 04_Output/figures/02_segment_profile_heatmap.svg
+          test -f 02_Script/FMCG_Customer_Insights_Analysis.ipynb
+          test -f 01_Report/FMCG_Customer_Insights_Report.pdf
+          test -f 05_Presentation/FMCG_Customer_Insights_Executive_Summary.pdf
+
+      - name: Commit generated assets
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add 01_Report/*.pdf 02_Script/*.ipynb 03_Data 04_Output 05_Presentation/*.pdf
+          if git diff --cached --quiet; then
+            echo 'Generated assets are already current.'
+          else
+            git commit -m 'Reproduce customer insights analysis assets'
+            git push
+          fi
