@@ -41,11 +41,9 @@ The project addresses three business questions:
 
 ## Final Presentation
 
-The latest portfolio presentation contains **11 professionally designed slides** and supersedes the previously generated executive-summary PDF.
+The final portfolio presentation contains **11 professionally designed slides** and supersedes the earlier automatically generated executive-summary presentation.
 
-- [View the final presentation in Canva](https://www.canva.com/d/29QvVaCztUkarUk)
-- [Open the editable Canva presentation](https://www.canva.com/d/u7HQMnrE_u6rotr)
-- [Read the presentation documentation](05_Presentation/README.md)
+- [View the final portfolio presentation (PDF)](05_Presentation/FMCG_Customer_Insights_Portfolio_Presentation.pdf)
 - [Open the executed analysis notebook](02_Script/FMCG_Customer_Insights_Analysis.ipynb)
 
 ## Business Objective
@@ -75,6 +73,7 @@ To identify actionable FMCG consumer segments, profile their motivations and cha
 │   └── tables/
 │       └── *.csv / *.json
 ├── 05_Presentation/
+│   ├── FMCG_Customer_Insights_Portfolio_Presentation.pdf
 │   └── README.md
 ├── 06_Dashboard/
 │   └── app.py
@@ -153,7 +152,7 @@ To identify actionable FMCG consumer segments, profile their motivations and cha
 
 ## Selected Visualizations
 
-The figures below are generated reproducibly by the analysis workflow. PNG is used instead of SVG to ensure reliable rendering in GitHub README pages.
+The figures below are generated reproducibly by the analysis workflow. PNG is used to ensure reliable rendering in GitHub README pages.
 
 ### Consumer segment distribution
 
