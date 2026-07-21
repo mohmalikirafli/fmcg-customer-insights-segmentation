@@ -7,41 +7,62 @@
 ![Data](https://img.shields.io/badge/Data-Synthetic-6F42C1)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-An end-to-end customer-insights portfolio project that translates synthetic FMCG consumer-survey data into **actionable segments, purchase-intention drivers, channel insights, and business recommendations**.
+An end-to-end customer-insights portfolio project that translates synthetic FMCG consumer survey data into **actionable consumer segments, purchase-intention drivers, channel insights, and business recommendations**.
 
 **Author:** Mohammad Maliki Rafli  
-**Program:** Master of Public Health — Biostatistics and Health Data Science, Universitas Airlangga
+**Program:** Master of Public Health - Biostatistics and Health Data Science, Universitas Airlangga
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Final Presentation](#final-presentation)
+- [Business Objective](#business-objective)
+- [Repository Structure](#repository-structure)
+- [Analytical Workflow](#analytical-workflow)
+- [Methods](#methods)
+- [Key Results](#key-results)
+- [Selected Visualizations](#selected-visualizations)
+- [Business Recommendations](#business-recommendations)
+- [Data Integrity and Limitations](#data-integrity-and-limitations)
+- [Reproducing the Analysis](#reproducing-the-analysis)
+- [Interactive Dashboard](#interactive-dashboard)
+- [License and Portfolio Use](#license-and-portfolio-use)
+- [Contact](#contact)
 
 ## Project Overview
 
-FMCG teams need to understand not only **who buys**, but also **why consumers choose, trust, switch, and try products**. This case study demonstrates how consumer-research data can be transformed into decision-ready evidence for brand strategy, innovation, communication, channel planning, and market execution.
+FMCG teams need to understand not only **who buys**, but also **why consumers choose, trust, switch, and try products**. This portfolio case study demonstrates how consumer-research data can be transformed into decision-ready evidence for brand strategy, innovation, communication, channel planning, and market execution.
 
 The project addresses three business questions:
 
-1. Which consumer groups differ meaningfully in motivations and shopping behaviour?
+1. Which consumer groups differ meaningfully in their motivations and shopping behaviour?
 2. Which factors are associated with willingness to try a new FMCG product?
-3. How should product, message, promotion, and channel strategies differ across segments?
+3. How should product, message, promotion, and channel strategies differ by segment?
 
-## Portfolio Presentation
+## Final Presentation
 
-The current portfolio deck contains **11 pages** covering the executive summary, analytical workflow, cluster validation, consumer personas, channel behaviour, purchase-intention drivers, strategic recommendations, limitations, and reproducibility.
+The latest portfolio presentation contains **11 professionally designed slides** and supersedes the previously generated executive-summary PDF.
 
-- `05_Presentation/FMCG_Customer_Insights_Portfolio_Presentation.pdf` — latest designed portfolio presentation
-- [Read the analytical report source](01_Report/FMCG_Customer_Insights_Report.md)
+- [View the final presentation in Canva](https://www.canva.com/d/29QvVaCztUkarUk)
+- [Open the editable Canva presentation](https://www.canva.com/d/u7HQMnrE_u6rotr)
+- [Read the presentation documentation](05_Presentation/README.md)
 - [Open the executed analysis notebook](02_Script/FMCG_Customer_Insights_Analysis.ipynb)
+
+## Business Objective
+
+To identify actionable FMCG consumer segments, profile their motivations and channel behaviour, and build an interpretable model of high new-product intention that can inform targeting, innovation launches, premium growth, value architecture, and retention strategy.
 
 ## Repository Structure
 
 ```text
 .
 ├── 01_Report/
-│   ├── FMCG_Customer_Insights_Report.md
-│   └── FMCG_Customer_Insights_Report.pdf
+│   └── FMCG_Customer_Insights_Report.md
 ├── 02_Script/
 │   ├── 01_Generate_Synthetic_Data.py
+│   ├── 01b_Normalize_Columns.py
 │   ├── 02_FMCG_Customer_Insights_Analysis.py
 │   ├── 03_Build_Analysis_Notebook.py
-│   ├── 04_Build_Portfolio_PDFs.py
 │   └── FMCG_Customer_Insights_Analysis.ipynb
 ├── 03_Data/
 │   ├── README.md
@@ -50,13 +71,16 @@ The current portfolio deck contains **11 pages** covering the executive summary,
 │   └── processed/
 ├── 04_Output/
 │   ├── figures/
+│   │   └── *.png
 │   └── tables/
+│       └── *.csv / *.json
 ├── 05_Presentation/
-│   └── FMCG_Customer_Insights_Portfolio_Presentation.pdf
+│   └── README.md
 ├── 06_Dashboard/
 │   └── app.py
 ├── .github/workflows/
 │   └── reproduce-analysis.yml
+├── .gitignore
 ├── LICENSE
 ├── README.md
 └── requirements.txt
@@ -65,58 +89,71 @@ The current portfolio deck contains **11 pages** covering the executive summary,
 ## Analytical Workflow
 
 1. Generate a reproducible synthetic survey of 800 FMCG consumers.
-2. Construct eight multi-item consumer scales and assess internal consistency.
-3. Standardise segmentation variables and compare K-means solutions.
-4. Select and profile four interpretable consumer segments.
-5. Analyse segment differences in attitudes, spending, purchase frequency, and channels.
-6. Fit an interpretable logistic-regression model for high new-product intention.
-7. Evaluate model discrimination on a stratified holdout sample.
-8. Translate statistical findings into segment-specific business recommendations.
+2. Introduce limited missingness to demonstrate explicit preprocessing.
+3. Construct eight multi-item consumer scales and assess internal consistency.
+4. Standardize the segmentation variables and compare K-means solutions.
+5. Select a four-cluster solution and translate clusters into business personas.
+6. Profile segment size, attitudes, spending, frequency, and shopping channel.
+7. Model high new-product intention using interpretable logistic regression.
+8. Translate statistical findings into segment-specific commercial actions.
 
 ## Methods
 
 ### Consumer measurement
 
-- Three Likert items for each consumer construct
-- Explicit missing-value handling
+- Eight constructs measured using three Likert-scale items each
+- Median imputation for limited item-level missingness
 - Mean-scale scoring
 - Cronbach's alpha for internal consistency
 
 ### Consumer segmentation
 
-- Standardisation of attitudinal variables
+- Standardisation of attitudinal, behavioural, and promotional-response variables
 - K-means clustering with repeated initialisation
 - Silhouette diagnostics for two to six clusters
-- Business naming from dominant cluster characteristics
+- Business naming based on dominant standardised characteristics
 
-### Purchase-intention modelling
+### Purchase-intention analysis
 
-- Logistic regression with standardised numeric predictors
-- One-hot encoding for categorical predictors
-- Stratified development–holdout split
-- ROC-AUC, accuracy, classification report, and confusion matrix
+- Interpretable logistic regression
+- Standardisation of numeric variables
+- One-hot encoding of categorical variables
+- Holdout evaluation using ROC-AUC
+- Coefficient and odds-ratio interpretation
 
 ## Key Results
+
+### Portfolio-level metrics
 
 | Metric | Result |
 |---|---:|
 | Synthetic consumer profiles | **800** |
 | Actionable consumer segments | **4** |
+| Cronbach's alpha range | **0.798-0.861** |
 | Four-cluster silhouette score | **0.202** |
-| Purchase-intention ROC-AUC | **0.813** |
+| Purchase-intention model ROC-AUC | **0.813** |
 | High new-product intention | **35.0%** |
-| Median monthly FMCG spend | **IDR 0.97M** |
+| Median monthly FMCG spend | **IDR 970,000** |
 
-| Segment | Share | Primary opportunity |
-|---|---:|---|
-| **Value Seekers** | **29.9%** | Pack-price architecture, bundles, and visible value cues |
-| **Digital Trend Explorers** | **25.4%** | Creator seeding, social commerce, reviews, and launch trials |
-| **Convenience Loyalists** | **23.4%** | Availability, trusted performance, and frictionless repurchase |
-| **Quality & Wellness Enthusiasts** | **21.4%** | Evidence-led benefits, premium innovation, and wellness positioning |
+### Consumer segments
 
-## Selected Visualisations
+| Segment | Share | Core motivation | Primary opportunity |
+|---|---:|---|---|
+| **Value Seekers** | **29.9%** | Price and promotions | Pack-price architecture, targeted bundles, and visible value cues |
+| **Digital Trend Explorers** | **25.4%** | Digital discovery and novelty | Creator seeding, reviews, social commerce, and product trial |
+| **Convenience Loyalists** | **23.4%** | Ease, trust, and repeat purchase | Availability, frictionless repurchase, and trusted performance |
+| **Quality & Wellness Enthusiasts** | **21.4%** | Health, quality, and evidence | Premium innovation and credible benefit communication |
 
-The README uses **PNG assets** because GitHub renders them more consistently than generated SVG files.
+### Channel and spending evidence
+
+- **58.1%** of Digital Trend Explorers primarily shop through e-commerce.
+- **50.3%** of Convenience Loyalists primarily use minimarkets.
+- Quality & Wellness Enthusiasts have the highest average monthly spending.
+- Value Seekers show the strongest traditional-market presence.
+
+## Selected Visualizations
+
+The figures below are generated reproducibly by the analysis workflow. PNG is used instead of SVG to ensure reliable rendering in GitHub README pages.
 
 ### Consumer segment distribution
 
@@ -124,7 +161,7 @@ The README uses **PNG assets** because GitHub renders them more consistently tha
 
 ### Segment profile heatmap
 
-![Standardised segment profile heatmap](04_Output/figures/02_segment_profile_heatmap.png)
+![Standardized segment profile heatmap](04_Output/figures/02_segment_profile_heatmap.png)
 
 ### Primary shopping channel by segment
 
@@ -134,21 +171,27 @@ The README uses **PNG assets** because GitHub renders them more consistently tha
 
 ![Purchase-intention model coefficients](04_Output/figures/05_purchase_intention_drivers.png)
 
-### Holdout ROC curve
-
-![Purchase-intention ROC curve](04_Output/figures/07_purchase_intention_roc_curve.png)
-
 ## Business Recommendations
 
-- **Innovation launch:** prioritise Digital Trend Explorers for digital discovery, product trial, reviews, and advocacy.
-- **Premium growth:** target Quality & Wellness Enthusiasts with credible functional benefits and evidence-led communication.
-- **Retention:** protect Convenience Loyalists through dependable availability and simplified repeat purchase.
-- **Value architecture:** use bundles, price ladders, and targeted promotions for Value Seekers.
-- **Measurement:** track segment-level trial, repeat purchase, conversion, retention, and incremental uplift.
+| Strategic pillar | Target segment | Recommended action |
+|---|---|---|
+| **Innovation launch** | Digital Trend Explorers | Use creator content, social commerce, launch trials, reviews, and rapid learning loops |
+| **Premium growth** | Quality & Wellness Enthusiasts | Lead with credible functional benefits, ingredient evidence, and wellness positioning |
+| **Retention** | Convenience Loyalists | Protect availability, simplify repeat purchase, and reinforce trusted performance |
+| **Value architecture** | Value Seekers | Use bundles, pack-price ladders, and targeted promotions without weakening the core proposition |
+| **Measurement** | All segments | Track segment-level conversion, repeat purchase, migration, and incremental sales |
 
-## Data Integrity
+## Data Integrity and Limitations
 
-The dataset is **fully synthetic and reproducibly generated**. It contains no real respondents, confidential company information, or proprietary market data. The project demonstrates analytical capability and should not be interpreted as an estimate of the Indonesian FMCG market.
+The dataset is **fully synthetic and reproducibly generated**. It contains no real respondents, confidential company information, or proprietary market data. The project demonstrates analytical reasoning, reproducibility, interpretation, and data storytelling; it does not provide a factual estimate of the Indonesian FMCG market.
+
+Key limitations:
+
+- Synthetic data cannot estimate actual prevalence, market size, or causal effects.
+- Cluster labels summarise patterns and require validation using observed consumer data.
+- The silhouette score indicates moderate rather than strong geometric separation.
+- Logistic-regression coefficients describe adjusted associations, not causal effects.
+- Commercial recommendations are hypotheses for testing, not direct market instructions.
 
 ## Reproducing the Analysis
 
@@ -156,36 +199,35 @@ The dataset is **fully synthetic and reproducibly generated**. It contains no re
 git clone https://github.com/mohmalikirafli/fmcg-customer-insights-segmentation.git
 cd fmcg-customer-insights-segmentation
 python -m venv .venv
+# Windows: .venv\Scripts\activate
+# macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 python 02_Script/01_Generate_Synthetic_Data.py
+python 02_Script/01b_Normalize_Columns.py
 python 02_Script/02_FMCG_Customer_Insights_Analysis.py
 python 02_Script/03_Build_Analysis_Notebook.py
 ```
 
-Run the dashboard locally:
+The GitHub Actions workflow automatically regenerates the data, notebook, tables, and PNG figures whenever the analytical scripts are updated.
+
+## Interactive Dashboard
+
+Run the Streamlit dashboard locally after generating the processed dataset:
 
 ```bash
 streamlit run 06_Dashboard/app.py
 ```
 
-## Limitations
-
-- The dataset is synthetic and cannot estimate real prevalence, market size, or causal effects.
-- The consumer segments are analytical summaries that require validation using observed market data.
-- The silhouette score indicates moderate rather than strong geometric separation.
-- The logistic-regression coefficients indicate adjusted associations, not causal effects.
-- Commercial recommendations are hypotheses for testing, not direct market instructions.
-
-## Conclusion
-
-This portfolio demonstrates how biostatistics, survey analysis, machine learning, and evidence communication can be transferred to Customer Market Insights. It converts consumer data into differentiated and measurable actions for innovation, premium growth, retention, value strategy, and channel execution.
-
 ## License and Portfolio Use
 
-The source code is available under the [MIT License](LICENSE). The report, presentation, figures, and written interpretation remain the intellectual work of the author and should be attributed when adapted or referenced.
+The source code is available under the [MIT License](LICENSE). The report, figures, presentation, and written interpretation remain the intellectual work of the author and should be attributed when adapted or referenced.
 
-This independent portfolio project is not affiliated with or endorsed by Unilever or any other FMCG company.
+This independent portfolio project is intended for education, recruitment, and methodological discussion. It is not affiliated with or endorsed by Unilever or any other FMCG company.
 
 ## Contact
 
-For discussion or collaboration, contact **Mohammad Maliki Rafli** through the [GitHub profile](https://github.com/mohmalikirafli) or open an [issue](https://github.com/mohmalikirafli/fmcg-customer-insights-segmentation/issues).
+For questions, collaboration, or discussion, contact **Mohammad Maliki Rafli** through the [GitHub profile](https://github.com/mohmalikirafli) or open an [issue](https://github.com/mohmalikirafli/fmcg-customer-insights-segmentation/issues).
+
+---
+
+This repository demonstrates the transfer of biostatistics, survey analysis, and health data science skills into Customer Market Insights.
