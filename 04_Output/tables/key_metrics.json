@@ -1,0 +1,13 @@
+{
+  "n_respondents": 800,
+  "n_segments": 4,
+  "silhouette_score_k4": 0.212,
+  "minimum_cronbach_alpha": 0.798,
+  "maximum_cronbach_alpha": 0.861,
+  "median_monthly_spend_idr": 970000,
+  "purchase_intention_threshold": 3.783,
+  "test_roc_auc": 0.816,
+  "test_accuracy": 0.76,
+  "test_sample_size": 200,
+  "high_intention_share_pct": 35.0
+}

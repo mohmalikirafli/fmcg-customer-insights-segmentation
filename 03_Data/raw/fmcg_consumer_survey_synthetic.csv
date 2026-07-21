@@ -1,0 +1,801 @@
+respondent_id,age,gender,region,monthly_income_band,household_size,primary_shopping_channel,most_purchased_category,monthly_fmcg_spend_idr,purchase_frequency_per_month,brand_switching_frequency,promotion_response,price_sensitivity_1,price_sensitivity_2,price_sensitivity_3,quality_orientation_1,quality_orientation_2,quality_orientation_3,health_orientation_1,health_orientation_2,health_orientation_3,sustainability_orientation_1,sustainability_orientation_2,sustainability_orientation_3,digital_influence_1,digital_influence_2,digital_influence_3,convenience_orientation_1,convenience_orientation_2,convenience_orientation_3,brand_trust_1,brand_trust_2,brand_trust_3,new_product_intention_1,new_product_intention_2,new_product_intention_3
+R0001,18,Man,Java,IDR 10–20M,2,E-commerce,Personal care,950000,9,Sometimes,5.0,3,2,3,4,4,4,2,3,3,3,4,3.0,4,5,5,4,4,4,3,4,3,4,4,4
+R0002,30,Woman,Java,IDR 5–10M,3,Minimarket,Home care,810000,6,Rarely,3.0,4,4,4,4,3,2,3,3,3,3,3,3.0,3,4,3,4,4,4,3,3,3,3,3,3
+R0003,33,Man,Sumatra,> IDR 20M,3,Supermarket,Food & beverages,1520000,8,Rarely,4.0,3,3,3,4,4,5,4,5,4,4,4,3.0,3,3,4,4,5,4,4,5,5,4,3,4
+R0004,23,Woman,Java,IDR 10–20M,2,E-commerce,Home care,1260000,12,Sometimes,4.0,4,3,4,3,4,4,4,4,4,3,4,3.0,3,4,4,4,4,4,4,4,3,4,4,3
+R0005,27,Woman,Java,IDR 10–20M,4,Minimarket,Home care,1400000,10,Sometimes,2.0,2,2,2,4,5,4,4,4,5,4,4,4.0,3,4,4,4,4,5,4,3,4,3,4,4
+R0006,24,Woman,Java,IDR 10–20M,2,Traditional market,Home care,1800000,8,Sometimes,5.0,2,3,3,4,3,4,3,3,3,4,5,5.0,4,3,4,4,3,3,3,3,4,4,4,5
+R0007,42,Man,Java,IDR 10–20M,3,Minimarket,Food & beverages,1230000,9,Sometimes,2.0,4,3,3,3,4,3,4,4,4,3,2,4.0,2,2,3,4,4,4,4,5,5,3,4,3
+R0008,31,Man,Java,IDR 5–10M,1,E-commerce,Personal care,630000,9,Rarely,4.0,2,3,3,3,3,4,4,4,4,4,3,3.0,5,4,5,4,4,5,4,3,4,3,3,3
+R0009,30,Man,Java,< IDR 5M,3,Traditional market,Personal care,390000,8,Sometimes,5.0,4,4,5,4,3,4,4,3,4,3,3,2.0,3,3,3,4,4,4,3,3,3,3,3,3
+R0010,26,Man,Kalimantan,< IDR 5M,3,Traditional market,Personal care,710000,7,Sometimes,4.0,4,4,4,3,4,3,3,2,3,3,3,3.0,5,5,5,3,3,3,3,3,3,4,4,3
+R0011,37,Man,Java,IDR 10–20M,3,Minimarket,Home care,1360000,10,Sometimes,4.0,4,3,5,3,4,3,3,3,3,3,2,,3,3,3,4,5,4,4,4,4,4,3,3
+R0012,25,Woman,Java,IDR 10–20M,2,Supermarket,Personal care,970000,9,Sometimes,5.0,3,3,4,4,4,4,3,3,3,2,2,1.0,3,2,3,4,4,4,3,2,3,3,3,3
+R0013,27,Woman,Sumatra,IDR 5–10M,3,Supermarket,Food & beverages,810000,10,Never,2.0,2,3,3,4,5,5,3,4,4,3,3,3.0,3,3,2,5,4,5,4,4,4,3,3,3
+R0014,18,Woman,Java,< IDR 5M,4,E-commerce,Home care,930000,12,Sometimes,4.0,4,3,3,3,4,3,4,3,2,3,3,4.0,4,4,4,3,3,3,2,3,2,3,3,4
+R0015,29,Man,Java,IDR 5–10M,2,Minimarket,Personal care,1070000,8,Rarely,3.0,3,4,4,4,4,3,4,3,4,4,3,3.0,4,3,4,4,5,4,3,4,3,3,3,3
+R0016,41,Woman,Java,IDR 10–20M,3,Traditional market,Personal care,1190000,9,Rarely,2.0,3,3,4,3,4,4,4,3,4,3,3,3.0,2,3,3,5,4,5,4,4,5,3,2,2
+R0017,27,Woman,Java,> IDR 20M,2,Minimarket,Personal care,1070000,7,Sometimes,5.0,5,4,4,3,3,3,2,3,1,3,3,2.0,3,3,3,4,4,3,2,2,3,3,3,4
+R0018,22,Man,Java,< IDR 5M,4,Minimarket,Personal care,1270000,9,Sometimes,3.0,2,3,2,4,4,4,5,5,5,4,4,,3,4,4,3,4,3,5,5,5,4,4,4
+R0019,35,Man,Java,IDR 5–10M,4,Minimarket,Personal care,760000,8,Often,4.0,3,3,3,4,4,4,2,3,2,3,4,3.0,4,4,4,5,4,5,4,4,3,5,5,4
+R0020,31,Man,Sulawesi,< IDR 5M,2,Minimarket,Food & beverages,620000,5,Rarely,5.0,4,4,4,4,5,4,3,4,4,3,2,3.0,3,3,3,3,3,4,3,4,3,2,3,4
+R0021,36,Woman,Java,IDR 10–20M,5,E-commerce,Personal care,1690000,8,Sometimes,3.0,2,2,2,4,4,3,4,3,4,4,3,3.0,3,3,3,3,3,2,4,4,4,4,3,4
+R0022,30,Woman,Sumatra,IDR 5–10M,5,E-commerce,Home care,1250000,10,Rarely,3.0,3,3,3,4,3,4,4,4,5,3,3,3.0,4,4,4,4,4,4,4,4,4,4,4,4
+R0023,39,Woman,Java,IDR 10–20M,2,E-commerce,Personal care,1190000,6,Rarely,2.0,4,4,3,4,4,4,4,4,4,3,3,3.0,3,4,3,3,3,3,4,4,4,3,3,3
+R0024,27,Man,Java,IDR 10–20M,2,E-commerce,Personal care,880000,7,Rarely,5.0,4,4,3,2,3,3,2,2,3,3,2,2.0,2,2,2,3,3,3,3,3,3,3,3,3
+R0025,28,Woman,Java,IDR 5–10M,3,Supermarket,Home care,1370000,10,Never,4.0,3,3,3,4,4,4,5,5,5,4,5,4.0,3,4,3,4,3,3,4,4,5,3,3,3
+R0026,33,Woman,Kalimantan,> IDR 20M,3,Minimarket,Personal care,950000,7,Often,4.0,4,4,4,2,3,3,4,3,3,3,2,3.0,4,3,3,3,4,3,4,3,3,3,3,3
+R0027,21,Woman,Java,IDR 10–20M,2,Minimarket,Personal care,1020000,7,Sometimes,3.0,5,4,4,3,4,3,3,4,3,2,3,2.0,3,3,2,4,3,4,2,2,2,3,2,2
+R0028,39,Man,Java,> IDR 20M,4,E-commerce,Personal care,2410000,9,Sometimes,3.0,4,3,3,5,4,4,3,3,3,3,3,4.0,4,3,3,3,4,4,4,5,4,4,4,4
+R0029,25,Woman,Kalimantan,IDR 5–10M,4,Minimarket,Food & beverages,600000,9,Often,4.0,4,4,4,4,4,4,2,3,3,2,2,3.0,3,2,2,3,3,4,4,4,3,3,2,3
+R0030,18,Man,Java,IDR 10–20M,4,Minimarket,Home care,880000,9,Often,4.0,3,3,3,3,3,4,4,4,4,4,4,4.0,3,4,3,4,4,4,3,3,4,4,4,5
+R0031,27,Woman,Java,IDR 10–20M,5,E-commerce,Food & beverages,1080000,13,Never,3.0,3,3,3,4,4,4,3,4,4,3,3,3.0,2,2,2,4,4,4,4,4,3,3,2,2
+R0032,18,Woman,Java,< IDR 5M,5,E-commerce,Personal care,580000,10,Rarely,3.0,4,4,4,4,4,4,3,4,3,3,3,3.0,4,5,4,3,3,2,3,3,3,3,4,3
+R0033,38,Woman,Java,IDR 5–10M,2,Traditional market,Personal care,1180000,13,Never,3.0,3,3,3,4,4,4,3,3,3,3,3,3.0,2,2,2,4,5,4,3,4,4,3,3,3
+R0034,24,Woman,Kalimantan,< IDR 5M,2,Supermarket,Food & beverages,1120000,11,Sometimes,2.0,3,3,2,5,5,4,4,3,4,4,4,4.0,2,3,3,3,3,3,3,4,4,4,4,3
+R0035,18,Woman,Sumatra,IDR 5–10M,3,Supermarket,Food & beverages,860000,8,Sometimes,4.0,4,4,4,4,4,3,3,3,4,3,3,3.0,3,3,3,4,5,3,3,4,3,3,4,3
+R0036,31,Man,Java,IDR 10–20M,2,Traditional market,Home care,1230000,9,Rarely,3.0,3,3,4,3,3,4,4,4,4,3,3,3.0,3,3,3,3,3,4,3,3,3,3,2,3
+R0037,30,Woman,Sulawesi,IDR 5–10M,2,E-commerce,Food & beverages,900000,9,Often,4.0,4,4,5,3,4,4,4,3,4,4,4,5.0,3,3,3,4,4,4,3,3,3,4,4,4
+R0038,21,Man,Sulawesi,< IDR 5M,4,Minimarket,Home care,400000,10,Sometimes,4.0,4,4,4,3,3,2,2,3,3,3,3,3.0,3,4,3,3,4,3,3,4,3,3,4,3
+R0039,23,Woman,Java,> IDR 20M,3,E-commerce,Personal care,700000,11,Sometimes,4.0,5,5,5,2,3,3,4,3,3,3,2,3.0,4,3,3,4,3,4,3,3,3,2,3,2
+R0040,25,Woman,Sumatra,IDR 10–20M,4,Supermarket,Food & beverages,990000,11,Often,4.0,4,3,3,4,4,4,4,3,3,4,4,3.0,5,4,4,4,4,5,3,3,3,4,4,4
+R0041,34,Woman,Bali & Nusa Tenggara,IDR 10–20M,4,Minimarket,Home care,1320000,13,Rarely,4.0,4,3,4,5,5,4,3,4,5,3,3,4.0,3,3,4,5,5,5,4,4,5,3,3,3
+R0042,18,Woman,Sumatra,IDR 5–10M,6,Supermarket,Food & beverages,860000,6,Sometimes,3.0,3,3,3,4,4,5,4,4,4,3,3,3.0,4,4,4,2,3,3,4,4,4,4,4,4
+R0043,34,Man,Java,> IDR 20M,2,Minimarket,Home care,1600000,8,Rarely,2.0,4,3,4,4,4,5,4,5,5,3,3,3.0,3,3,3,3,3,2,4,4,4,3,4,3
+R0044,43,Man,Java,IDR 5–10M,5,Minimarket,Home care,960000,10,Rarely,2.0,3,2,2,3,3,3,4,4,3,2,3,4.0,3,2,3,4,4,4,4,5,5,3,4,3
+R0045,36,Woman,Sumatra,IDR 10–20M,2,E-commerce,Home care,1130000,9,Rarely,2.0,3,2,2,5,5,4,3,4,3,4,4,4.0,3,4,2,3,3,4,5,5,5,4,4,4
+R0046,22,Woman,Java,IDR 5–10M,5,Supermarket,Food & beverages,650000,8,Sometimes,4.0,3,2,3,3,3,3,3,3,4,4,3,4.0,5,5,4,4,4,4,3,3,2,3,4,4
+R0047,47,Man,Java,IDR 5–10M,3,Minimarket,Food & beverages,1850000,11,Rarely,3.0,2,2,2,4,3,4,4,4,5,4,4,4.0,3,2,3,4,3,4,5,5,5,3,4,3
+R0048,28,Woman,Kalimantan,> IDR 20M,3,Supermarket,Home care,1940000,10,Sometimes,3.0,4,3,4,4,3,4,4,4,5,3,3,4.0,3,3,3,3,3,3,4,4,4,3,4,3
+R0049,30,Man,Java,> IDR 20M,3,Minimarket,Food & beverages,1480000,10,Sometimes,1.0,3,3,3,3,3,4,2,2,3,3,3,3.0,3,3,3,2,3,4,4,4,3,3,3,3
+R0050,41,Man,Java,> IDR 20M,1,Supermarket,Personal care,1920000,5,Never,,3,3,2,5,4,4,5,5,5,3,4,3.0,2,3,3,3,4,3,5,4,4,4,5,5
+R0051,18,Woman,Sulawesi,IDR 5–10M,2,E-commerce,Personal care,870000,6,Rarely,3.0,4,4,3,3,4,3,3,4,4,2,3,4.0,5,5,5,4,5,4,4,3,4,4,5,5
+R0052,43,Woman,Java,IDR 10–20M,1,Supermarket,Personal care,1920000,8,Rarely,3.0,3,2,2,5,5,5,4,4,4,3,3,3.0,3,3,2,3,3,3,5,4,4,4,4,3
+R0053,37,Man,Java,> IDR 20M,4,Minimarket,Home care,2410000,5,Sometimes,3.0,3,3,4,3,4,4,3,3,3,2,3,3.0,3,4,4,4,4,4,4,4,4,3,3,3
+R0054,32,Woman,Java,IDR 5–10M,4,Traditional market,Home care,690000,10,Sometimes,5.0,4,4,4,4,4,4,4,4,3,2,2,2.0,2,2,3,3,3,3,3,3,3,3,3,3
+R0055,18,Woman,Java,< IDR 5M,5,E-commerce,Food & beverages,890000,7,Rarely,4.0,4,3,4,5,5,5,3,5,5,2,3,4.0,4,4,5,4,4,4,3,3,3,5,4,4
+R0056,19,Woman,Java,< IDR 5M,1,Traditional market,Home care,610000,6,Rarely,4.0,3,2,3,4,3,4,4,4,5,3,3,3.0,4,4,5,3,4,4,4,4,3,5,4,4
+R0057,37,Man,Sumatra,> IDR 20M,3,E-commerce,Personal care,1420000,7,Sometimes,5.0,3,3,2,3,4,3,3,3,4,3,4,4.0,4,4,3,3,3,3,3,3,3,5,4,4
+R0058,18,Man,Java,IDR 5–10M,3,E-commerce,Home care,990000,12,Often,3.0,2,2,3,3,4,4,4,3,3,3,3,3.0,4,4,4,4,3,4,4,4,3,5,5,5
+R0059,31,Woman,Java,IDR 5–10M,4,E-commerce,Personal care,1100000,8,Often,4.0,3,2,4,5,4,4,3,4,4,4,4,5.0,3,4,3,2,2,3,4,4,5,5,5,5
+R0060,25,Woman,Sumatra,< IDR 5M,6,Supermarket,Personal care,460000,9,Rarely,4.0,4,4,4,3,3,3,3,3,3,3,3,2.0,3,3,3,3,3,4,3,3,3,2,2,3
+R0061,18,Woman,Java,< IDR 5M,1,Supermarket,Home care,550000,12,Rarely,5.0,5,5,4,5,3,3,3,3,2,2,3,2.0,2,2,3,3,2,3,3,3,2,3,2,3
+R0062,18,Woman,Java,IDR 10–20M,3,Minimarket,Personal care,850000,7,Sometimes,4.0,3,3,3,3,3,4,5,4,4,4,4,3.0,5,5,5,4,5,4,3,3,4,4,4,3
+R0063,26,Man,Java,IDR 5–10M,5,Minimarket,Personal care,1350000,13,Often,5.0,3,3,3,4,4,3,3,4,4,3,4,4.0,3,3,3,3,3,4,3,4,4,4,5,5
+R0064,18,Woman,Java,IDR 5–10M,6,Minimarket,Food & beverages,610000,8,Sometimes,5.0,4,4,3,4,3,3,3,4,4,3,4,3.0,4,4,4,3,3,4,3,3,3,4,4,4
+R0065,25,Woman,Java,IDR 5–10M,7,Supermarket,Food & beverages,1400000,9,Never,4.0,2,2,3,5,4,4,3,4,4,4,4,4.0,3,3,4,3,3,3,4,4,3,3,4,4
+R0066,39,Man,Sumatra,IDR 10–20M,5,Supermarket,Home care,620000,9,Often,5.0,4,5,4,4,3,4,4,4,4,2,4,3.0,3,3,3,3,3,3,3,3,4,2,2,2
+R0067,39,Woman,Java,IDR 5–10M,1,Supermarket,Home care,580000,5,Rarely,4.0,5,5,5,3,3,3,3,3,2,3,3,2.0,2,3,3,3,3,3,3,3,3,3,4,3
+R0068,31,Man,Bali & Nusa Tenggara,> IDR 20M,4,Supermarket,Food & beverages,1980000,10,Rarely,5.0,4,4,3,4,4,4,4,4,3,3,3,2.0,2,3,2,4,5,4,4,4,4,4,5,4
+R0069,40,Woman,Sumatra,< IDR 5M,2,Supermarket,Home care,1210000,9,Sometimes,3.0,3,3,3,5,5,5,4,5,5,4,4,4.0,3,3,3,3,2,3,4,4,4,4,4,3
+R0070,40,Man,Java,IDR 5–10M,1,Minimarket,Home care,1180000,8,Rarely,3.0,2,2,2,4,3,3,3,3,3,3,3,4.0,3,2,3,4,4,4,4,4,4,3,4,3
+R0071,42,Man,Sumatra,IDR 10–20M,3,Supermarket,Home care,1180000,11,Rarely,3.0,2,4,3,4,5,4,5,4,4,4,5,4.0,4,3,4,4,3,3,4,4,4,5,3,4
+R0072,32,Woman,Sumatra,IDR 5–10M,2,Minimarket,Personal care,980000,12,Rarely,3.0,3,3,3,4,3,3,4,3,3,3,4,4.0,2,3,3,4,4,5,3,3,4,4,4,4
+R0073,32,Woman,Java,< IDR 5M,2,Traditional market,Personal care,590000,6,Rarely,4.0,4,5,4,3,3,4,3,3,3,2,3,2.0,4,3,3,3,3,3,3,3,4,4,3,3
+R0074,40,Woman,Java,> IDR 20M,1,Supermarket,Food & beverages,1470000,9,Rarely,4.0,3,4,3,4,4,3,3,4,3,3,2,2.0,3,3,3,4,4,4,5,4,5,3,2,2
+R0075,30,Man,Sulawesi,IDR 5–10M,3,Traditional market,Food & beverages,570000,6,Rarely,4.0,5,4,4,3,4,3,5,4,4,5,4,5.0,3,3,4,5,5,4,3,3,3,3,3,3
+R0076,18,Man,Sulawesi,IDR 5–10M,2,E-commerce,Personal care,950000,5,Rarely,4.0,5,5,4,4,5,5,4,4,4,2,3,3.0,5,5,5,5,4,4,3,4,3,5,5,4
+R0077,34,Woman,Sumatra,> IDR 20M,3,Minimarket,Home care,1300000,9,Often,4.0,4,3,4,4,3,3,3,2,2,3,3,2.0,3,3,4,4,4,4,3,4,4,2,2,2
+R0078,19,Woman,Java,> IDR 20M,3,Minimarket,Food & beverages,490000,5,Often,4.0,4,2,4,2,2,3,2,2,2,4,4,3.0,4,4,4,4,4,4,5,4,5,5,4,4
+R0079,35,Man,Java,IDR 5–10M,2,E-commerce,Home care,1400000,7,Rarely,3.0,3,3,3,4,4,3,5,4,5,4,4,4.0,3,3,3,5,4,4,3,4,4,4,4,4
+R0080,37,Man,Java,IDR 10–20M,2,E-commerce,Home care,770000,6,Sometimes,5.0,4,3,4,3,2,3,3,3,3,3,3,3.0,3,2,2,3,3,3,4,3,3,4,4,3
+R0081,37,Woman,Java,IDR 5–10M,3,Traditional market,Food & beverages,580000,7,Sometimes,4.0,4,5,5,3,3,3,3,3,3,2,3,2.0,3,4,3,3,3,3,3,2,3,2,3,2
+R0082,44,Woman,Sumatra,IDR 10–20M,4,Minimarket,Food & beverages,1170000,13,Never,3.0,3,3,3,3,4,4,3,4,3,3,3,3.0,3,4,4,4,4,4,3,3,4,2,2,2
+R0083,26,Man,Bali & Nusa Tenggara,< IDR 5M,1,Minimarket,Food & beverages,640000,6,Sometimes,5.0,3,3,3,4,4,4,3,2,3,3,3,3.0,3,3,3,3,2,3,3,3,4,3,3,3
+R0084,30,Woman,Sumatra,< IDR 5M,5,Minimarket,Personal care,700000,5,Sometimes,4.0,3,3,4,4,3,4,3,3,3,4,3,3.0,5,5,5,4,4,4,4,4,4,5,5,5
+R0085,18,Woman,Kalimantan,< IDR 5M,7,E-commerce,Food & beverages,580000,11,Sometimes,3.0,4,3,4,4,4,4,4,4,4,3,3,3.0,5,4,4,4,4,4,4,4,4,4,5,4
+R0086,42,Man,Java,IDR 10–20M,4,Minimarket,Food & beverages,1130000,11,Rarely,2.0,2,2,2,5,4,4,3,3,3,3,3,3.0,2,2,3,4,4,4,4,4,4,3,3,3
+R0087,47,Woman,Java,IDR 10–20M,3,E-commerce,Personal care,1450000,10,Never,3.0,3,4,3,4,4,3,4,4,3,3,3,4.0,3,2,3,5,4,4,4,4,4,3,3,3
+R0088,22,Man,Sumatra,< IDR 5M,3,Traditional market,Food & beverages,790000,6,Sometimes,5.0,5,4,4,3,3,3,3,3,2,3,3,3.0,4,3,3,2,2,3,3,3,2,4,3,3
+R0089,18,Woman,Sumatra,< IDR 5M,4,E-commerce,Personal care,670000,12,Often,5.0,3,3,4,4,4,3,3,2,3,3,4,3.0,5,5,4,4,4,3,3,4,3,5,5,5
+R0090,33,Woman,Java,IDR 10–20M,4,Supermarket,Personal care,1450000,9,Never,3.0,3,2,3,3,4,3,4,4,3,3,2,2.0,3,3,2,4,5,5,3,4,4,2,1,3
+R0091,36,Man,Kalimantan,IDR 10–20M,2,Supermarket,Personal care,1460000,8,Often,4.0,3,3,3,4,4,4,4,4,4,4,4,4.0,3,3,4,2,3,3,5,5,5,3,4,3
+R0092,30,Woman,Java,< IDR 5M,3,E-commerce,Food & beverages,670000,6,Sometimes,5.0,3,3,4,3,4,4,3,3,3,4,3,4.0,4,4,4,3,3,4,3,2,3,5,5,4
+R0093,29,Man,Java,> IDR 20M,6,Traditional market,Home care,1670000,12,Rarely,4.0,3,3,3,3,3,3,2,3,3,3,3,3.0,3,4,4,4,5,5,4,4,5,3,3,4
+R0094,45,Man,Java,IDR 5–10M,1,Minimarket,Home care,1100000,9,Rarely,2.0,3,3,4,4,3,4,3,3,3,3,3,3.0,3,3,4,5,3,4,5,5,5,4,4,3
+R0095,23,Man,Sumatra,IDR 10–20M,5,Supermarket,Personal care,960000,8,Sometimes,2.0,3,3,3,5,4,4,3,3,3,3,4,3.0,4,4,4,4,4,4,2,3,2,4,3,4
+R0096,40,Woman,Java,IDR 10–20M,6,E-commerce,Personal care,1840000,11,Rarely,3.0,3,3,3,4,5,4,4,4,4,4,4,4.0,3,3,2,3,3,3,5,4,5,3,3,3
+R0097,38,Woman,Sumatra,IDR 5–10M,4,E-commerce,Personal care,680000,6,Often,5.0,4,4,4,2,2,3,3,3,3,3,2,2.0,3,3,4,4,4,4,3,3,3,3,4,4
+R0098,38,Man,Bali & Nusa Tenggara,< IDR 5M,1,Minimarket,Food & beverages,660000,8,Sometimes,3.0,4,2,3,4,3,3,4,3,4,2,2,4.0,5,4,5,4,4,4,4,3,4,3,4,3
+R0099,27,Woman,Java,IDR 10–20M,3,Traditional market,Home care,1040000,7,Rarely,4.0,5,4,5,3,3,3,3,3,3,2,2,2.0,3,3,3,3,3,3,3,3,3,2,3,2
+R0100,18,Man,Sumatra,IDR 5–10M,4,Minimarket,Food & beverages,930000,5,Often,5.0,3,4,3,3,3,3,3,3,3,4,4,3.0,4,4,3,5,4,5,4,4,4,4,4,4
+R0101,39,Man,Sumatra,> IDR 20M,1,Supermarket,Home care,1380000,12,Never,3.0,3,4,3,3,3,3,3,3,3,3,3,4.0,3,2,3,3,4,4,4,4,4,4,4,4
+R0102,24,Woman,Java,IDR 5–10M,3,E-commerce,Home care,1290000,12,Never,2.0,3,3,2,3,3,3,3,3,3,3,3,4.0,2,3,3,4,4,5,4,4,4,3,3,3
+R0103,35,Woman,Java,IDR 5–10M,2,Supermarket,Home care,1020000,9,Often,4.0,3,3,3,4,4,4,4,3,4,3,4,3.0,4,5,5,4,4,3,4,4,3,4,3,4
+R0104,18,Woman,Sulawesi,IDR 5–10M,3,Minimarket,Personal care,790000,10,Often,4.0,4,4,4,5,5,5,3,3,2,3,4,3.0,3,3,3,3,3,3,2,3,2,4,4,4
+R0105,36,Man,Java,< IDR 5M,1,Minimarket,Food & beverages,480000,7,Never,4.0,4,5,4,3,3,3,3,3,3,3,3,3.0,3,3,3,3,3,3,4,3,3,3,3,3
+R0106,18,Woman,Sulawesi,IDR 10–20M,3,Traditional market,Personal care,710000,7,Rarely,3.0,3,3,3,4,4,4,3,2,3,1,2,2.0,3,3,3,3,3,3,3,3,2,3,3,3
+R0107,29,Man,Java,> IDR 20M,2,E-commerce,Personal care,1920000,9,Rarely,3.0,2,2,2,5,5,5,4,5,5,4,4,4.0,3,3,2,3,3,4,3,4,3,4,4,4
+R0108,19,Woman,Sumatra,< IDR 5M,5,E-commerce,Food & beverages,810000,9,Sometimes,5.0,3,4,3,4,4,3,4,3,2,4,3,3.0,3,3,4,4,4,4,3,3,3,4,4,4
+R0109,33,Woman,Java,< IDR 5M,2,Minimarket,Home care,460000,8,Sometimes,5.0,5,5,4,4,3,4,2,2,3,2,1,2.0,2,3,3,3,2,3,4,4,4,4,4,3
+R0110,33,Woman,Java,IDR 5–10M,2,Traditional market,Home care,1170000,8,Never,2.0,2,3,3,5,5,5,5,5,5,4,3,3.0,4,5,4,3,4,3,4,4,5,4,5,5
+R0111,44,Man,Java,IDR 10–20M,2,Minimarket,Home care,890000,10,Never,4.0,3,3,3,5,5,4,3,3,3,2,2,2.0,3,3,3,5,5,4,3,3,3,4,4,4
+R0112,28,Woman,Java,IDR 10–20M,6,Minimarket,Personal care,1930000,7,Never,3.0,3,2,3,4,4,4,4,5,4,4,4,3.0,5,4,4,3,4,3,3,3,4,5,4,4
+R0113,33,Woman,Sumatra,> IDR 20M,1,Minimarket,Food & beverages,980000,8,Sometimes,5.0,4,4,4,4,3,3,3,3,2,3,3,2.0,4,4,4,3,3,3,2,2,2,2,3,3
+R0114,39,Man,Kalimantan,> IDR 20M,2,Minimarket,Home care,2080000,9,Often,3.0,3,3,3,4,5,5,4,4,5,4,3,4.0,4,3,3,4,4,4,4,4,4,4,5,5
+R0115,33,Woman,Sulawesi,IDR 5–10M,2,E-commerce,Personal care,1490000,5,Sometimes,3.0,3,3,3,5,5,5,5,5,5,3,3,4.0,2,3,2,4,3,4,5,4,4,3,3,4
+R0116,36,Woman,Sumatra,IDR 10–20M,2,E-commerce,Personal care,1210000,9,Sometimes,2.0,3,3,3,4,3,3,4,4,4,4,4,4.0,4,3,3,3,3,3,4,5,5,3,4,4
+R0117,34,Woman,Java,IDR 10–20M,2,Minimarket,Food & beverages,810000,6,Rarely,5.0,4,4,4,3,4,3,3,4,3,2,2,3.0,4,3,4,3,3,3,3,4,4,3,3,3
+R0118,32,Man,Java,IDR 10–20M,3,E-commerce,Home care,1160000,10,Rarely,2.0,2,2,2,4,4,4,5,4,5,4,4,4.0,3,3,4,2,3,4,4,4,5,3,4,3
+R0119,41,Woman,Kalimantan,IDR 5–10M,2,Supermarket,Home care,810000,6,Rarely,3.0,3,3,3,4,4,4,3,3,3,2,3,2.0,2,1,2,4,4,5,5,5,5,3,2,3
+R0120,48,Man,Sulawesi,IDR 10–20M,6,E-commerce,Home care,1640000,9,Sometimes,2.0,3,3,3,4,4,4,4,4,3,4,3,4.0,4,4,3,5,4,5,4,4,4,4,4,3
+R0121,25,Woman,Kalimantan,IDR 5–10M,2,Supermarket,Home care,900000,8,Often,5.0,5,5,4,4,3,3,2,3,3,2,3,3.0,2,2,2,4,4,4,3,3,3,2,2,2
+R0122,25,Woman,Java,IDR 10–20M,2,E-commerce,Personal care,980000,5,Often,4.0,3,4,4,3,4,4,3,4,3,4,3,3.0,4,3,4,3,4,3,2,2,2,4,5,4
+R0123,35,Woman,Java,IDR 5–10M,1,Supermarket,Food & beverages,1570000,4,Never,3.0,3,3,3,3,3,4,2,2,3,3,3,3.0,3,2,3,4,4,5,4,4,4,3,4,4
+R0124,49,Woman,Sumatra,> IDR 20M,1,Supermarket,Home care,1680000,7,Often,4.0,2,3,3,5,4,5,4,3,4,4,4,4.0,4,4,4,4,4,4,4,4,4,4,4,3
+R0125,27,Woman,Sumatra,IDR 5–10M,1,Supermarket,Personal care,610000,10,Sometimes,5.0,4,5,5,3,3,4,2,3,3,3,3,3.0,3,3,3,2,3,2,3,4,4,3,3,2
+R0126,31,Woman,Java,< IDR 5M,2,E-commerce,Food & beverages,890000,8,Sometimes,2.0,3,4,4,4,3,3,4,3,3,4,3,4.0,4,4,4,4,4,5,2,2,3,3,2,3
+R0127,47,Man,Java,IDR 5–10M,3,Minimarket,Home care,1080000,11,Rarely,,2,2,2,5,4,4,4,4,4,3,3,2.0,3,3,2,4,4,4,4,4,4,3,3,4
+R0128,23,Woman,Java,IDR 10–20M,5,E-commerce,Personal care,960000,10,Often,4.0,4,4,4,4,3,4,4,4,5,3,3,3.0,4,4,5,4,4,4,3,3,4,4,4,4
+R0129,28,Man,Sumatra,IDR 10–20M,3,Minimarket,Home care,1580000,13,Sometimes,2.0,2,3,3,4,4,4,2,2,2,3,3,3.0,4,3,3,5,4,5,4,5,4,3,2,3
+R0130,21,Woman,Java,> IDR 20M,3,Supermarket,Personal care,830000,9,Never,5.0,3,4,4,4,3,3,3,2,3,1,2,2.0,2,3,2,4,3,4,4,4,3,4,4,5
+R0131,25,Man,Java,IDR 5–10M,3,E-commerce,Personal care,860000,8,Sometimes,4.0,3,3,3,3,4,3,3,2,3,3,3,3.0,5,4,5,4,5,4,3,3,4,3,4,3
+R0132,27,Woman,Java,IDR 10–20M,3,Supermarket,Personal care,1390000,8,Often,4.0,2,3,2,4,4,3,4,4,3,4,3,3.0,5,4,5,4,4,4,3,3,3,4,3,4
+R0133,29,Woman,Kalimantan,> IDR 20M,3,E-commerce,Food & beverages,1180000,8,Often,4.0,3,4,3,4,4,4,3,5,5,4,5,4.0,4,3,3,5,4,4,4,3,3,4,4,4
+R0134,18,Woman,Java,< IDR 5M,3,Traditional market,Personal care,620000,13,Sometimes,4.0,4,5,4,4,4,5,2,3,2,3,3,3.0,3,3,3,3,3,3,4,4,4,3,3,3
+R0135,35,Woman,Sulawesi,< IDR 5M,1,Minimarket,Home care,780000,8,Sometimes,3.0,4,4,4,3,3,4,5,4,3,3,3,3.0,4,5,4,4,3,4,4,4,4,4,4,5
+R0136,38,Man,Java,IDR 5–10M,2,E-commerce,Personal care,800000,10,Often,4.0,3,2,4,3,4,3,3,3,3,3,3,3.0,3,5,3,5,4,4,4,4,3,4,5,5
+R0137,36,Man,Sumatra,IDR 10–20M,2,Minimarket,Food & beverages,1030000,13,Rarely,3.0,2,3,3,5,4,4,2,2,3,3,4,3.0,2,2,2,5,5,5,5,5,5,4,3,4
+R0138,30,Woman,Java,IDR 5–10M,5,E-commerce,Food & beverages,680000,9,Rarely,3.0,3,5,4,4,4,4,5,4,4,3,3,3.0,4,4,4,4,4,3,4,3,4,5,5,4
+R0139,28,Man,Sumatra,< IDR 5M,3,E-commerce,Food & beverages,340000,8,Never,5.0,5,5,5,3,3,3,4,4,3,3,3,2.0,2,3,3,3,3,3,3,3,3,4,4,4
+R0140,18,Woman,Java,IDR 10–20M,2,Minimarket,Home care,760000,5,Often,4.0,4,5,4,3,2,3,3,3,2,3,3,3.0,3,3,4,3,4,3,3,3,3,3,3,3
+R0141,28,Man,Java,IDR 5–10M,2,Minimarket,Personal care,1120000,13,Never,4.0,3,2,3,4,4,5,4,4,3,3,3,3.0,4,4,5,4,4,4,3,3,3,4,4,4
+R0142,22,Man,Java,> IDR 20M,3,E-commerce,Food & beverages,1560000,11,Sometimes,4.0,2,3,2,3,4,3,3,3,4,3,3,3.0,5,4,4,4,4,5,4,4,3,4,3,4
+R0143,34,Man,Sulawesi,IDR 10–20M,4,E-commerce,Home care,1400000,7,Rarely,3.0,4,4,4,4,4,4,4,5,5,3,4,3.0,4,3,4,2,3,4,4,5,4,4,4,4
+R0144,21,Man,Java,IDR 10–20M,2,Minimarket,Personal care,920000,10,Often,4.0,4,3,4,4,4,4,3,4,4,3,3,2.0,5,5,5,4,3,3,3,4,3,3,3,4
+R0145,34,Woman,Sulawesi,IDR 10–20M,4,Minimarket,Home care,1910000,11,Rarely,3.0,2,2,2,4,5,4,4,5,4,5,4,3.0,4,4,4,4,4,4,4,4,4,4,4,3
+R0146,21,Woman,Kalimantan,< IDR 5M,3,Supermarket,Food & beverages,1090000,9,Sometimes,4.0,4,3,3,3,3,3,3,3,4,4,4,4.0,4,5,4,4,4,4,3,3,3,4,5,4
+R0147,46,Woman,Java,IDR 10–20M,3,Supermarket,Food & beverages,1450000,8,Sometimes,3.0,3,4,3,4,4,4,5,4,5,3,3,4.0,4,3,3,4,4,3,5,4,5,3,4,3
+R0148,25,Man,Kalimantan,IDR 5–10M,4,Traditional market,Personal care,420000,7,Often,4.0,3,3,3,4,4,4,3,3,3,2,2,3.0,4,4,3,5,4,4,3,3,3,3,3,3
+R0149,36,Man,Kalimantan,IDR 5–10M,2,E-commerce,Personal care,420000,3,Sometimes,5.0,4,4,3,3,3,3,4,4,3,4,4,3.0,3,3,3,3,4,5,4,5,4,3,3,2
+R0150,38,Man,Java,IDR 5–10M,3,Minimarket,Home care,1030000,7,Rarely,2.0,3,3,3,4,4,5,4,5,4,4,3,5.0,3,2,3,3,4,4,3,3,3,3,3,4
+R0151,46,Woman,Java,IDR 10–20M,3,Supermarket,Food & beverages,1080000,11,Rarely,3.0,3,4,3,4,3,4,4,3,4,3,3,3.0,3,2,3,4,4,3,4,5,4,3,3,3
+R0152,35,Man,Java,IDR 10–20M,2,Minimarket,Home care,1110000,8,Rarely,4.0,3,3,3,4,4,4,4,3,3,3,4,3.0,1,2,2,3,4,4,4,5,5,4,4,4
+R0153,37,Woman,Java,> IDR 20M,3,E-commerce,Personal care,1560000,9,Never,3.0,3,3,2,5,4,5,5,4,4,3,4,3.0,1,3,2,3,4,4,4,5,5,3,3,3
+R0154,28,Man,Java,< IDR 5M,2,E-commerce,Personal care,840000,12,Often,4.0,3,3,3,3,3,4,4,3,3,3,4,4.0,5,5,4,3,4,4,3,3,3,3,3,4
+R0155,25,Woman,Sumatra,IDR 5–10M,1,Minimarket,Food & beverages,590000,5,Sometimes,4.0,4,4,4,3,3,4,3,3,3,2,3,3.0,3,3,3,3,3,3,3,2,2,3,4,3
+R0156,36,Man,Sumatra,IDR 10–20M,3,E-commerce,Home care,1280000,10,Sometimes,4.0,3,3,3,3,4,4,3,4,4,3,3,3.0,2,2,2,5,5,5,4,5,5,3,3,3
+R0157,35,Woman,Sulawesi,< IDR 5M,5,E-commerce,Food & beverages,810000,7,Sometimes,3.0,4,4,3,4,4,5,3,3,3,3,4,,4,4,4,3,3,4,3,3,3,3,3,4
+R0158,37,Woman,Sumatra,< IDR 5M,3,E-commerce,Food & beverages,570000,12,Often,3.0,3,5,4,4,4,3,3,3,3,4,3,3.0,5,4,4,4,4,5,2,2,2,5,5,4
+R0159,37,Man,Java,IDR 5–10M,2,E-commerce,Personal care,1140000,10,Rarely,3.0,2,3,3,3,3,4,4,5,4,4,4,4.0,3,3,2,4,4,4,5,5,5,4,3,4
+R0160,40,Man,Kalimantan,IDR 10–20M,6,Supermarket,Personal care,1430000,10,Sometimes,3.0,3,3,3,4,4,5,4,4,4,4,5,4.0,2,3,3,5,4,4,4,3,3,5,4,4
+R0161,32,Woman,Java,< IDR 5M,4,Supermarket,Home care,760000,7,Sometimes,5.0,5,4,4,3,3,3,3,3,3,2,3,3.0,4,3,4,3,4,2,3,2,2,3,3,3
+R0162,22,Man,Sumatra,IDR 5–10M,2,E-commerce,Personal care,1060000,5,Rarely,3.0,3,3,3,5,5,4,4,4,4,5,5,5.0,3,4,3,4,3,3,5,4,4,4,4,5
+R0163,28,Woman,Sumatra,> IDR 20M,4,Traditional market,Personal care,1020000,7,Rarely,3.0,3,3,4,4,3,3,2,2,3,2,2,2.0,3,3,3,4,4,4,3,3,3,4,3,4
+R0164,37,Man,Java,IDR 5–10M,3,Minimarket,Food & beverages,1140000,12,Rarely,3.0,3,3,2,3,3,4,3,4,4,3,3,3.0,4,3,3,4,4,4,4,4,4,4,4,4
+R0165,23,Woman,Java,IDR 5–10M,4,E-commerce,Home care,720000,10,Sometimes,4.0,3,3,3,4,3,3,3,3,3,4,4,4.0,4,4,4,4,4,4,3,3,3,4,5,5
+R0166,33,Man,Java,IDR 10–20M,4,Supermarket,Personal care,850000,9,Rarely,3.0,2,2,3,4,4,4,5,4,4,4,4,4.0,3,3,2,3,4,3,5,4,5,4,4,4
+R0167,32,Man,Java,< IDR 5M,2,Minimarket,Food & beverages,720000,11,Sometimes,4.0,2,3,2,4,4,4,4,4,4,4,3,3.0,4,4,4,4,3,3,4,3,3,4,4,4
+R0168,45,Man,Sumatra,< IDR 5M,5,Supermarket,Home care,730000,9,Never,3.0,3,2,3,5,5,5,3,2,3,3,3,2.0,3,4,3,4,4,4,4,4,5,3,3,2
+R0169,27,Woman,Sumatra,IDR 5–10M,4,E-commerce,Home care,850000,4,Sometimes,3.0,4,4,4,3,3,4,4,3,4,3,3,3.0,4,5,5,4,4,4,3,3,3,4,4,4
+R0170,41,Woman,Bali & Nusa Tenggara,> IDR 20M,2,Supermarket,Food & beverages,2020000,14,Sometimes,3.0,4,4,3,2,2,3,3,3,4,4,3,3.0,2,2,1,4,5,5,5,4,4,3,3,3
+R0171,28,Woman,Java,> IDR 20M,5,Supermarket,Personal care,1270000,11,Rarely,2.0,3,3,3,4,4,4,4,4,4,4,3,4.0,3,3,3,4,3,4,4,4,4,4,5,3
+R0172,40,Woman,Java,IDR 10–20M,4,Minimarket,Home care,1140000,9,Sometimes,5.0,3,4,3,3,3,3,4,4,4,3,3,2.0,3,3,2,3,4,3,3,3,3,3,2,3
+R0173,42,Woman,Kalimantan,IDR 10–20M,5,Supermarket,Personal care,1500000,10,Rarely,3.0,2,3,1,4,4,4,4,4,3,4,4,5.0,3,4,4,3,4,3,4,3,4,4,4,4
+R0174,34,Man,Java,IDR 5–10M,3,Supermarket,Personal care,890000,10,Often,5.0,5,4,4,4,4,4,3,3,2,2,3,2.0,2,3,2,4,4,4,3,3,2,2,3,3
+R0175,31,Woman,Bali & Nusa Tenggara,> IDR 20M,1,E-commerce,Food & beverages,1350000,10,Never,2.0,3,3,4,3,4,4,3,3,3,4,3,3.0,3,3,3,4,4,4,5,5,4,3,3,4
+R0176,31,Man,Java,IDR 5–10M,3,Minimarket,Home care,870000,14,Never,2.0,3,3,3,4,4,4,3,4,3,3,2,3.0,2,2,3,5,5,5,5,4,4,3,3,2
+R0177,34,Woman,Kalimantan,IDR 5–10M,5,Minimarket,Food & beverages,710000,4,Often,4.0,4,4,3,4,3,4,4,4,3,4,4,4.0,2,2,3,3,4,3,4,4,3,3,4,4
+R0178,38,Man,Java,IDR 5–10M,2,E-commerce,Food & beverages,790000,5,Never,3.0,2,4,3,4,3,3,3,3,4,3,3,3.0,4,3,4,3,4,3,3,3,3,4,4,4
+R0179,23,Woman,Java,> IDR 20M,3,E-commerce,Food & beverages,1630000,9,Never,3.0,1,3,2,4,4,4,4,4,4,3,3,3.0,4,2,3,3,3,4,2,4,3,3,3,3
+R0180,34,Woman,Sumatra,> IDR 20M,3,E-commerce,Home care,2120000,6,Rarely,2.0,2,2,3,4,4,4,4,4,4,3,4,4.0,3,3,3,4,4,4,4,4,4,3,3,5
+R0181,41,Woman,Sulawesi,> IDR 20M,4,Supermarket,Personal care,830000,10,Rarely,3.0,3,3,3,5,4,4,5,5,4,4,4,4.0,4,3,3,4,4,3,4,4,4,4,4,5
+R0182,43,Woman,Sulawesi,IDR 5–10M,4,Minimarket,Home care,900000,8,Never,2.0,3,3,3,4,4,4,3,4,3,2,3,3.0,2,3,2,4,3,4,3,4,4,2,2,2
+R0183,24,Woman,Sumatra,IDR 5–10M,3,E-commerce,Home care,790000,10,Often,5.0,3,3,3,4,4,4,4,4,3,3,3,3.0,4,4,4,5,5,5,4,4,4,4,4,4
+R0184,26,Man,Java,IDR 5–10M,4,E-commerce,Personal care,980000,9,Often,3.0,3,3,2,4,4,4,2,2,1,4,4,5.0,5,5,4,4,4,5,4,3,3,5,4,4
+R0185,24,Man,Sulawesi,IDR 5–10M,3,Supermarket,Home care,1100000,8,Rarely,5.0,4,5,4,3,4,2,2,3,2,3,2,3.0,2,2,4,4,3,3,3,3,3,3,3,4
+R0186,37,Woman,Sumatra,IDR 5–10M,5,Supermarket,Personal care,1180000,10,Sometimes,3.0,3,1,2,5,4,5,4,4,5,3,3,3.0,3,4,4,4,4,4,3,4,4,5,4,5
+R0187,34,Woman,Sulawesi,IDR 10–20M,6,Supermarket,Home care,1460000,8,Rarely,3.0,3,3,3,5,4,4,5,5,4,4,4,4.0,3,2,3,4,4,3,4,4,5,4,4,5
+R0188,32,Man,Sumatra,< IDR 5M,5,Traditional market,Food & beverages,590000,9,Sometimes,4.0,5,4,5,3,3,2,3,2,3,3,3,3.0,4,3,3,3,3,3,3,3,3,3,3,3
+R0189,18,Woman,Bali & Nusa Tenggara,IDR 10–20M,1,Minimarket,Home care,810000,12,Sometimes,4.0,5,5,4,3,3,3,3,4,2,2,2,3.0,3,4,3,4,3,3,3,3,3,4,4,4
+R0190,29,Woman,Kalimantan,IDR 5–10M,2,E-commerce,Home care,940000,6,Rarely,4.0,3,3,3,4,4,4,3,4,4,4,3,4.0,4,4,4,3,3,3,3,2,3,5,4,5
+R0191,26,Woman,Sumatra,> IDR 20M,3,E-commerce,Home care,1960000,8,Often,2.0,3,3,2,4,4,3,4,4,4,3,3,3.0,4,3,3,4,3,3,4,4,5,3,3,3
+R0192,34,Woman,Java,< IDR 5M,3,Minimarket,Food & beverages,390000,10,Never,5.0,5,5,4,3,3,3,5,3,3,3,3,4.0,4,3,4,3,3,3,3,3,3,3,3,4
+R0193,29,Woman,Sulawesi,IDR 10–20M,3,Minimarket,Food & beverages,740000,11,Sometimes,5.0,5,4,4,2,3,3,4,3,4,3,3,2.0,4,4,4,5,4,5,2,3,2,2,3,3
+R0194,33,Woman,Java,IDR 5–10M,2,Supermarket,Food & beverages,1570000,9,Sometimes,5.0,3,3,4,4,3,4,2,2,2,3,3,3.0,5,5,5,4,4,5,3,4,4,4,5,4
+R0195,36,Man,Kalimantan,IDR 5–10M,2,E-commerce,Personal care,550000,6,Often,5.0,4,5,4,3,3,4,2,3,3,3,3,3.0,4,3,3,4,4,4,2,3,3,4,4,3
+R0196,27,Woman,Java,> IDR 20M,3,Supermarket,Food & beverages,2010000,10,Sometimes,,3,3,2,4,5,5,4,3,4,3,3,2.0,3,2,3,5,4,4,4,4,4,5,4,4
+R0197,25,Man,Bali & Nusa Tenggara,< IDR 5M,5,Traditional market,Personal care,530000,5,Sometimes,4.0,4,4,4,4,3,4,2,3,3,3,3,2.0,3,3,3,3,1,3,3,2,2,3,3,3
+R0198,44,Woman,Java,IDR 5–10M,1,E-commerce,Food & beverages,940000,12,Never,3.0,2,2,2,4,3,4,4,4,5,4,4,4.0,3,2,3,3,3,4,3,4,4,4,4,3
+R0199,25,Man,Bali & Nusa Tenggara,IDR 10–20M,2,Minimarket,Home care,860000,7,Sometimes,4.0,3,3,4,3,3,4,4,3,4,2,3,2.0,3,3,4,3,3,3,3,3,3,3,3,3
+R0200,35,Man,Kalimantan,IDR 5–10M,2,Minimarket,Food & beverages,910000,8,Often,5.0,4,3,4,4,3,3,3,3,3,3,3,3.0,3,3,4,3,4,4,4,4,4,3,3,3
+R0201,38,Man,Java,IDR 5–10M,5,Traditional market,Personal care,670000,10,Never,5.0,4,4,4,4,4,4,3,3,3,2,2,3.0,3,3,3,4,4,5,3,3,3,3,3,3
+R0202,21,Man,Bali & Nusa Tenggara,IDR 5–10M,1,Minimarket,Home care,560000,7,Sometimes,4.0,4,3,4,3,2,3,3,3,3,4,3,3.0,2,2,2,3,3,3,3,4,3,3,3,3
+R0203,52,Man,Java,IDR 10–20M,3,Supermarket,Personal care,1660000,11,Rarely,3.0,3,3,4,5,4,4,5,5,5,3,3,3.0,3,4,3,3,3,3,5,5,5,5,5,4
+R0204,43,Man,Bali & Nusa Tenggara,IDR 5–10M,1,Supermarket,Home care,1200000,12,Rarely,3.0,2,2,3,3,4,4,4,5,5,4,4,3.0,3,2,3,3,3,3,4,4,4,4,4,4
+R0205,33,Woman,Kalimantan,IDR 10–20M,3,Supermarket,Home care,970000,10,Never,2.0,3,3,3,3,4,3,3,2,2,4,3,3.0,2,2,2,3,4,4,4,4,4,4,2,3
+R0206,37,Man,Java,IDR 5–10M,3,Minimarket,Home care,1250000,10,Rarely,2.0,3,3,3,4,3,3,2,2,2,3,3,3.0,3,2,3,4,5,4,4,5,4,3,3,3
+R0207,43,Man,Java,IDR 10–20M,3,Supermarket,Food & beverages,1380000,9,Never,3.0,3,2,4,4,4,4,4,4,3,3,3,4.0,3,2,2,3,4,3,4,5,5,3,3,3
+R0208,39,Woman,Java,> IDR 20M,3,Supermarket,Food & beverages,1870000,11,Never,3.0,1,2,2,3,3,3,3,3,4,4,5,4.0,3,4,4,5,4,4,4,5,4,4,3,4
+R0209,31,Woman,Java,IDR 10–20M,3,Supermarket,Personal care,1710000,9,Never,3.0,3,2,3,4,3,4,5,5,5,4,4,4.0,4,4,5,4,4,4,4,4,4,4,4,4
+R0210,38,Woman,Java,IDR 5–10M,3,E-commerce,Personal care,1290000,5,Sometimes,2.0,3,3,3,3,4,4,5,4,4,4,4,3.0,3,4,3,4,4,4,5,4,5,3,4,4
+R0211,33,Man,Bali & Nusa Tenggara,IDR 5–10M,7,Supermarket,Food & beverages,1490000,9,Never,4.0,3,3,3,4,4,3,4,4,4,3,4,4.0,3,4,4,4,3,4,3,4,4,3,3,3
+R0212,31,Man,Java,IDR 5–10M,4,Minimarket,Food & beverages,1360000,9,Never,4.0,3,2,2,4,5,5,3,4,3,2,3,3.0,2,3,2,4,4,5,4,5,5,4,3,4
+R0213,44,Woman,Java,IDR 5–10M,3,Supermarket,Home care,1510000,9,Rarely,4.0,5,4,4,5,4,4,4,4,3,4,5,5.0,4,4,5,3,4,4,3,3,3,5,5,4
+R0214,29,Woman,Java,< IDR 5M,1,E-commerce,Personal care,790000,7,Sometimes,3.0,2,3,2,4,4,3,4,4,4,4,4,3.0,4,4,4,3,3,3,4,4,4,4,4,4
+R0215,33,Man,Java,IDR 5–10M,2,E-commerce,Food & beverages,990000,4,Sometimes,3.0,4,3,4,5,5,4,3,3,3,3,4,3.0,4,4,4,4,4,4,3,4,3,4,4,4
+R0216,35,Man,Sumatra,IDR 10–20M,2,Minimarket,Personal care,1370000,7,Sometimes,3.0,3,4,4,4,4,4,3,3,3,3,3,3.0,3,2,3,5,5,5,5,5,5,4,4,4
+R0217,44,Man,Sumatra,> IDR 20M,2,Traditional market,Food & beverages,1160000,10,Sometimes,3.0,3,3,3,4,4,4,3,4,3,3,4,4.0,2,2,2,5,4,4,4,5,4,3,3,3
+R0218,19,Woman,Sumatra,IDR 10–20M,1,Traditional market,Food & beverages,660000,7,Sometimes,3.0,4,4,4,3,3,3,4,4,3,4,3,4.0,2,2,2,3,3,2,4,4,4,4,4,4
+R0219,37,Woman,Java,IDR 10–20M,4,Supermarket,Home care,930000,10,Rarely,2.0,3,3,3,5,4,5,4,4,3,3,2,3.0,3,3,3,5,5,4,5,5,5,2,2,3
+R0220,43,Woman,Bali & Nusa Tenggara,IDR 5–10M,2,Supermarket,Personal care,810000,3,Sometimes,3.0,4,5,5,3,3,3,3,4,3,3,3,2.0,3,3,3,3,2,3,4,4,3,3,3,3
+R0221,36,Woman,Sumatra,IDR 10–20M,3,E-commerce,Personal care,1220000,11,Often,4.0,4,3,4,5,4,4,2,3,3,3,3,3.0,4,4,4,3,3,3,3,3,4,4,4,4
+R0222,35,Man,Sumatra,IDR 10–20M,4,Supermarket,Personal care,1200000,4,Sometimes,3.0,4,4,4,4,4,3,4,4,4,4,3,4.0,4,3,3,4,3,4,4,4,4,4,4,4
+R0223,32,Woman,Sulawesi,IDR 5–10M,5,Supermarket,Home care,1380000,7,Rarely,3.0,3,3,3,5,5,4,4,4,4,4,4,4.0,3,4,3,4,4,3,5,4,5,4,4,5
+R0224,29,Woman,Sumatra,IDR 5–10M,6,E-commerce,Personal care,1110000,8,Sometimes,3.0,3,4,4,2,2,2,4,4,3,2,3,3.0,4,4,5,4,3,4,3,3,4,3,3,4
+R0225,19,Man,Java,IDR 10–20M,3,E-commerce,Home care,650000,11,Sometimes,4.0,2,2,2,3,4,4,4,3,4,4,4,3.0,4,4,4,4,4,4,4,4,5,4,5,5
+R0226,21,Man,Bali & Nusa Tenggara,IDR 10–20M,3,Minimarket,Food & beverages,1210000,9,Rarely,2.0,3,3,4,4,4,4,3,4,4,3,3,3.0,3,3,2,5,5,4,4,4,4,4,4,3
+R0227,31,Woman,Java,IDR 10–20M,1,Minimarket,Personal care,1430000,11,Rarely,4.0,2,2,3,5,5,4,5,5,5,3,3,3.0,4,3,3,4,4,4,4,4,3,4,5,4
+R0228,20,Man,Kalimantan,IDR 5–10M,2,Minimarket,Food & beverages,1010000,8,Often,4.0,3,4,3,5,5,5,4,4,4,2,2,3.0,5,5,5,3,3,4,2,2,2,5,4,5
+R0229,23,Man,Sumatra,> IDR 20M,3,Minimarket,Home care,900000,9,Often,3.0,3,3,3,3,3,3,4,3,4,4,3,4.0,4,5,5,4,5,4,3,2,2,4,4,4
+R0230,32,Woman,Java,> IDR 20M,3,Minimarket,Food & beverages,2660000,11,Rarely,3.0,2,3,3,4,5,4,4,4,5,4,4,4.0,3,4,3,4,4,4,3,4,3,4,4,4
+R0231,28,Man,Java,IDR 10–20M,3,E-commerce,Food & beverages,1820000,7,Rarely,3.0,3,3,2,5,4,4,4,4,4,4,4,4.0,2,3,3,3,3,3,5,4,4,4,5,4
+R0232,29,Woman,Java,IDR 5–10M,3,E-commerce,Food & beverages,1030000,11,Never,2.0,2,3,3,4,4,5,2,2,3,4,3,3.0,3,4,3,4,5,4,5,5,5,3,2,3
+R0233,35,Man,Sumatra,IDR 5–10M,4,Minimarket,Home care,630000,7,Sometimes,4.0,4,3,5,4,4,3,3,3,3,3,3,3.0,4,4,4,3,2,3,4,3,3,3,4,4
+R0234,26,Man,Sumatra,IDR 10–20M,3,Minimarket,Home care,750000,6,Never,4.0,4,4,4,2,3,2,4,4,4,3,3,3.0,3,3,3,3,3,2,3,3,3,3,3,2
+R0235,23,Woman,Java,IDR 5–10M,4,Minimarket,Food & beverages,520000,7,Often,4.0,3,4,4,3,2,3,3,4,3,3,4,3.0,3,3,2,3,3,3,3,3,3,3,3,3
+R0236,28,Man,Sulawesi,IDR 5–10M,6,E-commerce,Personal care,760000,8,Often,4.0,4,3,3,3,4,4,4,3,2,3,3,3.0,4,4,5,4,4,4,4,4,4,5,4,4
+R0237,32,Man,Java,< IDR 5M,5,Minimarket,Food & beverages,1100000,5,Rarely,4.0,4,3,3,4,4,4,2,2,3,3,4,4.0,2,2,2,4,5,4,4,4,4,2,3,3
+R0238,27,Woman,Java,IDR 5–10M,2,E-commerce,Personal care,760000,6,Sometimes,4.0,5,4,5,4,3,3,3,3,3,3,3,3.0,4,4,5,3,3,4,3,3,4,4,4,3
+R0239,38,Man,Sumatra,IDR 10–20M,2,Supermarket,Food & beverages,940000,8,Often,3.0,3,3,3,2,2,3,2,2,3,3,4,3.0,3,4,4,2,3,3,4,3,3,3,3,2
+R0240,26,Man,Sumatra,< IDR 5M,1,Minimarket,Food & beverages,540000,9,Often,3.0,5,4,4,2,2,2,2,2,2,3,2,3.0,4,3,3,3,3,3,3,4,3,3,3,3
+R0241,28,Man,Sumatra,IDR 10–20M,4,Supermarket,Personal care,1670000,8,Sometimes,4.0,2,2,2,4,4,4,4,4,4,3,3,3.0,3,3,3,3,3,3,4,4,4,3,4,4
+R0242,27,Woman,Java,< IDR 5M,4,E-commerce,Personal care,810000,7,Often,4.0,3,4,4,3,4,4,4,4,4,4,4,4.0,5,4,4,5,5,5,3,3,3,5,5,5
+R0243,35,Man,Java,IDR 5–10M,5,E-commerce,Personal care,1140000,10,Sometimes,3.0,3,3,3,4,4,4,4,4,4,4,4,4.0,4,4,4,4,4,4,4,3,4,3,4,3
+R0244,18,Man,Java,IDR 5–10M,1,Supermarket,Home care,750000,8,Sometimes,5.0,4,4,4,3,4,4,3,3,3,3,3,3.0,3,3,4,4,3,3,2,3,3,2,3,2
+R0245,26,Woman,Java,IDR 5–10M,2,E-commerce,Home care,800000,8,Often,4.0,4,4,4,4,3,4,4,4,3,3,3,3.0,4,5,4,4,4,4,3,4,3,4,5,5
+R0246,40,Man,Java,IDR 10–20M,3,Minimarket,Home care,1220000,6,Rarely,4.0,3,4,4,4,5,5,4,3,4,3,4,4.0,4,3,4,4,5,5,4,4,5,4,3,3
+R0247,42,Man,Sumatra,IDR 10–20M,1,Supermarket,Home care,1090000,9,Sometimes,3.0,3,3,3,5,4,5,5,5,5,4,4,4.0,3,3,3,4,4,3,4,4,4,3,3,3
+R0248,31,Man,Java,IDR 5–10M,5,Traditional market,Home care,660000,9,Sometimes,5.0,4,4,4,4,4,4,3,4,3,3,4,,3,4,3,3,3,3,3,4,3,4,4,4
+R0249,27,Woman,Java,IDR 5–10M,2,Minimarket,Food & beverages,580000,8,Rarely,4.0,4,3,4,4,4,3,3,4,4,3,3,2.0,3,4,4,4,4,4,4,4,4,2,2,3
+R0250,41,Man,Kalimantan,IDR 10–20M,4,E-commerce,Personal care,1340000,7,Sometimes,3.0,2,2,2,5,3,5,4,5,4,4,4,5.0,4,4,4,3,4,3,4,4,5,4,4,4
+R0251,37,Man,Sumatra,< IDR 5M,2,E-commerce,Home care,1050000,8,Rarely,3.0,1,2,2,4,5,5,5,5,5,4,4,4.0,4,3,3,4,5,4,4,5,3,4,3,4
+R0252,41,Man,Bali & Nusa Tenggara,IDR 10–20M,2,Supermarket,Personal care,1770000,9,Rarely,2.0,3,3,2,4,4,4,3,3,4,2,2,3.0,3,3,3,4,5,4,5,4,4,3,3,2
+R0253,45,Woman,Java,IDR 5–10M,5,Minimarket,Personal care,560000,13,Rarely,3.0,3,3,3,5,4,4,3,3,3,2,3,3.0,3,3,2,5,4,4,4,5,4,4,4,4
+R0254,36,Woman,Java,< IDR 5M,1,E-commerce,Food & beverages,1080000,9,Never,3.0,3,3,3,4,5,4,4,4,2,3,3,3.0,3,3,4,4,4,4,4,4,4,3,4,3
+R0255,22,Man,Sumatra,IDR 5–10M,2,E-commerce,Food & beverages,1060000,6,Sometimes,4.0,4,4,5,2,2,3,3,3,3,3,3,3.0,3,4,3,4,4,4,3,2,2,3,4,4
+R0256,32,Woman,Java,IDR 10–20M,3,E-commerce,Food & beverages,1160000,10,Sometimes,3.0,2,3,2,4,4,5,3,4,4,2,3,3.0,4,5,5,5,4,4,2,3,3,4,4,4
+R0257,41,Man,Java,IDR 10–20M,7,Minimarket,Personal care,1050000,11,Never,5.0,2,2,3,4,4,4,3,3,4,3,3,3.0,3,3,3,3,4,4,4,5,5,3,3,3
+R0258,24,Woman,Java,IDR 5–10M,1,Minimarket,Food & beverages,720000,9,Rarely,3.0,4,4,4,3,2,2,3,2,3,3,4,4.0,3,3,3,4,3,3,3,3,3,3,3,3
+R0259,40,Man,Java,> IDR 20M,4,E-commerce,Personal care,1450000,11,Never,2.0,3,3,3,3,3,3,4,4,4,3,3,3.0,3,3,3,4,5,4,5,5,5,3,3,4
+R0260,36,Woman,Kalimantan,< IDR 5M,3,Traditional market,Food & beverages,680000,3,Rarely,5.0,4,4,4,4,3,4,2,3,2,3,4,3.0,4,4,4,3,4,3,3,3,3,3,3,3
+R0261,50,Woman,Java,< IDR 5M,3,Minimarket,Personal care,930000,8,Rarely,3.0,3,3,3,3,3,4,3,2,3,3,3,3.0,3,2,2,4,4,3,5,5,5,3,2,2
+R0262,40,Woman,Java,> IDR 20M,5,E-commerce,Food & beverages,1700000,7,Never,2.0,3,3,3,4,4,5,3,3,3,3,4,4.0,4,3,4,4,4,4,4,4,4,3,4,4
+R0263,18,Woman,Java,IDR 5–10M,2,E-commerce,Food & beverages,1030000,13,Sometimes,5.0,4,4,5,3,3,3,4,4,4,4,4,3.0,3,3,3,4,3,3,3,3,2,5,4,4
+R0264,32,Woman,Java,> IDR 20M,3,Supermarket,Food & beverages,2020000,11,Never,3.0,2,3,2,4,5,4,5,4,4,4,4,4.0,3,3,3,2,3,3,5,5,5,4,4,4
+R0265,26,Woman,Bali & Nusa Tenggara,IDR 5–10M,2,Supermarket,Food & beverages,720000,8,Sometimes,4.0,5,4,4,3,4,4,3,3,2,3,3,3.0,3,2,3,4,4,3,3,3,3,4,3,3
+R0266,23,Man,Java,< IDR 5M,4,E-commerce,Personal care,1010000,8,Sometimes,3.0,3,4,4,3,3,3,4,4,4,3,3,2.0,5,5,5,4,4,4,4,3,4,5,4,4
+R0267,34,Man,Java,IDR 10–20M,3,Minimarket,Personal care,1310000,6,Rarely,2.0,3,3,3,4,4,3,3,3,2,3,3,3.0,3,3,2,4,4,4,5,5,5,4,3,3
+R0268,38,Woman,Java,< IDR 5M,1,Supermarket,Home care,960000,10,Never,3.0,2,3,2,5,5,4,3,3,3,3,3,3.0,3,3,3,4,4,5,5,4,4,3,3,3
+R0269,27,Woman,Java,IDR 10–20M,4,E-commerce,Home care,1960000,11,Rarely,2.0,2,3,3,4,4,4,3,3,3,4,4,3.0,3,3,3,4,4,4,5,5,5,4,3,3
+R0270,38,Man,Java,> IDR 20M,6,Supermarket,Personal care,2460000,10,Rarely,2.0,4,4,4,3,3,3,3,4,3,3,3,2.0,4,3,4,4,4,4,4,4,4,3,2,3
+R0271,18,Woman,Java,< IDR 5M,3,Minimarket,Food & beverages,380000,9,Sometimes,5.0,3,3,3,4,3,3,3,2,3,3,2,3.0,4,3,3,4,4,3,3,3,4,4,4,3
+R0272,30,Woman,Sulawesi,IDR 5–10M,4,Supermarket,Home care,640000,4,Rarely,4.0,4,5,4,3,4,3,3,3,3,4,3,3.0,3,3,3,3,3,3,4,2,3,3,4,4
+R0273,47,Woman,Java,< IDR 5M,3,Supermarket,Personal care,780000,9,Rarely,1.0,4,4,4,4,4,4,4,4,3,4,4,3.0,3,4,4,5,5,5,5,4,4,4,3,3
+R0274,29,Woman,Bali & Nusa Tenggara,IDR 10–20M,4,Minimarket,Home care,1700000,9,Rarely,2.0,2,3,2,4,4,5,4,4,4,4,4,3.0,3,3,3,4,4,3,5,5,4,4,4,3
+R0275,26,Man,Sulawesi,< IDR 5M,3,E-commerce,Home care,1010000,9,Often,4.0,4,4,4,4,3,3,3,2,2,3,3,3.0,5,5,5,5,4,3,3,2,3,4,4,3
+R0276,36,Woman,Java,IDR 10–20M,3,E-commerce,Personal care,1540000,8,Rarely,3.0,3,3,2,5,4,5,4,4,4,3,3,3.0,2,2,2,4,3,3,4,4,5,4,5,4
+R0277,26,Man,Sumatra,IDR 10–20M,3,E-commerce,Food & beverages,690000,7,Sometimes,4.0,4,3,4,4,4,4,3,5,4,4,4,4.0,3,4,4,4,4,5,4,3,2,4,5,5
+R0278,19,Woman,Kalimantan,< IDR 5M,2,Traditional market,Home care,540000,8,Sometimes,5.0,4,4,5,3,4,3,2,3,3,3,3,4.0,3,3,4,3,3,3,3,3,3,2,2,1
+R0279,40,Woman,Sulawesi,> IDR 20M,4,Minimarket,Food & beverages,1920000,12,Never,3.0,3,3,2,4,4,4,4,3,3,3,3,3.0,3,3,2,4,4,4,3,3,4,4,4,3
+R0280,32,Woman,Sumatra,IDR 10–20M,2,Traditional market,Home care,550000,10,Often,4.0,4,4,4,3,2,2,3,3,2,3,3,4.0,2,3,3,4,4,4,3,3,3,4,3,3
+R0281,35,Woman,Sulawesi,> IDR 20M,3,Traditional market,Personal care,2390000,10,Sometimes,3.0,2,2,2,4,4,4,3,4,3,4,4,4.0,3,4,3,4,4,4,4,4,4,3,4,4
+R0282,44,Man,Sumatra,IDR 10–20M,3,Supermarket,Food & beverages,1580000,9,Rarely,3.0,3,3,3,3,4,4,4,3,3,3,3,3.0,3,4,2,5,5,5,5,5,4,3,3,3
+R0283,34,Woman,Java,IDR 5–10M,2,E-commerce,Food & beverages,790000,10,Sometimes,4.0,4,3,4,4,3,4,3,4,4,3,3,3.0,4,4,4,4,4,3,3,4,4,4,4,4
+R0284,40,Woman,Java,> IDR 20M,6,Minimarket,Home care,1070000,16,Rarely,3.0,3,2,2,3,3,4,3,3,2,3,3,2.0,2,2,3,4,4,4,3,4,4,2,2,3
+R0285,18,Man,Java,< IDR 5M,2,E-commerce,Food & beverages,1360000,11,Sometimes,4.0,3,3,4,4,4,4,3,3,4,3,3,3.0,5,4,4,4,4,4,3,3,3,4,4,4
+R0286,29,Woman,Java,IDR 5–10M,1,Traditional market,Food & beverages,750000,8,Rarely,3.0,5,4,5,3,3,3,4,4,4,3,2,2.0,4,3,4,3,3,3,3,4,3,3,3,3
+R0287,18,Woman,Java,IDR 10–20M,2,Traditional market,Home care,740000,9,Sometimes,4.0,4,4,4,3,3,3,3,3,2,4,4,3.0,3,2,2,3,3,2,3,2,2,3,3,2
+R0288,42,Woman,Bali & Nusa Tenggara,< IDR 5M,1,Traditional market,Home care,1060000,12,Rarely,2.0,2,4,3,3,3,3,2,2,1,3,3,3.0,2,3,2,4,4,4,4,4,4,3,4,4
+R0289,34,Man,Java,IDR 5–10M,1,E-commerce,Home care,1150000,11,Never,3.0,2,2,3,3,3,3,4,3,4,4,3,4.0,4,4,4,4,4,4,5,4,4,4,4,4
+R0290,38,Woman,Java,IDR 10–20M,1,E-commerce,Personal care,1010000,8,Sometimes,3.0,3,3,3,5,4,5,4,4,3,4,4,4.0,4,4,4,4,4,4,3,4,4,3,3,4
+R0291,42,Woman,Java,> IDR 20M,4,Traditional market,Food & beverages,1830000,6,Never,3.0,3,3,3,3,3,3,2,3,3,3,5,4.0,3,3,3,5,5,4,3,3,4,2,2,2
+R0292,42,Man,Java,IDR 5–10M,2,E-commerce,Personal care,1420000,11,Sometimes,4.0,3,3,3,5,5,4,4,4,4,4,4,4.0,3,3,3,4,4,4,5,4,4,3,3,3
+R0293,36,Man,Java,IDR 5–10M,1,Minimarket,Food & beverages,870000,8,Sometimes,3.0,4,3,4,4,4,4,4,4,4,3,3,3.0,3,3,4,4,3,4,3,3,4,5,4,5
+R0294,29,Woman,Java,IDR 5–10M,5,E-commerce,Home care,860000,6,Often,3.0,3,3,3,4,3,3,2,3,3,3,3,3.0,4,4,4,4,3,4,3,3,3,4,4,4
+R0295,47,Man,Java,IDR 5–10M,1,Supermarket,Home care,1010000,7,Never,3.0,3,3,4,4,4,4,5,5,5,3,3,3.0,5,5,3,4,3,4,3,3,3,4,4,4
+R0296,30,Man,Java,> IDR 20M,3,Traditional market,Home care,1140000,8,Rarely,4.0,4,4,5,3,3,3,2,3,3,3,3,2.0,3,4,4,3,3,3,4,3,3,2,3,3
+R0297,21,Woman,Java,IDR 10–20M,2,Supermarket,Food & beverages,1060000,8,Sometimes,4.0,4,5,5,3,2,4,2,2,3,2,2,2.0,2,3,3,3,3,3,3,3,3,3,3,4
+R0298,27,Man,Java,IDR 10–20M,4,Traditional market,Food & beverages,1590000,10,Rarely,3.0,3,3,3,4,4,4,4,3,4,4,4,4.0,4,4,3,4,3,3,5,5,4,4,5,3
+R0299,31,Woman,Java,IDR 5–10M,6,Minimarket,Home care,660000,9,Rarely,5.0,3,3,4,4,4,4,4,3,3,3,2,3.0,3,3,3,2,3,3,3,3,3,4,4,4
+R0300,30,Man,Bali & Nusa Tenggara,> IDR 20M,3,Supermarket,Personal care,1070000,6,Often,4.0,2,2,2,4,3,4,4,4,4,3,2,2.0,5,5,4,3,3,3,3,3,3,5,5,4
+R0301,36,Man,Java,IDR 10–20M,1,Supermarket,Food & beverages,890000,5,Sometimes,2.0,5,4,4,5,4,4,3,2,3,2,2,2.0,4,3,3,4,4,4,3,3,3,3,2,2
+R0302,30,Man,Sumatra,IDR 10–20M,2,Minimarket,Home care,1410000,14,Never,2.0,4,4,4,4,4,5,3,3,3,4,4,3.0,3,2,3,5,4,4,5,4,5,3,3,3
+R0303,48,Man,Java,> IDR 20M,2,E-commerce,Home care,1420000,7,Never,3.0,3,3,3,4,4,4,3,3,3,3,2,2.0,3,4,4,4,3,4,3,4,3,3,3,2
+R0304,49,Man,Kalimantan,> IDR 20M,2,E-commerce,Food & beverages,2270000,13,Sometimes,4.0,3,3,3,4,3,3,4,4,4,4,4,3.0,2,2,2,3,4,3,4,4,4,4,4,4
+R0305,28,Man,Sulawesi,< IDR 5M,4,Minimarket,Food & beverages,820000,8,Often,3.0,3,3,4,3,4,4,3,4,3,3,4,4.0,4,3,3,3,3,4,3,3,3,3,3,4
+R0306,33,Woman,Java,IDR 10–20M,4,Minimarket,Food & beverages,1310000,12,Rarely,3.0,2,1,1,3,3,4,3,3,4,4,3,3.0,3,4,2,4,4,4,4,5,5,3,2,3
+R0307,32,Man,Sulawesi,IDR 5–10M,5,Traditional market,Personal care,570000,7,Rarely,5.0,5,5,4,3,3,3,2,2,2,3,2,2.0,4,4,4,4,5,4,3,3,3,4,4,4
+R0308,32,Man,Sumatra,IDR 5–10M,4,Traditional market,Home care,690000,8,Sometimes,4.0,4,5,4,2,3,3,3,2,2,4,4,4.0,4,5,4,5,4,4,3,2,3,4,4,3
+R0309,20,Man,Kalimantan,> IDR 20M,3,Supermarket,Personal care,1350000,11,Often,4.0,4,3,3,3,4,4,4,3,4,3,3,3.0,4,4,4,5,5,5,4,4,4,4,4,4
+R0310,43,Woman,Java,> IDR 20M,4,Supermarket,Food & beverages,1190000,10,Never,2.0,3,2,3,2,3,4,2,3,4,4,3,3.0,4,4,3,4,3,4,5,5,5,4,3,4
+R0311,30,Man,Java,IDR 5–10M,4,Minimarket,Personal care,680000,6,Sometimes,4.0,4,4,3,4,3,3,3,4,3,3,3,3.0,3,3,3,3,3,3,4,3,3,3,3,3
+R0312,55,Man,Bali & Nusa Tenggara,IDR 5–10M,2,Minimarket,Personal care,1780000,10,Never,3.0,3,3,3,4,4,4,2,3,3,3,2,3.0,2,3,2,5,5,4,4,4,4,3,3,3
+R0313,33,Woman,Sulawesi,IDR 10–20M,3,Supermarket,Food & beverages,1910000,6,Rarely,3.0,2,2,3,4,4,4,4,4,3,4,4,4.0,2,3,3,4,4,4,3,3,3,3,3,4
+R0314,23,Man,Java,< IDR 5M,3,Minimarket,Personal care,670000,9,Rarely,3.0,3,3,2,4,3,3,4,3,3,3,3,3.0,4,4,4,4,4,5,4,4,4,3,3,3
+R0315,26,Woman,Kalimantan,IDR 5–10M,1,E-commerce,Personal care,1340000,11,Rarely,4.0,3,3,4,4,3,4,4,4,4,3,3,3.0,5,5,5,4,4,5,5,5,5,5,5,5
+R0316,44,Woman,Java,IDR 5–10M,3,Traditional market,Home care,970000,8,Sometimes,2.0,4,3,3,4,4,4,4,4,4,2,2,1.0,3,4,3,4,4,4,4,5,4,4,4,4
+R0317,29,Man,Bali & Nusa Tenggara,> IDR 20M,1,Supermarket,Food & beverages,1820000,8,Sometimes,3.0,2,2,2,3,3,3,3,3,3,3,3,3.0,3,4,4,5,4,4,4,4,4,5,4,5
+R0318,33,Woman,Sumatra,IDR 10–20M,2,Minimarket,Food & beverages,600000,5,Sometimes,5.0,4,4,4,4,4,3,4,3,4,3,3,3.0,3,3,3,3,2,3,3,3,3,3,3,2
+R0319,24,Man,Kalimantan,IDR 10–20M,4,Supermarket,Personal care,1650000,8,Sometimes,4.0,3,3,3,5,5,5,4,4,4,4,3,3.0,4,4,3,4,4,4,3,4,4,4,4,4
+R0320,21,Man,Sulawesi,IDR 10–20M,4,Minimarket,Personal care,550000,7,Rarely,4.0,5,4,4,3,3,4,3,3,3,4,3,3.0,3,3,4,3,3,3,2,3,2,2,2,2
+R0321,36,Woman,Java,IDR 5–10M,3,E-commerce,Personal care,1800000,11,Rarely,3.0,2,2,2,4,4,5,3,3,3,3,4,4.0,3,3,4,3,3,3,3,3,4,4,4,4
+R0322,46,Woman,Java,IDR 10–20M,1,Minimarket,Food & beverages,1470000,8,Never,3.0,3,4,3,4,4,4,2,3,3,3,3,3.0,3,3,3,4,4,5,4,4,4,4,4,3
+R0323,29,Man,Java,< IDR 5M,2,Minimarket,Personal care,1020000,11,Sometimes,3.0,3,4,3,4,3,3,3,3,2,4,4,4.0,4,5,5,3,4,4,2,2,2,3,4,4
+R0324,29,Woman,Sulawesi,< IDR 5M,2,Minimarket,Food & beverages,690000,13,Sometimes,4.0,3,3,1,3,4,5,4,4,4,3,4,4.0,5,4,5,4,5,5,3,2,2,4,5,5
+R0325,20,Woman,Java,IDR 10–20M,2,Supermarket,Food & beverages,1520000,11,Sometimes,3.0,3,2,2,5,4,5,5,5,5,4,4,4.0,3,4,4,3,4,3,5,4,4,3,4,3
+R0326,34,Man,Java,IDR 10–20M,5,E-commerce,Home care,1790000,8,Sometimes,3.0,2,2,3,4,4,4,4,3,4,5,5,5.0,3,3,4,4,4,4,3,4,4,4,4,4
+R0327,26,Woman,Java,IDR 5–10M,2,E-commerce,Home care,1210000,7,Often,5.0,3,3,3,4,4,4,4,4,3,4,4,4.0,4,4,4,4,4,4,5,4,4,4,4,3
+R0328,30,Woman,Kalimantan,IDR 5–10M,4,Supermarket,Home care,920000,11,Rarely,2.0,3,2,2,3,5,4,3,4,3,2,3,3.0,2,2,2,5,5,5,3,4,4,3,3,2
+R0329,23,Man,Kalimantan,> IDR 20M,2,Traditional market,Personal care,900000,10,Often,4.0,3,3,3,5,4,4,4,4,3,2,3,3.0,4,5,4,3,4,4,3,3,3,3,4,4
+R0330,18,Woman,Bali & Nusa Tenggara,IDR 5–10M,3,Traditional market,Food & beverages,530000,8,Often,4.0,5,5,5,3,4,3,4,4,4,3,3,3.0,3,3,3,4,3,4,3,3,3,3,2,2
+R0331,22,Man,Sumatra,IDR 10–20M,3,E-commerce,Personal care,1160000,12,Often,4.0,4,4,3,3,3,3,4,4,4,3,3,4.0,5,5,4,5,4,4,4,4,4,3,4,4
+R0332,18,Woman,Java,> IDR 20M,1,E-commerce,Food & beverages,1080000,6,Sometimes,4.0,4,4,5,4,3,3,3,3,3,3,3,2.0,4,4,3,5,4,4,4,3,3,5,4,4
+R0333,27,Man,Java,IDR 10–20M,5,E-commerce,Personal care,910000,8,Sometimes,4.0,4,5,4,2,3,2,3,3,3,2,2,3.0,4,4,4,4,3,3,3,3,3,2,2,3
+R0334,29,Man,Java,> IDR 20M,1,Supermarket,Personal care,1450000,6,Rarely,3.0,3,2,3,5,4,5,4,4,4,4,5,5.0,4,4,4,3,4,3,4,4,4,3,4,4
+R0335,18,Woman,Sulawesi,< IDR 5M,5,Supermarket,Food & beverages,370000,10,Sometimes,5.0,5,5,5,4,3,3,3,3,4,3,3,4.0,2,3,3,4,4,4,4,2,3,3,3,4
+R0336,34,Woman,Sumatra,IDR 10–20M,1,Supermarket,Personal care,1700000,7,Sometimes,2.0,3,2,4,5,4,4,5,5,5,4,4,5.0,4,3,3,5,4,4,4,3,4,3,3,3
+R0337,30,Woman,Kalimantan,IDR 10–20M,5,E-commerce,Home care,490000,8,Sometimes,5.0,4,4,4,4,3,3,3,4,3,2,3,2.0,3,2,3,3,3,3,2,2,3,3,3,3
+R0338,30,Woman,Sumatra,IDR 5–10M,6,Minimarket,Personal care,600000,7,Often,4.0,4,4,4,3,4,4,4,2,3,3,2,2.0,4,3,4,3,4,4,4,3,3,4,4,4
+R0339,25,Man,Java,< IDR 5M,6,E-commerce,Personal care,630000,13,Rarely,3.0,3,2,3,3,3,3,3,3,2,4,4,3.0,4,4,5,4,4,4,2,3,3,5,4,5
+R0340,29,Woman,Sulawesi,< IDR 5M,3,Supermarket,Home care,940000,9,Never,4.0,3,3,3,5,5,4,5,5,4,4,3,5.0,3,4,5,4,5,4,5,4,5,4,3,4
+R0341,44,Woman,Java,IDR 10–20M,5,Minimarket,Home care,1430000,10,Never,3.0,3,3,3,4,3,4,4,3,4,2,2,2.0,3,4,4,4,5,4,4,4,4,3,3,4
+R0342,40,Man,Java,IDR 10–20M,2,Traditional market,Home care,1360000,10,Rarely,4.0,4,4,4,5,5,4,2,3,3,3,4,3.0,2,2,3,5,4,4,4,3,4,4,4,4
+R0343,29,Man,Sumatra,IDR 5–10M,4,Minimarket,Personal care,690000,9,Sometimes,4.0,3,4,3,4,4,4,3,2,3,3,3,4.0,2,2,2,4,4,3,4,4,4,3,3,4
+R0344,19,Woman,Java,IDR 5–10M,6,E-commerce,Home care,880000,10,Often,3.0,3,3,3,3,3,4,3,3,3,3,3,3.0,5,4,5,5,4,4,3,3,2,4,4,5
+R0345,26,Man,Sulawesi,< IDR 5M,3,Minimarket,Personal care,820000,7,Often,4.0,3,3,3,4,5,4,4,4,4,3,3,3.0,4,3,4,3,3,4,3,4,3,5,5,5
+R0346,23,Woman,Sumatra,IDR 5–10M,3,E-commerce,Personal care,860000,8,Sometimes,3.0,3,4,3,5,4,4,3,2,2,4,4,4.0,4,4,4,4,4,4,4,3,3,4,4,4
+R0347,34,Man,Sumatra,< IDR 5M,3,Traditional market,Food & beverages,480000,7,Sometimes,5.0,4,4,3,3,2,3,3,3,3,3,3,3.0,2,3,4,4,3,4,3,3,3,2,2,2
+R0348,18,Woman,Kalimantan,IDR 10–20M,2,Minimarket,Food & beverages,830000,12,Sometimes,4.0,3,4,4,4,3,3,2,3,3,2,2,3.0,3,3,3,4,4,4,3,3,2,3,3,3
+R0349,34,Woman,Sumatra,< IDR 5M,1,Supermarket,Personal care,660000,8,Often,4.0,3,4,3,4,3,3,3,3,3,3,3,3.0,4,4,3,4,5,4,3,4,3,4,4,5
+R0350,44,Woman,Sumatra,IDR 5–10M,2,E-commerce,Food & beverages,550000,7,Sometimes,5.0,4,4,3,3,3,3,3,3,3,3,3,3.0,3,3,3,3,5,4,3,2,3,3,3,4
+R0351,20,Woman,Sumatra,< IDR 5M,4,E-commerce,Home care,890000,8,Often,4.0,4,4,4,4,4,4,4,3,3,3,3,3.0,5,5,5,4,4,4,3,3,4,4,4,4
+R0352,34,Woman,Java,IDR 5–10M,4,Minimarket,Personal care,650000,7,Sometimes,5.0,4,5,4,4,5,4,3,2,3,3,3,4.0,3,3,3,3,3,3,4,4,3,3,2,4
+R0353,37,Woman,Java,IDR 10–20M,7,Traditional market,Food & beverages,960000,8,Rarely,5.0,4,5,5,3,3,3,3,3,3,3,3,3.0,3,3,3,3,3,3,3,3,2,4,3,3
+R0354,36,Woman,Java,IDR 5–10M,2,Minimarket,Food & beverages,1020000,7,Sometimes,4.0,4,4,5,3,4,4,3,3,3,2,2,3.0,4,4,4,4,3,3,3,2,3,3,3,3
+R0355,20,Woman,Sulawesi,IDR 10–20M,3,E-commerce,Personal care,1170000,9,Rarely,5.0,2,3,3,4,5,4,3,3,3,4,4,4.0,5,5,5,4,4,4,3,3,3,4,4,4
+R0356,36,Man,Kalimantan,< IDR 5M,1,E-commerce,Personal care,560000,9,Sometimes,5.0,5,4,4,3,3,2,3,3,3,3,3,3.0,4,3,3,3,3,3,3,4,3,2,3,4
+R0357,26,Woman,Java,< IDR 5M,3,Minimarket,Home care,580000,9,Sometimes,5.0,4,3,4,3,3,3,2,3,4,3,3,3.0,4,4,4,4,5,4,3,3,3,3,3,2
+R0358,23,Woman,Kalimantan,IDR 10–20M,3,Traditional market,Food & beverages,1050000,6,Rarely,5.0,3,3,4,4,3,3,4,3,4,3,3,3.0,5,4,5,3,3,4,3,4,4,3,4,3
+R0359,36,Woman,Java,> IDR 20M,4,Traditional market,Food & beverages,790000,7,Sometimes,3.0,4,3,3,5,4,4,3,2,3,3,3,3.0,2,3,3,3,4,4,3,3,3,3,3,3
+R0360,29,Woman,Java,IDR 10–20M,4,Minimarket,Personal care,1320000,6,Often,4.0,3,4,3,4,4,4,3,4,3,4,3,3.0,5,4,4,3,3,4,3,4,3,4,3,4
+R0361,21,Woman,Bali & Nusa Tenggara,IDR 10–20M,5,E-commerce,Personal care,840000,10,Rarely,4.0,3,3,3,4,3,3,3,3,4,4,4,3.0,5,4,5,4,4,4,3,3,3,4,4,4
+R0362,18,Man,Sumatra,IDR 5–10M,2,Minimarket,Food & beverages,1210000,5,Sometimes,4.0,3,3,3,3,3,3,3,4,4,3,3,3.0,4,4,5,4,4,4,2,2,2,4,4,4
+R0363,44,Man,Sulawesi,IDR 5–10M,2,Supermarket,Food & beverages,1360000,10,Sometimes,3.0,3,3,3,3,4,3,4,3,3,3,3,3.0,3,3,3,3,3,4,4,4,3,2,2,2
+R0364,31,Man,Java,IDR 5–10M,3,Traditional market,Personal care,590000,10,Often,4.0,5,4,5,3,3,3,3,4,4,3,3,3.0,4,5,4,4,4,4,4,4,3,5,5,4
+R0365,24,Woman,Java,IDR 5–10M,3,Minimarket,Personal care,770000,6,Often,4.0,4,4,5,4,4,4,4,4,3,3,3,2.0,3,4,3,3,3,3,2,3,3,3,3,3
+R0366,26,Woman,Java,IDR 10–20M,2,Supermarket,Personal care,830000,7,Rarely,4.0,4,5,4,3,3,3,3,3,3,2,2,2.0,2,4,2,4,4,4,3,3,3,3,3,3
+R0367,27,Woman,Java,IDR 5–10M,1,Supermarket,Food & beverages,740000,11,Sometimes,4.0,4,3,3,4,3,3,2,3,3,2,3,2.0,3,4,3,4,3,3,3,3,3,2,3,3
+R0368,45,Woman,Java,IDR 10–20M,4,Minimarket,Home care,1470000,10,Never,3.0,3,3,2,5,4,5,5,5,5,4,4,4.0,3,4,3,4,4,4,3,3,3,4,3,3
+R0369,18,Man,Java,IDR 10–20M,3,E-commerce,Food & beverages,940000,5,Often,4.0,4,4,4,4,4,4,3,3,3,3,3,3.0,3,3,4,4,4,4,3,3,2,3,4,4
+R0370,44,Woman,Bali & Nusa Tenggara,IDR 10–20M,5,Minimarket,Personal care,2140000,8,Rarely,2.0,3,3,2,5,5,5,3,4,3,2,2,2.0,3,2,2,4,4,4,4,4,4,3,4,3
+R0371,30,Man,Kalimantan,IDR 10–20M,4,Minimarket,Food & beverages,1120000,8,Sometimes,4.0,4,5,5,4,4,3,3,3,3,3,2,3.0,4,3,3,4,4,4,3,3,3,4,4,3
+R0372,20,Woman,Kalimantan,< IDR 5M,3,E-commerce,Personal care,1060000,10,Often,3.0,3,3,3,5,4,4,4,4,4,2,4,4.0,5,5,5,3,3,3,3,3,4,4,3,4
+R0373,18,Man,Java,< IDR 5M,4,E-commerce,Personal care,480000,6,Often,3.0,3,3,3,3,3,3,4,4,4,3,4,3.0,4,4,4,4,3,3,3,3,3,5,5,5
+R0374,26,Man,Sumatra,< IDR 5M,2,Minimarket,Home care,410000,8,Often,4.0,5,4,4,4,3,4,4,3,4,3,2,2.0,4,3,3,3,2,3,3,4,4,3,4,4
+R0375,41,Man,Sumatra,IDR 10–20M,1,E-commerce,Personal care,1130000,11,Sometimes,3.0,3,2,2,4,4,4,4,4,4,3,4,4.0,4,4,3,3,3,3,5,4,4,4,4,5
+R0376,38,Woman,Bali & Nusa Tenggara,IDR 10–20M,5,Minimarket,Personal care,1480000,10,Rarely,3.0,3,4,3,5,4,4,3,3,3,3,2,3.0,3,3,3,4,4,4,4,4,4,4,4,4
+R0377,38,Woman,Sumatra,IDR 10–20M,3,Supermarket,Food & beverages,1030000,10,Never,2.0,2,3,3,3,3,2,2,3,3,2,3,3.0,3,3,3,4,4,4,4,4,4,3,4,4
+R0378,37,Man,Java,IDR 10–20M,3,Supermarket,Food & beverages,1370000,7,Sometimes,5.0,3,3,3,4,3,3,4,4,4,4,4,5.0,3,3,4,3,4,3,4,4,4,4,4,3
+R0379,28,Woman,Sumatra,IDR 10–20M,2,E-commerce,Food & beverages,840000,10,Sometimes,4.0,3,3,3,4,3,4,3,3,3,3,3,2.0,5,4,4,4,4,4,3,4,4,3,4,4
+R0380,34,Woman,Java,IDR 5–10M,3,Traditional market,Personal care,580000,9,Rarely,5.0,4,4,4,3,3,2,2,3,3,3,4,2.0,3,3,3,4,4,4,3,2,3,3,3,3
+R0381,25,Woman,Kalimantan,> IDR 20M,1,Traditional market,Personal care,1020000,8,Often,4.0,4,5,5,3,3,3,4,4,3,3,3,3.0,3,4,4,3,3,3,3,4,3,3,3,3
+R0382,28,Man,Sumatra,< IDR 5M,4,E-commerce,Personal care,520000,8,Sometimes,3.0,4,4,4,4,4,4,3,4,3,4,4,3.0,4,3,4,4,4,4,4,3,4,4,5,5
+R0383,30,Man,Sulawesi,IDR 10–20M,3,Minimarket,Home care,1050000,6,Rarely,5.0,5,5,5,3,3,4,2,1,2,2,3,2.0,3,3,3,5,4,3,3,4,3,2,3,3
+R0384,32,Man,Sulawesi,IDR 5–10M,1,E-commerce,Food & beverages,910000,10,Sometimes,5.0,3,4,4,4,3,4,2,3,3,3,2,3.0,4,4,4,3,3,3,3,4,3,4,5,4
+R0385,18,Woman,Kalimantan,IDR 5–10M,4,Supermarket,Personal care,860000,7,Sometimes,5.0,4,5,5,3,3,2,2,3,3,3,3,3.0,4,3,4,4,3,4,3,3,3,3,3,4
+R0386,24,Woman,Kalimantan,IDR 5–10M,1,E-commerce,Personal care,860000,9,Often,4.0,3,3,3,3,3,3,3,4,4,3,3,3.0,5,5,3,4,4,4,3,3,3,4,4,4
+R0387,21,Woman,Java,< IDR 5M,4,Minimarket,Food & beverages,750000,10,Sometimes,5.0,4,4,4,4,4,4,3,3,2,3,2,3.0,3,3,2,3,4,3,3,4,3,2,2,3
+R0388,31,Woman,Java,< IDR 5M,4,Traditional market,Food & beverages,510000,9,Rarely,5.0,3,3,3,3,4,3,3,3,3,2,2,2.0,4,4,3,4,4,4,3,3,3,2,4,2
+R0389,39,Man,Java,IDR 10–20M,4,Supermarket,Food & beverages,1480000,10,Sometimes,2.0,3,3,3,4,4,4,3,3,3,3,3,3.0,3,3,3,5,5,5,5,4,4,3,3,3
+R0390,24,Woman,Bali & Nusa Tenggara,IDR 10–20M,4,E-commerce,Personal care,1830000,7,Sometimes,3.0,2,3,2,3,4,3,4,4,5,3,3,4.0,5,5,4,5,4,4,3,3,3,4,4,4
+R0391,41,Woman,Java,IDR 10–20M,3,Minimarket,Food & beverages,1010000,15,Rarely,2.0,2,3,2,3,3,4,3,3,2,2,2,2.0,4,3,3,4,4,5,3,3,3,3,3,3
+R0392,44,Man,Sumatra,> IDR 20M,1,E-commerce,Food & beverages,1160000,10,Never,3.0,3,2,3,4,4,3,4,3,4,4,4,4.0,2,2,3,4,4,3,3,3,3,4,4,4
+R0393,18,Woman,Sumatra,< IDR 5M,5,Minimarket,Personal care,950000,8,Rarely,4.0,3,3,3,3,3,5,3,3,3,3,3,2.0,4,4,4,4,4,4,4,3,3,4,4,4
+R0394,19,Man,Sumatra,,3,E-commerce,Home care,930000,9,Sometimes,5.0,4,4,4,4,3,2,3,3,3,3,3,3.0,5,4,5,4,4,4,4,4,4,4,4,4
+R0395,38,Man,Sumatra,< IDR 5M,2,Minimarket,Personal care,610000,8,Sometimes,4.0,4,4,4,4,4,4,3,4,3,4,4,4.0,4,3,4,3,4,4,2,2,2,2,3,3
+R0396,22,Woman,Sumatra,< IDR 5M,4,E-commerce,Home care,460000,7,Sometimes,5.0,5,4,4,2,3,3,4,4,3,3,2,3.0,3,2,2,3,3,3,3,2,3,3,3,3
+R0397,24,Man,Bali & Nusa Tenggara,IDR 5–10M,3,Traditional market,Home care,540000,7,Often,5.0,3,3,4,3,3,3,3,3,4,3,3,2.0,3,4,5,4,3,4,3,3,3,2,3,3
+R0398,18,Woman,Java,IDR 5–10M,4,Traditional market,Personal care,500000,10,Often,5.0,4,4,4,4,4,4,3,3,3,3,3,4.0,4,4,3,3,3,3,3,4,3,3,3,3
+R0399,48,Woman,Java,IDR 5–10M,2,Supermarket,Home care,670000,10,Often,4.0,4,4,4,3,3,3,3,3,3,3,3,3.0,4,5,3,4,4,4,4,3,4,4,3,4
+R0400,39,Woman,Java,IDR 10–20M,4,Minimarket,Food & beverages,2000000,7,Never,4.0,2,3,3,3,3,4,3,4,3,4,3,3.0,3,3,3,4,5,4,3,4,4,4,4,3
+R0401,31,Man,Java,< IDR 5M,4,Minimarket,Personal care,660000,4,Sometimes,4.0,5,5,4,3,4,3,4,4,4,2,3,3.0,3,3,3,3,3,3,3,3,3,3,3,3
+R0402,42,Woman,Bali & Nusa Tenggara,IDR 10–20M,4,Supermarket,Home care,840000,12,Never,4.0,3,4,4,4,3,2,3,3,4,3,2,3.0,2,2,2,5,4,4,3,4,4,2,3,2
+R0403,30,Woman,Sulawesi,< IDR 5M,7,Traditional market,Home care,480000,5,Sometimes,3.0,4,3,3,2,3,2,2,3,3,2,3,3.0,2,4,3,2,3,3,3,3,3,4,4,4
+R0404,43,Woman,Sumatra,IDR 5–10M,3,E-commerce,Personal care,950000,15,Sometimes,3.0,3,4,4,4,4,4,4,4,4,4,3,3.0,4,4,3,4,4,4,4,4,4,3,3,2
+R0405,32,Man,Sumatra,IDR 5–10M,4,Supermarket,Home care,430000,10,Often,3.0,5,4,4,3,4,3,3,3,4,3,3,2.0,2,3,2,4,4,4,4,4,3,3,3,4
+R0406,31,Man,Java,< IDR 5M,3,E-commerce,Personal care,1230000,6,Rarely,3.0,2,2,3,4,4,4,5,5,4,3,3,2.0,3,2,3,4,3,3,4,4,4,5,5,4
+R0407,25,Woman,Java,IDR 5–10M,3,Minimarket,Personal care,940000,8,Often,3.0,3,4,3,3,4,4,4,3,4,4,4,4.0,4,4,4,4,4,4,3,2,2,4,4,4
+R0408,20,Woman,Sumatra,< IDR 5M,1,E-commerce,Food & beverages,900000,9,Often,4.0,3,3,3,4,3,4,4,4,3,3,3,4.0,5,5,5,4,4,3,3,3,3,4,4,4
+R0409,44,Woman,Sulawesi,IDR 10–20M,2,Supermarket,Food & beverages,1910000,11,Rarely,3.0,3,4,3,4,4,4,3,3,3,3,3,2.0,3,3,3,4,5,4,4,4,5,2,3,3
+R0410,26,Woman,Java,IDR 5–10M,5,Minimarket,Personal care,920000,10,Sometimes,4.0,3,3,3,3,3,3,4,4,3,2,3,3.0,4,4,5,5,4,4,3,3,3,4,4,5
+R0411,27,Woman,Java,IDR 5–10M,2,Traditional market,Food & beverages,1340000,9,Rarely,3.0,2,3,3,5,5,5,5,4,4,3,2,3.0,4,3,3,5,3,4,4,5,4,3,3,3
+R0412,35,Woman,Java,> IDR 20M,3,Traditional market,Food & beverages,980000,7,Sometimes,5.0,4,3,4,4,3,4,3,3,3,3,3,3.0,3,3,3,3,3,4,3,4,4,4,4,4
+R0413,33,Man,Kalimantan,IDR 10–20M,2,Supermarket,Food & beverages,1440000,8,Sometimes,4.0,2,2,2,4,4,4,5,5,5,4,4,3.0,4,3,4,4,3,4,3,4,3,5,5,5
+R0414,40,Woman,Java,IDR 5–10M,2,E-commerce,Personal care,870000,10,Often,3.0,3,3,3,4,4,3,5,4,4,4,3,4.0,3,4,2,3,3,3,4,4,5,4,4,4
+R0415,40,Man,Sumatra,IDR 10–20M,3,Minimarket,Personal care,930000,9,Sometimes,3.0,3,3,3,4,5,5,4,3,4,3,4,4.0,3,3,3,3,3,3,3,3,3,4,5,4
+R0416,30,Woman,Kalimantan,IDR 10–20M,2,E-commerce,Food & beverages,1340000,11,Rarely,3.0,3,2,2,5,5,5,3,3,3,4,4,3.0,3,4,4,4,3,4,5,4,4,4,4,4
+R0417,46,Man,Sumatra,IDR 10–20M,4,Supermarket,Home care,1070000,7,Rarely,2.0,3,2,2,4,5,5,4,5,4,3,4,3.0,4,4,5,2,3,3,4,5,4,4,4,4
+R0418,28,Man,Kalimantan,< IDR 5M,4,Traditional market,Personal care,960000,7,Often,3.0,2,3,3,5,5,5,4,4,4,3,3,3.0,2,3,3,3,4,4,4,4,5,4,4,3
+R0419,32,Woman,Java,IDR 10–20M,3,Traditional market,Personal care,1740000,10,Often,4.0,3,3,3,4,4,4,4,4,4,3,3,3.0,4,4,4,5,4,4,3,3,4,4,5,4
+R0420,18,Man,Sumatra,< IDR 5M,3,Minimarket,Home care,670000,6,Often,4.0,5,5,5,3,3,3,3,3,3,3,3,3.0,3,3,3,4,5,4,3,3,3,3,3,3
+R0421,31,Woman,Java,IDR 5–10M,5,E-commerce,Personal care,840000,9,Often,3.0,3,3,3,3,4,4,4,4,5,3,2,3.0,5,5,4,5,4,4,3,4,3,4,4,4
+R0422,23,Man,Java,< IDR 5M,2,Traditional market,Food & beverages,640000,6,Sometimes,3.0,4,4,4,3,3,4,3,3,3,2,3,3.0,4,3,3,4,4,4,4,5,4,3,2,3
+R0423,43,Woman,Java,> IDR 20M,2,E-commerce,Food & beverages,1920000,10,Rarely,4.0,3,3,3,3,3,3,3,3,3,3,4,3.0,2,3,2,4,4,4,4,4,4,4,3,3
+R0424,43,Woman,Sumatra,< IDR 5M,3,Traditional market,Food & beverages,720000,8,Sometimes,5.0,4,4,4,3,4,4,3,4,4,3,3,2.0,3,4,3,4,5,4,3,3,2,4,4,3
+R0425,25,Man,Java,< IDR 5M,3,Supermarket,Home care,580000,7,Often,5.0,5,4,5,3,3,4,3,3,3,3,3,2.0,3,3,4,3,3,3,3,3,2,4,3,3
+R0426,31,Woman,Java,IDR 5–10M,2,Minimarket,Food & beverages,760000,7,Often,4.0,4,4,4,4,4,4,4,3,3,2,2,2.0,4,4,4,4,4,4,3,3,4,3,3,2
+R0427,29,Man,Java,IDR 5–10M,2,Supermarket,Food & beverages,890000,4,Never,2.0,4,3,3,4,4,4,3,3,3,3,3,4.0,3,2,2,3,3,4,4,4,4,2,3,2
+R0428,40,Woman,Sumatra,> IDR 20M,5,Minimarket,Food & beverages,1350000,11,Rarely,1.0,2,2,2,4,4,4,3,3,3,3,2,2.0,4,4,3,5,4,5,5,4,5,4,3,2
+R0429,28,Man,Java,< IDR 5M,4,Minimarket,Food & beverages,680000,9,Sometimes,,3,3,4,3,3,3,3,3,3,3,3,3.0,4,4,4,4,3,4,3,3,3,4,4,5
+R0430,30,Woman,Sumatra,< IDR 5M,3,Supermarket,Food & beverages,450000,6,Sometimes,4.0,5,5,3,4,4,4,2,3,3,3,4,3.0,3,3,3,4,4,4,3,2,3,2,3,3
+R0431,54,Woman,Java,IDR 10–20M,2,E-commerce,Personal care,1390000,11,Rarely,4.0,2,3,3,4,4,4,4,3,4,3,3,3.0,3,3,2,2,3,3,5,5,5,4,4,4
+R0432,30,Man,Java,IDR 10–20M,1,Traditional market,Home care,1050000,10,Often,3.0,4,4,3,4,4,4,3,3,3,3,4,4.0,4,5,4,4,5,5,2,3,3,4,5,5
+R0433,23,Woman,Sulawesi,IDR 10–20M,3,Supermarket,Home care,1360000,11,Rarely,4.0,3,3,3,4,5,5,4,4,3,3,3,3.0,3,3,4,4,5,4,4,4,4,4,4,4
+R0434,34,Woman,Kalimantan,IDR 5–10M,3,Minimarket,Home care,1110000,11,Rarely,2.0,3,4,2,4,4,4,3,3,2,3,2,2.0,4,3,3,5,5,5,4,4,4,4,3,3
+R0435,34,Woman,Sumatra,IDR 10–20M,2,Supermarket,Personal care,1470000,10,Never,3.0,3,3,3,4,5,4,4,4,4,3,4,3.0,3,3,3,3,3,4,4,4,4,4,4,4
+R0436,31,Man,Sulawesi,IDR 5–10M,2,Traditional market,Home care,880000,8,Rarely,3.0,3,3,3,3,4,4,4,4,4,4,3,3.0,4,4,4,4,4,4,3,3,3,4,4,4
+R0437,46,Man,Bali & Nusa Tenggara,IDR 5–10M,3,Minimarket,Home care,930000,11,Rarely,4.0,2,4,4,3,3,3,2,3,4,2,2,,3,4,3,4,3,4,4,5,3,3,3,3
+R0438,26,Woman,Java,IDR 10–20M,2,Traditional market,Food & beverages,1460000,8,Never,4.0,2,2,3,5,5,5,5,4,4,4,3,4.0,3,4,4,4,3,4,4,4,4,4,4,4
+R0439,34,Woman,Java,> IDR 20M,6,E-commerce,Food & beverages,2610000,8,Never,2.0,2,2,1,5,4,5,4,4,4,4,4,4.0,4,3,3,4,3,3,4,4,5,3,4,3
+R0440,31,Woman,Java,IDR 5–10M,1,Minimarket,Personal care,700000,8,Sometimes,5.0,4,4,4,3,2,4,3,3,3,3,3,3.0,3,3,3,3,4,3,3,4,4,3,2,3
+R0441,48,Woman,Sulawesi,IDR 10–20M,3,Minimarket,Personal care,1030000,12,Rarely,1.0,4,4,4,4,4,4,3,3,4,4,4,3.0,2,2,3,4,5,5,5,5,4,3,3,3
+R0442,18,Man,Bali & Nusa Tenggara,< IDR 5M,4,E-commerce,Personal care,650000,4,Sometimes,5.0,4,4,3,4,3,3,3,3,3,3,3,3.0,3,4,4,3,4,3,4,3,4,4,3,3
+R0443,38,Woman,Java,> IDR 20M,4,Minimarket,Food & beverages,1870000,11,Rarely,3.0,2,2,2,4,5,4,2,3,2,4,4,4.0,3,3,3,4,3,4,3,4,4,4,4,4
+R0444,38,Man,Java,< IDR 5M,2,Traditional market,Personal care,700000,6,Never,3.0,3,4,3,3,3,3,3,4,3,3,3,3.0,3,3,3,4,5,4,2,3,3,3,3,3
+R0445,36,Man,Sumatra,> IDR 20M,1,Supermarket,Home care,1550000,12,Sometimes,3.0,3,2,2,4,5,5,5,4,4,4,4,4.0,4,4,4,3,3,3,3,4,3,5,4,4
+R0446,40,Man,Sumatra,< IDR 5M,3,Minimarket,Home care,470000,9,Sometimes,5.0,4,5,5,3,3,3,3,3,4,3,3,3.0,2,2,3,3,3,4,3,3,3,3,4,3
+R0447,36,Man,Java,IDR 5–10M,2,E-commerce,Food & beverages,880000,12,Sometimes,5.0,5,4,4,3,3,2,3,4,3,3,2,3.0,3,3,3,2,3,3,3,3,3,3,2,2
+R0448,42,Man,Java,IDR 5–10M,3,Supermarket,Home care,1520000,14,Rarely,4.0,4,4,4,4,4,3,4,3,3,4,4,3.0,3,3,2,4,4,4,4,5,4,4,3,3
+R0449,29,Man,Sumatra,IDR 10–20M,1,Supermarket,Personal care,1460000,9,Rarely,2.0,3,2,2,4,4,5,4,5,4,3,3,3.0,3,4,3,3,3,4,5,5,5,4,4,4
+R0450,50,Man,Java,> IDR 20M,2,Minimarket,Food & beverages,1390000,12,Rarely,2.0,3,3,4,4,4,4,4,3,4,3,3,4.0,3,4,3,5,4,5,4,5,4,4,4,4
+R0451,30,Woman,Java,IDR 10–20M,3,Traditional market,Home care,710000,7,Often,5.0,4,5,4,4,4,4,3,2,2,3,3,2.0,4,4,3,4,4,4,3,3,3,4,4,4
+R0452,25,Woman,Sumatra,IDR 5–10M,4,Minimarket,Personal care,650000,8,Rarely,5.0,4,4,4,3,4,3,3,3,3,3,2,3.0,3,3,2,4,4,4,4,4,3,3,3,3
+R0453,18,Man,Java,IDR 5–10M,3,Traditional market,Home care,730000,12,Often,4.0,3,3,3,4,4,4,3,3,3,4,3,3.0,4,4,4,4,4,4,2,3,2,4,5,4
+R0454,39,Man,Sumatra,IDR 10–20M,2,E-commerce,Food & beverages,1770000,7,Rarely,3.0,4,3,3,3,4,4,4,5,4,4,4,4.0,4,3,3,3,3,2,5,4,4,3,3,3
+R0455,20,Man,Sumatra,IDR 10–20M,2,Minimarket,Personal care,850000,9,Rarely,4.0,4,3,4,3,3,3,4,3,3,2,2,2.0,2,2,3,3,4,5,3,2,3,3,3,3
+R0456,33,Man,Java,< IDR 5M,5,E-commerce,Personal care,680000,6,Sometimes,3.0,4,4,4,3,4,3,4,4,3,3,3,3.0,3,4,5,4,4,5,3,3,3,4,5,5
+R0457,26,Woman,Java,IDR 5–10M,1,E-commerce,Personal care,540000,6,Sometimes,5.0,4,4,4,4,4,4,4,4,4,3,3,3.0,4,4,4,3,3,3,4,4,4,3,3,3
+R0458,50,Woman,Java,IDR 10–20M,2,E-commerce,Home care,880000,10,Rarely,2.0,2,3,3,3,3,3,3,3,2,3,2,2.0,3,3,3,4,4,4,5,4,5,3,2,3
+R0459,52,Man,Java,> IDR 20M,3,Minimarket,Food & beverages,1240000,11,Rarely,3.0,3,3,3,2,4,3,3,3,4,3,4,3.0,3,2,2,5,5,5,3,4,4,4,4,4
+R0460,38,Man,Java,> IDR 20M,3,E-commerce,Home care,1590000,10,Rarely,3.0,3,3,3,5,5,5,4,4,3,4,4,4.0,3,3,3,5,3,4,5,4,5,4,3,4
+R0461,51,Man,Sumatra,IDR 5–10M,1,Supermarket,Home care,970000,10,Rarely,3.0,3,3,3,3,3,3,4,3,3,3,3,3.0,3,3,3,4,4,4,4,4,5,3,3,2
+R0462,35,Man,Sulawesi,,7,Minimarket,Food & beverages,2470000,12,Rarely,3.0,2,2,3,5,4,5,4,3,4,3,3,3.0,3,3,4,3,4,4,4,4,4,3,4,3
+R0463,18,Woman,Sulawesi,IDR 10–20M,2,Minimarket,Food & beverages,830000,7,Sometimes,5.0,4,3,4,3,4,4,2,3,2,3,3,3.0,4,3,4,4,4,4,3,3,3,4,3,3
+R0464,34,Man,Sumatra,> IDR 20M,3,E-commerce,Home care,1490000,8,Sometimes,3.0,3,2,3,4,3,3,3,2,3,3,3,3.0,4,4,4,3,4,4,5,5,5,3,3,3
+R0465,30,Woman,Java,IDR 5–10M,4,Minimarket,Personal care,910000,9,Sometimes,3.0,3,3,3,4,4,4,4,2,3,3,3,3.0,3,3,3,4,4,5,4,5,5,3,3,3
+R0466,29,Man,Sumatra,IDR 10–20M,2,Supermarket,Home care,1670000,8,Rarely,,3,2,2,5,5,4,5,3,4,4,3,4.0,3,4,4,3,4,4,4,4,4,4,5,4
+R0467,27,Man,Java,IDR 5–10M,3,E-commerce,Food & beverages,1270000,3,Often,4.0,4,4,4,3,4,3,4,4,4,4,3,3.0,5,3,5,3,5,4,3,3,3,4,4,3
+R0468,37,Woman,Java,IDR 10–20M,4,E-commerce,Food & beverages,1100000,9,Rarely,3.0,2,2,2,4,4,4,4,4,4,4,4,4.0,3,3,3,5,4,5,4,4,4,4,4,4
+R0469,20,Woman,Sumatra,> IDR 20M,1,Traditional market,Food & beverages,1300000,9,Often,3.0,4,3,3,3,4,4,3,4,3,3,3,3.0,4,5,4,5,4,5,3,3,3,3,4,4
+R0470,38,Woman,Java,IDR 10–20M,3,Minimarket,Home care,1220000,10,Rarely,4.0,4,4,4,4,4,4,3,4,4,4,4,4.0,2,3,3,4,4,4,4,4,5,3,2,3
+R0471,33,Man,Kalimantan,> IDR 20M,2,Supermarket,Food & beverages,1350000,10,Rarely,2.0,3,2,2,3,3,3,3,3,3,4,4,3.0,2,2,1,4,4,4,4,4,4,3,4,4
+R0472,26,Woman,Sulawesi,IDR 10–20M,7,Supermarket,Food & beverages,1140000,6,Never,3.0,3,3,3,3,4,3,3,3,3,3,3,3.0,2,2,2,5,5,5,4,5,5,3,3,4
+R0473,18,Woman,Sumatra,IDR 5–10M,3,E-commerce,Personal care,890000,5,Often,2.0,4,3,3,4,3,4,4,4,4,3,4,4.0,4,5,5,3,2,3,3,3,3,4,4,4
+R0474,23,Woman,Sulawesi,> IDR 20M,2,Supermarket,Home care,1520000,9,Rarely,2.0,3,4,3,3,4,4,3,4,3,3,3,4.0,2,2,2,4,4,4,4,4,5,4,5,4
+R0475,22,Woman,Java,IDR 5–10M,3,E-commerce,Food & beverages,660000,9,Sometimes,4.0,5,4,4,3,3,3,2,2,2,2,2,2.0,4,3,4,3,4,3,3,2,2,3,3,3
+R0476,33,Woman,Java,> IDR 20M,4,Supermarket,Personal care,1280000,8,Sometimes,2.0,3,4,5,4,4,5,4,3,3,3,3,3.0,3,3,3,5,4,4,4,5,4,4,3,4
+R0477,23,Woman,Java,< IDR 5M,2,E-commerce,Personal care,650000,7,Sometimes,4.0,3,4,4,3,3,4,3,5,4,3,3,3.0,4,4,4,4,4,4,3,3,3,5,4,5
+R0478,37,Woman,Sumatra,> IDR 20M,2,E-commerce,Personal care,1260000,8,Often,4.0,3,3,3,4,3,4,3,4,4,4,4,4.0,3,4,4,5,4,5,4,3,5,4,4,4
+R0479,33,Woman,Java,IDR 5–10M,2,Supermarket,Home care,1130000,12,Rarely,3.0,2,2,3,5,5,5,5,4,4,3,4,4.0,4,4,4,4,4,5,4,4,4,5,4,5
+R0480,38,Man,Java,< IDR 5M,3,Minimarket,Home care,500000,8,Sometimes,5.0,5,5,5,2,2,3,3,2,3,3,4,3.0,2,2,3,3,4,3,3,2,3,4,3,2
+R0481,18,Man,Java,> IDR 20M,2,E-commerce,Personal care,1240000,10,Rarely,3.0,4,4,4,4,4,3,3,3,4,3,3,3.0,4,4,5,4,5,5,4,4,3,5,4,4
+R0482,34,Woman,Kalimantan,IDR 10–20M,3,Minimarket,Personal care,820000,11,Never,4.0,2,3,3,3,4,3,3,4,3,3,3,3.0,3,3,3,3,4,4,5,5,5,3,4,4
+R0483,28,Man,Java,IDR 10–20M,1,E-commerce,Food & beverages,850000,9,Sometimes,5.0,5,5,4,3,4,3,4,3,2,3,3,3.0,3,3,3,2,3,2,3,3,3,2,3,3
+R0484,33,Man,Bali & Nusa Tenggara,< IDR 5M,3,Minimarket,Home care,680000,9,Rarely,4.0,4,4,5,3,4,3,3,4,4,2,2,2.0,3,3,3,4,4,3,4,4,4,3,3,3
+R0485,30,Man,Java,IDR 10–20M,3,Supermarket,Personal care,770000,9,Often,3.0,3,3,3,3,3,4,4,4,3,3,4,3.0,4,3,4,4,3,3,3,3,3,5,4,4
+R0486,35,Man,Kalimantan,IDR 5–10M,5,Minimarket,Home care,790000,6,Sometimes,4.0,3,3,4,3,3,3,3,3,3,3,3,3.0,3,3,3,3,3,4,3,3,3,3,3,3
+R0487,27,Man,Kalimantan,IDR 10–20M,3,Minimarket,Home care,1040000,7,Sometimes,4.0,4,3,3,4,5,4,3,3,4,5,4,5.0,4,3,4,4,4,4,3,3,3,4,4,5
+R0488,32,Man,Java,IDR 5–10M,2,E-commerce,Personal care,800000,9,Often,5.0,3,3,3,3,4,3,3,4,3,4,3,4.0,5,4,5,4,4,4,3,4,4,4,5,4
+R0489,41,Man,Java,< IDR 5M,3,Supermarket,Home care,810000,10,Sometimes,4.0,4,5,4,3,3,3,4,4,3,3,3,3.0,4,2,4,4,5,4,3,3,3,4,3,3
+R0490,33,Man,Sulawesi,IDR 10–20M,3,Minimarket,Home care,1420000,10,Rarely,3.0,3,2,3,4,4,3,3,3,3,3,4,3.0,3,4,3,5,5,4,4,5,5,3,2,3
+R0491,31,Woman,Java,IDR 5–10M,2,E-commerce,Personal care,950000,9,Sometimes,4.0,3,3,4,3,4,3,4,3,4,3,3,3.0,5,5,4,4,4,4,3,4,4,5,5,5
+R0492,44,Woman,Sulawesi,IDR 10–20M,2,Minimarket,Food & beverages,1580000,6,Rarely,3.0,3,3,4,3,4,4,5,5,5,3,2,3.0,2,3,3,4,4,3,3,4,4,4,5,4
+R0493,37,Woman,Java,IDR 10–20M,5,Minimarket,Personal care,1350000,9,Rarely,3.0,3,3,2,4,3,4,2,3,3,3,3,3.0,3,3,3,4,4,4,5,5,5,3,3,3
+R0494,45,Woman,Kalimantan,> IDR 20M,1,Supermarket,Personal care,1740000,7,Rarely,3.0,3,3,3,4,4,4,4,4,4,4,4,4.0,3,4,4,3,4,4,4,4,5,2,1,2
+R0495,44,Woman,Java,IDR 10–20M,3,Minimarket,Home care,1210000,6,Rarely,3.0,4,3,4,2,3,3,4,4,4,3,3,2.0,4,3,3,4,5,5,5,5,5,3,4,4
+R0496,21,Man,Java,< IDR 5M,6,E-commerce,Personal care,700000,10,Often,2.0,3,3,3,3,3,4,3,3,4,4,4,4.0,5,4,5,5,4,5,3,3,3,4,4,5
+R0497,18,Woman,Kalimantan,IDR 10–20M,4,Minimarket,Food & beverages,770000,8,Often,4.0,4,3,4,4,3,4,3,4,3,4,4,3.0,2,2,2,3,4,4,4,3,3,2,3,3
+R0498,36,Man,Java,IDR 10–20M,2,Minimarket,Food & beverages,1330000,9,Often,4.0,4,3,3,3,3,3,3,3,4,4,3,3.0,4,5,5,4,4,4,3,4,3,4,4,3
+R0499,35,Woman,Java,IDR 5–10M,1,Minimarket,Home care,1040000,10,Sometimes,3.0,3,3,4,3,3,3,3,3,3,3,2,2.0,2,3,3,4,5,4,4,4,5,3,3,3
+R0500,30,Man,Sumatra,> IDR 20M,4,E-commerce,Food & beverages,1760000,12,Rarely,3.0,2,2,2,4,4,4,5,5,5,4,4,4.0,3,3,3,2,3,3,5,5,5,3,4,4
+R0501,45,Woman,Java,IDR 10–20M,4,Minimarket,Food & beverages,1150000,10,Sometimes,3.0,2,3,3,3,4,4,4,4,3,3,3,3.0,3,3,3,5,5,4,4,4,4,4,3,3
+R0502,28,Woman,Java,IDR 5–10M,2,E-commerce,Food & beverages,720000,12,Rarely,3.0,4,4,4,4,4,4,4,4,3,4,3,4.0,3,3,3,3,3,4,3,2,2,3,3,2
+R0503,42,Man,Java,IDR 10–20M,3,Minimarket,Personal care,1200000,9,Rarely,4.0,3,3,4,4,3,3,4,4,4,4,4,4.0,2,2,2,4,3,4,4,4,3,3,3,3
+R0504,32,Man,Java,IDR 5–10M,1,Traditional market,Home care,890000,8,Sometimes,5.0,4,4,4,4,4,4,2,3,3,3,2,2.0,3,4,4,3,3,3,3,3,3,3,3,4
+R0505,41,Woman,Java,IDR 5–10M,3,Minimarket,Home care,750000,6,Rarely,2.0,3,3,3,4,3,4,3,3,4,3,2,3.0,2,2,3,4,4,4,4,4,3,2,3,3
+R0506,30,Woman,Java,IDR 10–20M,5,Supermarket,Food & beverages,1780000,10,Sometimes,3.0,2,3,3,4,3,4,3,3,3,4,3,3.0,3,3,3,4,5,5,3,3,4,3,4,3
+R0507,24,Woman,Java,IDR 5–10M,1,E-commerce,Personal care,760000,6,Often,5.0,4,4,3,3,4,3,3,3,3,3,3,4.0,5,5,5,4,4,4,3,3,3,4,4,4
+R0508,36,Man,Sumatra,IDR 5–10M,7,Minimarket,Home care,1440000,10,Never,3.0,3,3,3,4,3,3,3,3,3,2,3,2.0,3,3,2,4,4,4,4,4,4,4,4,3
+R0509,40,Man,Java,IDR 10–20M,2,E-commerce,Food & beverages,1500000,10,Rarely,3.0,2,3,3,4,5,4,5,5,5,3,3,3.0,3,4,3,3,3,3,3,3,4,4,3,3
+R0510,35,Man,Sumatra,IDR 10–20M,3,Supermarket,Personal care,1240000,11,Rarely,4.0,2,3,3,4,4,4,4,4,4,4,4,3.0,3,3,3,2,3,3,5,4,4,4,4,4
+R0511,33,Woman,Java,< IDR 5M,4,E-commerce,Personal care,1120000,9,Rarely,4.0,1,2,2,4,4,4,4,3,4,5,5,4.0,5,5,4,4,4,5,3,3,3,5,5,5
+R0512,34,Woman,Kalimantan,IDR 10–20M,5,Minimarket,Food & beverages,1940000,9,Sometimes,4.0,3,3,2,3,4,4,4,5,5,4,5,5.0,4,3,4,4,4,4,4,2,4,3,3,4
+R0513,37,Woman,Java,,2,Supermarket,Personal care,1170000,11,Rarely,3.0,2,3,2,3,4,3,3,4,4,4,3,3.0,3,3,3,5,5,4,4,5,5,3,3,3
+R0514,40,Woman,Java,IDR 5–10M,6,Minimarket,Personal care,1130000,11,Sometimes,4.0,2,2,3,3,4,3,3,3,3,3,2,4.0,5,4,5,4,5,5,3,3,3,5,4,5
+R0515,31,Man,Kalimantan,< IDR 5M,3,Traditional market,Home care,530000,4,Sometimes,4.0,4,4,4,3,3,3,4,4,3,3,3,4.0,3,3,4,4,3,3,3,2,3,3,3,4
+R0516,33,Man,Sumatra,IDR 10–20M,7,Supermarket,Food & beverages,1700000,7,Sometimes,3.0,3,3,2,4,4,4,4,4,3,3,3,3.0,3,4,4,4,4,3,4,4,5,3,3,4
+R0517,30,Man,Bali & Nusa Tenggara,IDR 10–20M,4,Supermarket,Food & beverages,600000,7,Sometimes,4.0,4,4,4,4,3,3,3,3,3,3,3,3.0,4,4,3,2,2,2,3,3,3,3,3,3
+R0518,32,Woman,Java,IDR 5–10M,3,E-commerce,Personal care,1020000,10,Often,3.0,3,3,3,3,4,3,4,3,3,5,4,5.0,4,5,4,4,4,5,3,3,3,3,4,3
+R0519,19,Man,Java,IDR 10–20M,4,Minimarket,Home care,870000,9,Rarely,2.0,3,3,3,4,4,3,3,4,3,4,4,3.0,5,5,4,4,4,5,3,3,4,4,5,5
+R0520,44,Man,Sulawesi,IDR 10–20M,4,E-commerce,Home care,950000,10,Rarely,2.0,3,3,3,3,3,4,4,4,4,3,3,3.0,3,4,4,5,5,5,4,4,4,3,3,3
+R0521,40,Woman,Java,IDR 5–10M,3,Minimarket,Home care,1050000,12,Rarely,2.0,3,3,3,4,3,3,4,4,4,2,2,2.0,3,4,3,4,4,4,4,4,5,3,4,3
+R0522,27,Man,Java,> IDR 20M,1,Minimarket,Personal care,1550000,9,Rarely,3.0,3,3,4,4,3,3,3,3,3,2,3,2.0,2,2,2,4,5,5,4,4,4,3,4,3
+R0523,41,Woman,Java,< IDR 5M,3,Traditional market,Personal care,800000,12,Rarely,4.0,3,2,2,3,4,3,3,3,3,3,3,3.0,3,3,2,4,5,4,4,4,5,3,4,3
+R0524,29,Man,Sumatra,< IDR 5M,2,Traditional market,Home care,710000,7,Rarely,4.0,4,3,3,3,3,3,2,2,3,2,3,2.0,4,3,3,3,4,3,3,3,2,3,4,3
+R0525,40,Man,Bali & Nusa Tenggara,> IDR 20M,3,Supermarket,Personal care,1810000,10,Rarely,3.0,2,3,2,4,5,4,4,3,4,3,3,4.0,3,4,3,4,4,4,5,5,5,4,3,3
+R0526,30,Woman,Kalimantan,< IDR 5M,7,E-commerce,Personal care,360000,7,Never,4.0,4,4,5,3,2,2,4,3,3,2,2,3.0,2,3,3,3,3,3,3,3,2,3,4,3
+R0527,37,Woman,Java,IDR 5–10M,5,Minimarket,Home care,470000,7,Rarely,4.0,3,4,4,3,3,2,3,4,3,4,2,3.0,5,3,4,3,3,3,3,3,2,3,3,2
+R0528,19,Man,Sumatra,IDR 5–10M,3,E-commerce,Home care,1140000,9,Often,3.0,3,3,2,3,4,3,4,3,3,3,3,3.0,4,4,4,4,3,3,3,3,3,3,4,4
+R0529,34,Man,Java,IDR 5–10M,4,Minimarket,Food & beverages,670000,6,Never,5.0,3,4,4,3,4,3,2,3,2,3,3,3.0,3,2,3,3,3,3,3,3,4,3,3,4
+R0530,51,Man,Java,IDR 5–10M,2,Minimarket,Home care,900000,10,Rarely,4.0,3,3,2,4,4,3,4,5,5,4,4,4.0,4,3,4,3,3,3,4,4,5,3,4,4
+R0531,18,Woman,Java,< IDR 5M,2,Minimarket,Home care,1060000,8,Often,3.0,3,3,3,4,4,3,4,3,3,4,4,3.0,4,4,4,3,4,5,3,3,3,5,4,4
+R0532,19,Man,Kalimantan,> IDR 20M,4,Traditional market,Home care,1030000,4,Never,4.0,4,4,4,4,3,3,2,3,1,4,3,4.0,3,3,3,4,4,4,3,3,3,4,4,4
+R0533,38,Woman,Kalimantan,IDR 5–10M,2,Supermarket,Personal care,810000,8,Sometimes,4.0,4,4,3,4,5,3,4,4,4,3,3,2.0,4,4,4,4,4,4,3,3,4,4,3,4
+R0534,30,Woman,Bali & Nusa Tenggara,< IDR 5M,4,Traditional market,Food & beverages,930000,11,Often,4.0,4,4,3,3,3,2,3,3,2,3,2,3.0,2,2,2,3,3,3,2,3,2,3,4,4
+R0535,28,Man,Java,< IDR 5M,3,Supermarket,Food & beverages,660000,14,Sometimes,4.0,4,4,5,3,3,3,3,3,3,3,2,3.0,3,3,3,3,3,3,2,3,3,3,3,2
+R0536,40,Woman,Java,IDR 5–10M,4,Supermarket,Food & beverages,1280000,8,Sometimes,3.0,2,3,2,5,5,5,4,4,5,4,3,3.0,4,4,3,3,4,4,4,4,4,4,4,4
+R0537,31,Woman,Java,IDR 10–20M,4,Traditional market,Personal care,830000,4,Often,4.0,4,3,4,4,4,4,3,2,4,2,2,3.0,3,3,3,3,2,3,3,3,3,3,3,3
+R0538,52,Woman,Sulawesi,IDR 5–10M,1,E-commerce,Home care,1540000,10,Rarely,3.0,3,3,3,5,5,5,3,2,3,3,3,3.0,4,3,3,3,4,4,5,4,5,5,5,4
+R0539,28,Woman,Sumatra,IDR 5–10M,1,Minimarket,Personal care,580000,8,Sometimes,,3,3,3,3,3,3,3,3,3,2,2,2.0,3,3,3,3,3,4,2,3,3,3,2,2
+R0540,20,Woman,Java,IDR 5–10M,2,Minimarket,Home care,690000,7,Often,4.0,4,4,5,3,3,3,3,3,3,3,3,3.0,4,4,4,3,3,4,4,3,3,2,3,3
+R0541,18,Man,Java,IDR 5–10M,1,E-commerce,Personal care,880000,7,Sometimes,4.0,3,4,4,4,3,4,4,4,4,4,4,3.0,5,5,5,4,4,4,3,2,2,4,5,5
+R0542,41,Woman,Sulawesi,IDR 5–10M,4,Supermarket,Personal care,1230000,10,Sometimes,3.0,3,3,3,5,4,5,5,4,4,4,4,4.0,4,3,4,3,2,3,4,4,4,4,3,3
+R0543,37,Man,Kalimantan,IDR 10–20M,2,Minimarket,Home care,850000,11,Often,5.0,4,4,3,4,4,4,3,4,3,3,4,3.0,3,3,3,3,3,3,3,3,4,2,4,3
+R0544,34,Woman,Java,IDR 5–10M,7,Supermarket,Food & beverages,630000,7,Sometimes,4.0,5,4,4,3,4,3,3,3,2,3,3,3.0,3,4,4,3,2,3,3,3,2,3,2,3
+R0545,23,Man,Java,IDR 5–10M,1,Minimarket,Food & beverages,650000,8,Rarely,2.0,4,3,4,4,4,4,3,3,3,3,4,3.0,2,3,2,3,4,4,4,4,5,3,3,4
+R0546,18,Woman,Java,IDR 10–20M,4,E-commerce,Food & beverages,1240000,8,Sometimes,5.0,2,2,3,3,3,3,4,3,3,4,4,4.0,4,4,4,5,5,4,4,4,3,5,5,5
+R0547,26,Woman,Java,IDR 5–10M,3,Traditional market,Personal care,850000,9,Often,3.0,5,5,4,4,3,4,3,3,3,3,2,3.0,5,5,5,4,4,4,2,2,3,4,3,4
+R0548,24,Woman,Sulawesi,IDR 5–10M,1,Supermarket,Personal care,780000,9,Often,4.0,4,4,3,3,4,4,3,3,2,4,4,4.0,3,4,4,4,4,4,3,2,3,4,5,5
+R0549,28,Man,Java,IDR 10–20M,2,Traditional market,Personal care,970000,9,Rarely,3.0,4,4,4,2,3,2,3,3,2,3,2,3.0,4,4,3,3,4,3,5,5,5,3,3,3
+R0550,36,Woman,Java,IDR 10–20M,1,Traditional market,Home care,680000,4,Sometimes,4.0,4,4,4,2,3,3,3,3,3,4,3,3.0,4,4,3,3,3,4,4,4,4,4,3,3
+R0551,36,Woman,Java,IDR 10–20M,3,E-commerce,Food & beverages,890000,5,Often,3.0,4,4,3,3,3,3,3,4,3,3,4,3.0,4,4,4,4,4,4,4,3,3,5,5,4
+R0552,23,Woman,Java,IDR 10–20M,5,E-commerce,Personal care,880000,10,Sometimes,3.0,3,2,3,3,4,4,4,4,4,4,4,4.0,5,5,4,4,5,5,2,3,3,4,5,4
+R0553,29,Woman,Sulawesi,> IDR 20M,3,E-commerce,Home care,1240000,4,Often,3.0,4,3,4,4,3,4,4,4,4,4,4,4.0,3,4,5,3,4,4,3,3,4,4,4,4
+R0554,29,Woman,Sumatra,IDR 5–10M,4,Minimarket,Food & beverages,610000,6,Often,3.0,3,4,4,4,3,4,3,4,4,2,2,3.0,2,3,3,3,3,3,4,4,4,3,3,3
+R0555,38,Man,Java,> IDR 20M,4,E-commerce,Personal care,2210000,10,Often,3.0,2,2,2,4,4,4,4,4,5,3,4,4.0,2,3,3,4,3,4,5,4,3,3,3,4
+R0556,24,Man,Java,IDR 5–10M,2,Traditional market,Home care,860000,8,Often,4.0,2,3,3,4,4,3,3,3,3,4,3,3.0,5,5,5,3,3,4,2,3,3,3,4,4
+R0557,27,Man,Java,IDR 5–10M,4,Minimarket,Food & beverages,990000,11,Never,3.0,3,2,2,4,4,4,5,5,5,4,3,4.0,3,3,3,3,3,3,4,4,4,4,4,4
+R0558,25,Woman,Sumatra,IDR 10–20M,3,Supermarket,Food & beverages,1160000,10,Rarely,4.0,5,4,5,3,3,3,4,4,4,4,3,4.0,4,3,4,3,4,4,2,2,2,3,3,3
+R0559,35,Woman,Java,> IDR 20M,7,Supermarket,Personal care,1990000,10,Sometimes,3.0,2,3,2,3,4,4,3,4,3,3,4,4.0,3,3,2,4,3,3,3,3,4,3,3,3
+R0560,23,Man,Sulawesi,> IDR 20M,1,E-commerce,Food & beverages,1300000,7,Often,2.0,3,3,3,3,4,3,3,3,4,3,3,2.0,4,4,4,4,4,4,5,4,4,5,4,5
+R0561,24,Man,Sumatra,> IDR 20M,2,Minimarket,Food & beverages,1640000,15,Never,4.0,3,4,2,4,4,4,3,3,3,3,2,3.0,3,3,2,4,4,4,4,4,3,4,4,4
+R0562,48,Man,Java,< IDR 5M,1,Traditional market,Home care,950000,6,Never,3.0,4,4,3,4,4,4,3,3,3,4,3,3.0,3,3,3,5,5,5,5,4,4,2,3,4
+R0563,29,Woman,Java,IDR 10–20M,1,Traditional market,Home care,910000,7,Never,4.0,4,5,5,2,3,2,2,3,3,3,2,3.0,3,3,3,3,3,3,4,5,4,3,4,3
+R0564,18,Woman,Sulawesi,IDR 5–10M,3,Supermarket,Food & beverages,610000,7,Often,4.0,3,3,3,4,4,3,4,4,4,4,4,3.0,5,4,5,4,4,4,4,4,3,4,4,4
+R0565,33,Man,Java,IDR 10–20M,4,E-commerce,Food & beverages,790000,8,Often,4.0,5,4,5,4,4,3,3,3,3,3,4,3.0,3,4,4,3,3,3,3,3,3,3,3,4
+R0566,31,Woman,Java,< IDR 5M,2,Traditional market,Home care,690000,6,Rarely,5.0,3,3,3,4,4,4,5,4,5,4,3,3.0,2,2,3,3,3,4,3,4,4,3,3,3
+R0567,27,Man,Java,IDR 5–10M,2,Supermarket,Food & beverages,590000,9,Sometimes,5.0,4,4,4,4,3,4,2,3,3,3,2,2.0,4,3,3,4,3,4,3,3,4,2,3,3
+R0568,39,Woman,Sulawesi,< IDR 5M,3,Traditional market,Home care,690000,9,Never,2.0,2,3,4,3,4,3,4,4,3,3,3,3.0,4,3,4,5,5,5,5,5,5,3,3,3
+R0569,46,Woman,Sulawesi,IDR 10–20M,3,Minimarket,Home care,770000,10,Rarely,4.0,3,3,3,3,4,4,4,3,4,3,3,3.0,2,3,3,3,4,4,3,4,4,3,4,4
+R0570,40,Man,Sumatra,IDR 10–20M,4,Minimarket,Home care,1190000,13,Rarely,4.0,3,2,3,4,3,4,3,4,4,3,4,2.0,3,3,3,5,4,4,5,5,5,3,3,2
+R0571,19,Woman,Java,IDR 5–10M,2,Minimarket,Personal care,770000,12,Never,4.0,4,4,4,4,4,3,4,4,3,4,3,3.0,3,3,3,3,3,3,3,3,3,3,3,3
+R0572,30,Woman,Java,< IDR 5M,5,E-commerce,Home care,900000,12,Never,2.0,3,3,3,4,4,4,5,5,5,4,4,4.0,3,3,3,4,3,3,5,4,4,3,3,3
+R0573,39,Woman,Kalimantan,IDR 5–10M,4,E-commerce,Home care,810000,9,Sometimes,4.0,2,1,3,4,4,4,3,3,4,3,4,4.0,4,5,5,4,4,3,2,3,2,5,5,5
+R0574,34,Man,Java,IDR 10–20M,4,Traditional market,Food & beverages,1020000,10,Never,3.0,3,3,4,5,5,4,5,5,4,3,4,3.0,3,3,3,4,3,4,3,4,4,5,5,5
+R0575,39,Woman,Sumatra,< IDR 5M,1,E-commerce,Personal care,500000,8,Sometimes,5.0,4,4,4,3,3,3,3,3,3,3,4,3.0,3,3,4,3,4,4,2,3,2,2,2,2
+R0576,34,Woman,Java,> IDR 20M,3,Traditional market,Personal care,1340000,8,Rarely,3.0,4,3,3,4,3,4,3,3,3,2,2,3.0,2,3,3,5,5,5,4,4,5,3,3,3
+R0577,33,Woman,Java,> IDR 20M,3,Supermarket,Home care,1860000,6,Never,4.0,2,2,2,4,4,4,5,5,5,3,3,4.0,3,2,3,4,4,4,4,4,4,4,4,4
+R0578,26,Woman,Java,< IDR 5M,4,Minimarket,Personal care,1030000,11,Never,2.0,3,4,3,4,4,4,3,4,3,2,3,3.0,4,4,3,5,4,5,4,4,5,3,3,3
+R0579,24,Man,Java,IDR 5–10M,2,Supermarket,Personal care,1000000,10,Sometimes,,4,4,4,3,3,3,4,3,3,3,3,2.0,4,4,4,3,3,3,4,3,3,5,5,5
+R0580,37,Man,Java,IDR 10–20M,3,Minimarket,Food & beverages,1220000,9,Rarely,4.0,2,3,2,4,3,3,4,4,4,3,3,4.0,2,2,2,5,5,5,5,4,5,4,4,3
+R0581,47,Man,Java,< IDR 5M,4,E-commerce,Home care,1200000,10,Never,3.0,4,3,4,4,4,3,4,4,4,3,3,3.0,2,3,2,4,3,3,5,5,4,2,3,2
+R0582,32,Woman,Java,IDR 5–10M,1,E-commerce,Home care,510000,6,Rarely,4.0,3,4,4,3,3,3,3,3,3,2,3,3.0,2,2,2,3,3,2,3,3,3,4,4,4
+R0583,18,Man,Sulawesi,< IDR 5M,3,Supermarket,Food & beverages,490000,8,Never,4.0,4,5,5,3,3,3,2,2,3,3,2,3.0,4,4,3,3,3,4,3,2,2,3,3,3
+R0584,24,Man,Java,> IDR 20M,4,E-commerce,Personal care,930000,4,Often,4.0,3,3,3,4,4,4,4,3,4,3,3,3.0,4,4,5,5,4,5,4,5,4,5,4,5
+R0585,25,Woman,Java,IDR 10–20M,2,Supermarket,Home care,540000,8,Often,5.0,4,4,4,3,4,4,2,2,2,3,3,3.0,2,3,3,3,3,4,3,3,3,3,2,3
+R0586,40,Woman,Java,< IDR 5M,5,E-commerce,Personal care,660000,10,Sometimes,5.0,5,4,4,4,4,3,3,3,3,2,2,2.0,3,4,3,3,4,3,3,4,3,3,4,4
+R0587,44,Man,Java,IDR 5–10M,2,Minimarket,Home care,1040000,14,Sometimes,4.0,3,4,3,4,4,4,3,3,3,3,2,3.0,2,3,3,4,5,5,4,4,5,4,3,3
+R0588,39,Man,Sumatra,IDR 10–20M,3,Minimarket,Food & beverages,950000,10,Sometimes,4.0,3,3,3,4,3,4,3,3,3,2,2,2.0,2,3,2,5,5,5,4,5,4,3,4,4
+R0589,38,Man,Java,IDR 5–10M,4,Traditional market,Food & beverages,760000,9,Rarely,4.0,3,4,4,4,4,4,4,4,4,3,3,3.0,3,3,3,4,4,5,4,5,5,2,2,3
+R0590,29,Woman,Sumatra,IDR 5–10M,4,Minimarket,Food & beverages,790000,7,Sometimes,5.0,4,5,4,3,3,4,3,4,4,2,3,2.0,3,3,4,4,2,4,4,4,3,4,4,3
+R0591,24,Woman,Java,< IDR 5M,1,E-commerce,Personal care,740000,6,Often,3.0,4,3,4,4,4,3,3,3,3,3,3,3.0,5,5,5,4,4,5,3,3,3,4,4,5
+R0592,35,Man,Sulawesi,IDR 5–10M,3,E-commerce,Personal care,720000,8,Sometimes,4.0,4,4,3,3,3,3,3,2,2,4,4,3.0,3,3,3,3,4,3,2,2,3,3,3,3
+R0593,31,Man,Java,IDR 5–10M,4,Minimarket,Home care,910000,8,Sometimes,2.0,4,4,3,4,4,4,4,4,3,3,2,3.0,2,2,3,3,3,4,4,3,4,3,3,3
+R0594,24,Woman,Sumatra,IDR 5–10M,7,Supermarket,Food & beverages,650000,6,Often,3.0,3,3,4,3,4,4,3,3,4,2,3,3.0,4,4,4,4,4,4,4,3,3,4,4,4
+R0595,34,Woman,Java,IDR 5–10M,1,Traditional market,Personal care,1010000,6,Often,3.0,4,3,4,3,3,3,4,4,4,4,3,3.0,3,4,4,4,4,3,3,3,2,4,4,5
+R0596,36,Woman,Sumatra,> IDR 20M,5,Supermarket,Food & beverages,2530000,9,Rarely,3.0,2,2,3,5,5,5,4,4,3,4,4,4.0,4,3,4,3,3,3,4,4,4,4,4,3
+R0597,26,Woman,Kalimantan,< IDR 5M,2,Supermarket,Personal care,520000,8,Sometimes,4.0,5,5,5,3,3,3,3,3,4,3,3,3.0,3,3,3,4,3,3,3,3,3,3,3,3
+R0598,30,Woman,Sumatra,IDR 5–10M,1,Supermarket,Food & beverages,940000,9,Never,2.0,3,4,3,4,4,3,3,3,3,3,3,3.0,2,2,2,4,4,4,5,4,4,4,4,4
+R0599,29,Man,Sulawesi,IDR 10–20M,4,Supermarket,Food & beverages,720000,7,Often,3.0,4,4,4,3,3,3,4,3,2,2,3,2.0,3,3,4,4,4,4,2,3,2,2,3,3
+R0600,36,Woman,Java,IDR 5–10M,3,Minimarket,Home care,760000,5,Sometimes,3.0,3,4,4,3,3,3,3,2,3,3,2,3.0,3,3,3,3,3,3,3,3,3,4,3,3
+R0601,36,Woman,Java,> IDR 20M,1,Minimarket,Food & beverages,1030000,10,Often,4.0,3,4,3,4,4,4,4,4,3,3,4,4.0,3,4,3,3,3,3,3,3,2,3,2,4
+R0602,27,Woman,Java,IDR 10–20M,1,Supermarket,Personal care,970000,11,Sometimes,3.0,4,3,3,3,3,3,4,4,3,3,3,4.0,4,4,3,4,4,4,3,3,3,5,5,5
+R0603,21,Woman,Java,IDR 5–10M,2,Supermarket,Personal care,1140000,9,Sometimes,4.0,3,3,2,4,4,4,3,3,3,3,4,3.0,5,5,5,4,4,4,4,4,4,4,4,4
+R0604,50,Woman,Java,> IDR 20M,3,Supermarket,Personal care,1480000,6,Rarely,2.0,3,3,3,3,2,3,3,3,3,2,2,2.0,2,2,3,4,4,3,4,4,4,2,3,3
+R0605,29,Woman,Java,IDR 10–20M,3,Minimarket,Food & beverages,820000,6,Sometimes,4.0,4,5,4,3,4,4,3,2,3,2,2,3.0,2,3,2,3,3,4,4,4,4,2,2,3
+R0606,27,Woman,Java,> IDR 20M,3,Supermarket,Personal care,1680000,11,Often,2.0,2,3,3,4,4,4,4,4,5,4,4,,3,3,3,4,4,4,4,4,4,4,4,4
+R0607,32,Woman,Bali & Nusa Tenggara,IDR 10–20M,2,Traditional market,Food & beverages,720000,5,Never,5.0,4,4,4,3,3,3,3,3,4,2,3,4.0,4,3,3,4,4,5,3,3,2,2,3,3
+R0608,26,Man,Java,< IDR 5M,2,Minimarket,Food & beverages,1330000,9,Rarely,3.0,3,4,4,5,4,5,5,5,5,4,4,4.0,3,3,3,3,4,3,3,5,4,3,2,4
+R0609,28,Man,Kalimantan,> IDR 20M,4,E-commerce,Food & beverages,900000,4,Often,5.0,4,5,5,3,4,4,3,3,3,3,3,3.0,3,3,2,3,4,4,3,4,4,3,3,3
+R0610,37,Woman,Sulawesi,< IDR 5M,2,Supermarket,Food & beverages,810000,7,Sometimes,4.0,3,3,3,4,3,4,3,3,3,4,4,5.0,5,4,4,3,4,4,4,3,3,5,5,5
+R0611,29,Woman,Java,IDR 5–10M,2,Supermarket,Personal care,1120000,4,Sometimes,4.0,4,4,5,3,3,4,3,3,3,3,3,3.0,2,3,3,3,3,4,3,3,3,3,3,3
+R0612,36,Woman,Sulawesi,> IDR 20M,1,E-commerce,Food & beverages,2950000,9,Sometimes,3.0,3,2,3,4,5,4,5,4,4,4,4,4.0,4,3,4,4,3,3,5,5,4,4,4,4
+R0613,35,Woman,Java,IDR 5–10M,2,E-commerce,Food & beverages,450000,7,Sometimes,4.0,4,5,4,3,3,3,3,4,4,1,2,2.0,3,3,3,2,2,3,4,3,3,3,3,4
+R0614,34,Woman,Java,IDR 10–20M,3,Minimarket,Food & beverages,570000,10,Often,5.0,4,5,4,4,2,3,4,3,4,2,3,3.0,2,3,3,3,4,3,2,3,3,3,3,4
+R0615,38,Man,Sumatra,> IDR 20M,4,Supermarket,Food & beverages,1740000,10,Never,2.0,3,4,3,3,3,4,4,3,3,2,2,2.0,3,4,3,4,4,4,4,4,4,3,2,2
+R0616,30,Man,Java,IDR 5–10M,7,Minimarket,Home care,780000,12,Sometimes,4.0,4,4,3,3,4,3,3,3,3,3,3,2.0,3,3,3,4,4,4,3,3,3,4,3,3
+R0617,32,Woman,Java,IDR 10–20M,3,E-commerce,Personal care,890000,7,Sometimes,5.0,4,4,4,3,4,3,3,4,3,3,3,3.0,3,3,3,3,3,3,3,3,3,2,3,3
+R0618,18,Man,Java,< IDR 5M,3,Traditional market,Personal care,570000,2,Sometimes,3.0,4,4,5,3,3,3,3,4,4,3,3,3.0,4,3,3,4,5,4,3,3,2,4,4,4
+R0619,24,Man,Kalimantan,IDR 5–10M,4,Supermarket,Food & beverages,690000,7,Sometimes,5.0,4,4,3,3,3,3,2,2,2,2,2,3.0,4,4,4,4,4,3,3,3,3,2,3,2
+R0620,34,Woman,Java,IDR 10–20M,2,Minimarket,Food & beverages,1910000,9,Never,4.0,3,3,3,4,5,4,4,5,4,2,3,3.0,3,3,4,4,3,3,3,3,3,4,4,3
+R0621,51,Man,Sulawesi,IDR 10–20M,2,Supermarket,Food & beverages,1090000,10,Sometimes,3.0,4,4,3,4,4,4,3,3,4,3,3,3.0,4,2,3,4,4,4,4,4,4,2,3,3
+R0622,28,Woman,Java,> IDR 20M,2,Supermarket,Personal care,1310000,9,Never,4.0,3,4,3,3,4,3,3,3,4,3,3,3.0,4,3,3,3,3,4,5,4,4,3,2,3
+R0623,50,Woman,Sulawesi,IDR 10–20M,3,Minimarket,Personal care,1060000,10,Never,2.0,3,4,4,4,3,3,3,4,3,4,3,2.0,2,3,3,4,4,4,5,4,5,3,2,2
+R0624,23,Woman,Sumatra,IDR 10–20M,2,E-commerce,Food & beverages,630000,6,Sometimes,5.0,3,3,4,3,3,3,3,3,3,3,2,2.0,4,4,4,4,4,3,3,4,4,3,3,3
+R0625,35,Man,Sumatra,< IDR 5M,3,Supermarket,Home care,710000,11,Rarely,2.0,2,3,3,2,3,3,4,4,4,2,3,3.0,2,3,4,4,5,4,4,5,5,4,3,4
+R0626,27,Man,Sumatra,,6,E-commerce,Personal care,830000,10,Sometimes,5.0,3,4,3,4,4,3,4,3,2,2,3,3.0,4,4,4,4,4,5,3,3,3,5,5,4
+R0627,23,Man,Sumatra,IDR 5–10M,3,Minimarket,Personal care,690000,10,Never,4.0,4,2,3,3,3,4,3,3,2,3,3,3.0,4,3,3,4,4,3,3,3,3,3,3,4
+R0628,49,Man,Sumatra,IDR 10–20M,4,Supermarket,Home care,1350000,8,Never,3.0,3,3,2,4,4,4,3,3,3,2,4,3.0,3,3,2,4,4,4,4,4,4,3,4,3
+R0629,36,Woman,Java,> IDR 20M,2,Supermarket,Food & beverages,1640000,8,Rarely,3.0,2,3,3,5,5,4,4,4,3,3,3,3.0,4,3,4,3,4,3,4,3,4,4,4,4
+R0630,19,Man,Sumatra,IDR 10–20M,2,Minimarket,Personal care,850000,9,Rarely,5.0,3,4,3,4,4,4,3,3,4,3,4,4.0,5,5,4,4,4,3,4,4,3,4,3,3
+R0631,28,Woman,Java,IDR 5–10M,4,Supermarket,Food & beverages,880000,9,Sometimes,3.0,3,4,3,3,4,4,3,3,2,4,4,4.0,3,5,3,4,4,4,3,3,3,4,4,4
+R0632,25,Woman,Java,> IDR 20M,4,E-commerce,Personal care,1150000,9,Often,3.0,5,4,4,4,4,5,4,5,4,3,4,4.0,4,4,4,5,4,5,3,3,3,4,5,4
+R0633,42,Woman,Kalimantan,,2,E-commerce,Home care,1430000,8,Rarely,4.0,3,3,3,4,5,5,3,5,3,4,4,5.0,2,2,2,4,5,5,4,4,5,2,3,3
+R0634,30,Woman,Sulawesi,IDR 5–10M,2,Minimarket,Personal care,650000,9,Sometimes,5.0,5,5,5,3,2,3,3,3,2,4,4,4.0,3,3,3,2,3,3,3,3,3,2,2,3
+R0635,34,Man,Kalimantan,IDR 10–20M,4,E-commerce,Food & beverages,660000,3,Often,3.0,5,5,5,3,3,3,4,3,3,2,2,3.0,3,4,3,4,4,4,3,3,3,3,3,3
+R0636,36,Man,Sumatra,IDR 5–10M,4,Supermarket,Home care,680000,5,Sometimes,4.0,5,5,5,3,3,3,3,3,2,2,2,2.0,4,3,4,3,4,3,2,3,3,3,3,3
+R0637,27,Woman,Sumatra,IDR 5–10M,2,E-commerce,Personal care,1090000,11,Rarely,3.0,2,2,2,4,4,3,3,4,4,4,3,4.0,4,3,3,4,3,3,4,4,4,4,3,3
+R0638,32,Woman,Sumatra,IDR 5–10M,4,Supermarket,Personal care,850000,9,Often,3.0,2,2,2,5,4,5,4,4,3,2,3,2.0,4,4,4,4,4,4,3,4,3,4,4,4
+R0639,31,Woman,Java,> IDR 20M,4,E-commerce,Home care,2340000,7,Never,4.0,3,3,3,4,4,5,4,5,4,3,4,3.0,2,3,3,3,4,4,5,5,5,4,3,3
+R0640,25,Woman,Java,> IDR 20M,2,E-commerce,Food & beverages,1690000,9,Sometimes,2.0,2,2,1,4,3,4,4,3,4,5,5,5.0,2,2,3,4,4,4,5,4,4,3,3,4
+R0641,37,Man,Sulawesi,IDR 10–20M,2,Supermarket,Home care,1200000,5,Rarely,3.0,4,3,4,5,5,5,4,4,4,3,4,3.0,3,4,3,3,3,3,4,3,3,4,4,4
+R0642,29,Woman,Bali & Nusa Tenggara,IDR 10–20M,1,E-commerce,Personal care,990000,12,Sometimes,4.0,2,3,4,3,4,3,3,3,3,3,3,3.0,4,5,4,3,4,4,3,2,3,4,4,4
+R0643,26,Woman,Java,IDR 5–10M,5,Minimarket,Personal care,1370000,10,Sometimes,4.0,4,4,4,4,4,3,3,3,2,3,2,3.0,2,2,2,4,3,4,4,4,4,3,3,3
+R0644,48,Woman,Kalimantan,,1,Supermarket,Home care,900000,10,Rarely,4.0,2,3,3,4,4,4,3,4,3,2,3,2.0,3,3,3,4,4,4,4,4,4,3,3,3
+R0645,19,Woman,Java,IDR 5–10M,5,E-commerce,Food & beverages,600000,6,Rarely,4.0,3,4,3,4,4,4,3,2,3,3,3,3.0,4,3,3,3,3,3,3,3,3,3,3,3
+R0646,38,Man,Java,IDR 10–20M,3,E-commerce,Personal care,620000,10,Sometimes,4.0,5,5,5,2,2,2,4,3,4,1,1,2.0,4,4,4,3,3,2,4,4,4,3,3,3
+R0647,30,Woman,Java,IDR 5–10M,2,E-commerce,Personal care,650000,3,Rarely,4.0,5,5,4,3,3,3,2,2,3,3,2,2.0,3,4,3,4,4,4,3,3,4,4,4,3
+R0648,18,Woman,Bali & Nusa Tenggara,IDR 10–20M,6,Minimarket,Personal care,950000,9,Often,4.0,3,4,3,4,3,4,3,3,3,4,4,3.0,5,5,5,4,4,3,3,4,4,3,3,4
+R0649,25,Man,Java,IDR 5–10M,2,E-commerce,Food & beverages,1250000,9,Sometimes,4.0,3,3,4,3,3,3,3,2,2,4,3,4.0,4,4,4,4,4,4,3,4,3,5,4,4
+R0650,41,Man,Sulawesi,IDR 10–20M,3,Minimarket,Food & beverages,1160000,13,Rarely,3.0,3,2,3,4,4,3,3,3,3,3,4,4.0,3,4,3,4,4,5,4,4,4,3,3,4
+R0651,30,Woman,Sumatra,> IDR 20M,7,Minimarket,Home care,1710000,8,Rarely,4.0,3,3,2,4,3,5,4,3,3,3,4,4.0,3,3,3,5,5,5,4,4,3,3,3,3
+R0652,24,Woman,Bali & Nusa Tenggara,< IDR 5M,2,Traditional market,Personal care,690000,9,Sometimes,4.0,4,4,3,3,4,4,4,4,4,3,3,4.0,4,4,5,3,3,4,3,3,4,4,3,4
+R0653,44,Man,Java,> IDR 20M,2,E-commerce,Home care,1520000,7,Sometimes,3.0,2,2,2,4,4,4,5,4,4,3,3,4.0,4,4,3,4,4,5,4,4,4,4,4,4
+R0654,27,Woman,Java,IDR 5–10M,2,Supermarket,Home care,890000,6,Rarely,4.0,4,4,3,2,3,2,4,3,3,3,3,3.0,4,3,2,2,3,2,3,3,3,2,2,2
+R0655,32,Woman,Sumatra,< IDR 5M,7,Minimarket,Food & beverages,860000,6,Often,4.0,5,4,4,3,3,3,2,2,3,4,3,3.0,4,4,3,4,4,3,2,2,2,3,3,2
+R0656,30,Man,Bali & Nusa Tenggara,IDR 5–10M,4,E-commerce,Home care,850000,11,Sometimes,4.0,4,3,3,2,3,3,4,4,3,3,3,4.0,3,3,3,3,4,4,3,3,2,2,2,2
+R0657,33,Man,Java,< IDR 5M,1,Minimarket,Food & beverages,630000,9,Sometimes,3.0,4,4,4,4,3,4,4,4,4,2,3,2.0,4,4,4,4,4,4,3,4,4,4,4,3
+R0658,47,Woman,Java,> IDR 20M,2,Supermarket,Personal care,1450000,5,Rarely,2.0,3,3,3,5,5,5,3,4,4,4,4,4.0,3,3,3,3,4,4,4,3,4,5,5,5
+R0659,33,Man,Java,IDR 5–10M,5,Traditional market,Food & beverages,760000,8,Sometimes,4.0,5,5,4,3,2,2,4,3,3,3,3,3.0,3,3,4,3,4,4,3,2,2,3,4,3
+R0660,40,Woman,Java,> IDR 20M,4,Minimarket,Food & beverages,2250000,12,Never,3.0,4,3,4,4,4,4,4,4,3,4,4,5.0,4,3,3,2,3,3,5,5,5,4,4,4
+R0661,29,Woman,Java,< IDR 5M,4,E-commerce,Food & beverages,930000,10,Rarely,3.0,3,3,3,5,4,4,4,4,4,3,3,2.0,2,2,2,4,5,5,3,4,4,3,3,3
+R0662,30,Woman,Java,IDR 5–10M,4,E-commerce,Food & beverages,1080000,10,Sometimes,2.0,3,2,3,5,4,5,4,4,4,3,3,3.0,4,4,5,3,4,4,3,3,3,4,4,5
+R0663,35,Woman,Java,IDR 10–20M,3,Minimarket,Home care,1530000,9,Rarely,3.0,3,3,3,4,4,4,3,3,3,2,3,3.0,4,4,4,5,4,5,3,3,4,5,5,4
+R0664,46,Man,Java,> IDR 20M,4,Supermarket,Food & beverages,1420000,11,Sometimes,2.0,4,3,3,3,3,3,4,4,4,4,3,4.0,2,2,3,3,4,4,4,5,4,4,3,4
+R0665,18,Woman,Java,IDR 10–20M,5,E-commerce,Personal care,1260000,12,Sometimes,3.0,3,3,3,3,3,4,3,4,3,3,3,3.0,5,5,5,3,3,3,3,2,3,5,5,4
+R0666,36,Woman,Kalimantan,IDR 10–20M,1,Supermarket,Personal care,1450000,6,Rarely,3.0,3,3,2,4,4,5,4,4,4,3,3,3.0,3,4,3,4,3,3,4,4,4,3,3,3
+R0667,30,Woman,Sumatra,> IDR 20M,2,Traditional market,Personal care,2000000,7,Sometimes,3.0,3,2,2,5,5,4,4,4,4,3,4,4.0,3,3,4,3,5,4,3,4,4,4,3,3
+R0668,30,Woman,Sulawesi,> IDR 20M,2,Supermarket,Personal care,2320000,11,Rarely,3.0,3,2,3,4,4,3,5,4,4,5,5,4.0,3,4,3,4,4,3,3,4,4,5,4,4
+R0669,33,Man,Java,> IDR 20M,1,Supermarket,Personal care,1670000,7,Never,3.0,3,3,4,4,4,4,3,3,3,2,3,3.0,2,2,2,4,5,4,5,5,5,3,2,3
+R0670,21,Man,Sulawesi,IDR 10–20M,1,Supermarket,Food & beverages,1120000,11,Often,3.0,3,3,3,4,4,4,3,3,3,4,4,4.0,5,4,5,4,3,3,3,3,4,4,4,4
+R0671,29,Man,Kalimantan,IDR 10–20M,2,Minimarket,Personal care,2000000,12,Rarely,4.0,2,3,2,5,4,4,4,4,4,4,4,3.0,4,3,4,3,3,3,4,4,3,3,3,3
+R0672,51,Woman,Kalimantan,IDR 5–10M,2,Supermarket,Home care,1590000,12,Sometimes,2.0,3,3,3,3,3,3,3,3,4,3,3,3.0,2,3,3,4,3,3,4,4,4,3,4,4
+R0673,21,Man,Sulawesi,IDR 5–10M,4,Traditional market,Personal care,720000,5,Sometimes,4.0,5,4,3,3,3,3,4,4,4,4,4,4.0,3,3,3,3,4,3,2,2,3,3,3,3
+R0674,30,Man,Java,> IDR 20M,2,Minimarket,Food & beverages,2080000,13,Sometimes,2.0,3,3,3,5,4,5,5,5,5,3,4,3.0,4,3,3,4,3,3,4,4,4,4,4,4
+R0675,44,Man,Java,> IDR 20M,3,Minimarket,Food & beverages,1710000,11,Rarely,4.0,3,3,3,4,4,4,4,3,4,3,2,3.0,3,3,3,4,4,4,4,4,3,3,3,3
+R0676,37,Woman,Sulawesi,IDR 5–10M,4,Supermarket,Home care,1280000,12,Never,3.0,4,4,4,4,4,4,3,4,3,2,2,3.0,3,3,4,5,5,5,4,5,5,2,2,2
+R0677,34,Woman,Java,IDR 5–10M,1,E-commerce,Personal care,690000,8,Often,4.0,2,2,2,4,4,4,3,2,3,4,4,4.0,5,3,4,4,4,4,4,3,4,4,3,4
+R0678,20,Man,Bali & Nusa Tenggara,< IDR 5M,6,Supermarket,Home care,1130000,8,Rarely,3.0,3,3,3,4,4,4,4,5,4,4,3,4.0,4,4,3,3,3,2,3,3,4,3,3,3
+R0679,36,Man,Java,IDR 5–10M,6,E-commerce,Home care,720000,12,Rarely,3.0,3,2,2,3,4,4,3,3,3,4,3,3.0,2,3,2,5,4,5,3,3,4,3,4,3
+R0680,39,Man,Java,IDR 10–20M,1,Minimarket,Personal care,1410000,14,Often,3.0,2,3,2,3,3,2,3,3,3,4,4,3.0,4,3,3,5,4,5,3,4,3,3,4,4
+R0681,20,Woman,Java,< IDR 5M,3,E-commerce,Food & beverages,940000,10,Often,3.0,3,4,3,3,3,3,4,4,4,3,3,3.0,5,5,5,3,4,4,3,2,3,5,4,5
+R0682,38,Man,Java,IDR 10–20M,5,Supermarket,Home care,1360000,10,Rarely,2.0,3,3,3,4,4,4,3,3,4,3,2,2.0,2,3,3,5,4,4,5,5,5,3,3,3
+R0683,44,Woman,Java,IDR 10–20M,2,Minimarket,Food & beverages,1090000,8,Rarely,3.0,3,3,3,4,5,4,4,4,5,3,4,4.0,3,4,3,5,3,3,3,4,4,4,5,4
+R0684,27,Woman,Java,> IDR 20M,3,Minimarket,Food & beverages,960000,9,Rarely,5.0,4,4,5,4,3,3,3,3,3,3,3,3.0,3,3,3,2,3,3,3,2,2,3,3,3
+R0685,38,Woman,Sumatra,IDR 10–20M,3,Traditional market,Home care,1620000,9,Rarely,2.0,1,3,2,4,3,4,5,5,5,3,4,4.0,2,4,3,4,3,3,4,4,5,4,4,4
+R0686,32,Man,Sumatra,IDR 5–10M,3,Supermarket,Personal care,450000,7,Sometimes,4.0,4,4,5,3,3,4,3,3,3,2,1,2.0,3,4,3,4,4,4,3,3,2,3,3,4
+R0687,41,Woman,Sumatra,> IDR 20M,3,Traditional market,Food & beverages,860000,4,Sometimes,5.0,4,5,4,4,4,4,3,2,3,3,3,3.0,4,4,4,3,3,3,3,3,3,3,3,2
+R0688,31,Woman,Java,IDR 10–20M,3,Supermarket,Food & beverages,1360000,7,Often,4.0,3,3,3,4,3,3,3,3,4,4,4,3.0,4,4,4,5,4,4,3,3,3,5,4,4
+R0689,43,Man,Java,> IDR 20M,5,Minimarket,Personal care,1750000,13,Sometimes,3.0,3,3,2,4,4,4,4,4,4,4,4,4.0,4,3,3,3,3,4,5,5,4,4,4,4
+R0690,18,Woman,Java,IDR 10–20M,2,Traditional market,Home care,1140000,8,Sometimes,4.0,4,4,4,4,4,4,3,3,3,4,3,4.0,4,4,4,4,4,4,2,2,2,4,4,4
+R0691,35,Woman,Sumatra,IDR 5–10M,2,Minimarket,Personal care,820000,9,Rarely,3.0,3,3,3,3,4,4,3,3,3,3,3,3.0,2,3,2,4,5,5,5,4,4,3,3,4
+R0692,23,Woman,Java,IDR 5–10M,3,Supermarket,Personal care,610000,9,Sometimes,4.0,3,4,3,3,3,3,3,4,4,3,4,4.0,4,5,4,4,4,3,4,4,3,4,4,4
+R0693,28,Woman,Sulawesi,IDR 10–20M,1,Minimarket,Personal care,1120000,8,Sometimes,2.0,2,2,3,4,3,3,4,3,3,2,3,4.0,3,4,4,5,5,5,4,4,5,3,3,4
+R0694,29,Woman,Java,IDR 5–10M,2,Minimarket,Home care,1010000,8,Often,3.0,3,3,2,5,4,4,4,3,3,3,4,4.0,4,4,4,5,4,4,3,4,2,4,5,4
+R0695,28,Woman,Java,IDR 5–10M,2,E-commerce,Personal care,870000,9,Often,4.0,4,3,4,4,4,4,5,5,4,3,3,3.0,4,4,4,4,3,4,4,4,5,4,4,5
+R0696,27,Man,Java,< IDR 5M,3,Minimarket,Home care,600000,11,Rarely,5.0,4,4,4,3,3,3,4,4,3,4,4,4.0,3,3,3,3,2,3,3,3,3,4,3,4
+R0697,19,Man,Java,IDR 5–10M,1,E-commerce,Home care,1140000,8,Often,3.0,3,3,4,3,3,4,3,3,3,4,3,4.0,3,3,3,4,3,3,4,3,3,5,4,4
+R0698,40,Woman,Java,> IDR 20M,2,Minimarket,Food & beverages,1130000,8,Rarely,3.0,1,2,3,4,4,4,4,4,4,4,4,4.0,2,3,2,3,4,3,4,4,4,3,3,4
+R0699,44,Man,Kalimantan,IDR 10–20M,4,Minimarket,Personal care,880000,9,Never,3.0,2,3,3,4,4,4,3,3,3,3,3,2.0,3,2,3,4,4,4,5,5,4,4,4,4
+R0700,55,Man,Java,IDR 10–20M,4,Minimarket,Food & beverages,1320000,9,Rarely,3.0,3,3,2,5,3,4,3,4,4,4,3,4.0,3,3,3,4,5,5,5,5,5,3,5,4
+R0701,39,Man,Bali & Nusa Tenggara,> IDR 20M,4,E-commerce,Food & beverages,1450000,12,Never,2.0,3,4,3,4,4,3,4,3,4,3,3,3.0,3,3,3,4,4,4,4,3,4,3,3,3
+R0702,32,Man,Sumatra,< IDR 5M,1,E-commerce,Personal care,870000,5,Sometimes,4.0,3,3,3,3,3,4,3,3,2,4,4,5.0,5,5,4,4,4,4,3,3,2,5,5,5
+R0703,36,Woman,Kalimantan,< IDR 5M,2,E-commerce,Food & beverages,1250000,8,Sometimes,2.0,4,4,3,4,5,4,4,4,3,3,2,2.0,4,3,4,3,3,3,4,3,3,4,4,4
+R0704,44,Woman,Sumatra,IDR 10–20M,3,Minimarket,Home care,1410000,9,Rarely,2.0,3,4,4,4,4,5,4,4,4,3,2,3.0,4,2,2,4,4,4,4,5,4,3,2,3
+R0705,35,Man,Java,,3,Supermarket,Home care,960000,9,Rarely,3.0,4,3,4,4,4,4,2,2,3,3,3,3.0,2,2,3,5,4,4,4,4,3,3,3,3
+R0706,38,Woman,Java,IDR 5–10M,3,Supermarket,Food & beverages,1310000,9,Rarely,3.0,4,4,4,4,4,4,3,3,3,3,4,3.0,2,2,3,4,4,4,3,4,4,3,4,3
+R0707,18,Man,Kalimantan,IDR 10–20M,4,E-commerce,Personal care,910000,8,Sometimes,4.0,3,3,3,3,3,3,4,3,3,3,3,3.0,4,4,5,4,4,4,3,4,4,4,4,5
+R0708,42,Man,Java,IDR 10–20M,2,Supermarket,Home care,1240000,9,Rarely,3.0,3,2,3,4,4,5,4,4,4,3,4,4.0,3,3,3,3,3,3,3,4,4,3,4,4
+R0709,29,Woman,Sumatra,< IDR 5M,1,Supermarket,Personal care,600000,5,Often,4.0,5,5,5,4,4,4,2,3,2,3,3,3.0,4,3,4,4,4,4,3,4,3,3,3,3
+R0710,26,Man,Java,IDR 10–20M,5,E-commerce,Food & beverages,1210000,12,Never,3.0,3,3,3,5,5,5,3,4,3,4,3,3.0,4,3,4,3,4,4,4,4,4,4,4,4
+R0711,23,Man,Sulawesi,IDR 5–10M,3,E-commerce,Food & beverages,850000,9,Often,3.0,3,3,2,4,4,4,3,3,3,3,4,3.0,4,4,4,4,4,4,3,3,3,4,4,4
+R0712,27,Woman,Java,< IDR 5M,2,Traditional market,Home care,590000,10,Sometimes,5.0,3,4,4,3,3,3,3,3,3,3,3,3.0,4,3,3,3,3,2,2,3,3,3,2,3
+R0713,33,Man,Sumatra,> IDR 20M,4,Supermarket,Personal care,1200000,7,Often,4.0,4,4,3,3,2,3,3,3,3,1,2,1.0,3,3,2,4,5,3,3,3,3,3,4,3
+R0714,27,Man,Kalimantan,< IDR 5M,2,E-commerce,Food & beverages,450000,6,Often,4.0,4,4,4,3,3,3,3,3,3,3,3,2.0,3,2,3,4,3,3,3,3,2,3,3,3
+R0715,37,Woman,Java,IDR 5–10M,6,E-commerce,Food & beverages,1260000,8,Sometimes,3.0,2,3,2,5,5,4,4,3,4,4,4,,3,4,3,4,4,4,4,4,4,4,4,3
+R0716,49,Man,Java,IDR 10–20M,3,Supermarket,Personal care,1330000,11,Rarely,4.0,3,2,3,4,4,4,3,3,4,3,3,4.0,3,3,3,4,4,4,5,5,5,3,4,3
+R0717,35,Woman,Sumatra,IDR 5–10M,5,E-commerce,Food & beverages,1050000,7,Sometimes,5.0,4,4,4,4,3,3,4,4,3,3,3,3.0,4,4,3,3,3,3,3,3,3,3,3,3
+R0718,33,Woman,Sumatra,< IDR 5M,4,Minimarket,Home care,830000,11,Never,2.0,2,2,3,3,3,4,3,3,3,3,3,3.0,3,3,3,4,4,4,4,4,4,3,3,3
+R0719,33,Woman,Java,IDR 5–10M,3,E-commerce,Home care,610000,9,Rarely,5.0,3,4,4,3,3,3,3,2,2,3,2,2.0,3,3,3,4,3,3,3,3,2,4,3,3
+R0720,27,Woman,Java,> IDR 20M,6,Supermarket,Food & beverages,2020000,13,Rarely,3.0,3,3,4,4,4,3,5,5,4,5,5,4.0,3,4,4,3,3,3,5,3,4,4,4,4
+R0721,31,Man,Java,IDR 5–10M,3,E-commerce,Food & beverages,530000,14,Sometimes,4.0,4,4,4,4,4,3,4,4,5,3,4,3.0,5,5,4,3,4,4,2,3,3,4,4,4
+R0722,35,Woman,Sulawesi,IDR 10–20M,5,Supermarket,Personal care,1240000,8,Never,4.0,3,2,2,3,3,4,3,3,3,3,3,3.0,3,3,3,4,4,4,4,4,4,4,3,4
+R0723,47,Woman,Java,< IDR 5M,2,Minimarket,Food & beverages,790000,13,Sometimes,3.0,4,3,4,3,3,4,3,3,4,3,3,2.0,2,3,3,4,4,4,3,4,3,3,2,3
+R0724,35,Man,Bali & Nusa Tenggara,> IDR 20M,3,Minimarket,Home care,1170000,9,Never,4.0,3,3,2,3,3,4,3,3,3,3,3,3.0,3,3,2,4,4,4,3,4,4,3,3,3
+R0725,34,Woman,Java,> IDR 20M,3,Supermarket,Food & beverages,1290000,12,Never,3.0,3,2,2,4,4,4,3,3,4,4,3,3.0,4,4,5,4,5,4,4,3,4,4,4,5
+R0726,37,Man,Java,IDR 5–10M,2,E-commerce,Food & beverages,980000,9,Rarely,3.0,3,4,3,4,4,3,4,4,4,4,4,4.0,3,4,4,3,3,3,4,4,4,4,4,4
+R0727,26,Man,Java,IDR 5–10M,3,E-commerce,Food & beverages,530000,8,Sometimes,5.0,4,4,5,3,3,3,4,3,4,4,4,4.0,3,3,3,4,4,4,3,3,3,3,3,3
+R0728,31,Woman,Java,< IDR 5M,5,E-commerce,Personal care,400000,10,Rarely,5.0,5,4,4,3,3,3,4,4,4,4,4,3.0,3,3,3,4,3,4,3,2,2,4,4,4
+R0729,29,Woman,Bali & Nusa Tenggara,< IDR 5M,1,Minimarket,Personal care,590000,5,Rarely,4.0,5,5,4,4,3,3,3,2,3,4,4,3.0,2,3,1,4,4,4,3,2,3,3,3,2
+R0730,36,Woman,Sumatra,> IDR 20M,1,Minimarket,Food & beverages,1220000,12,Rarely,3.0,4,4,4,3,3,4,4,4,3,3,3,3.0,3,3,3,4,4,4,4,4,4,2,3,3
+R0731,34,Woman,Bali & Nusa Tenggara,IDR 5–10M,4,E-commerce,Home care,1380000,10,Sometimes,3.0,3,3,3,4,4,5,4,5,5,3,3,3.0,4,3,3,4,3,3,4,4,4,3,3,4
+R0732,32,Man,Sumatra,IDR 5–10M,6,E-commerce,Food & beverages,690000,8,Rarely,4.0,4,4,4,4,3,3,2,2,3,3,3,3.0,3,3,3,4,4,4,4,3,4,3,3,3
+R0733,26,Woman,Sulawesi,< IDR 5M,7,E-commerce,Food & beverages,850000,7,Rarely,3.0,4,4,3,4,4,4,3,3,3,4,4,4.0,4,5,5,4,5,5,4,3,3,5,4,4
+R0734,35,Woman,Java,IDR 10–20M,2,Supermarket,Home care,650000,9,Sometimes,5.0,5,5,4,3,3,3,4,3,3,2,3,2.0,3,2,2,3,3,3,3,3,3,3,3,3
+R0735,30,Man,Java,> IDR 20M,5,Supermarket,Personal care,760000,9,Never,4.0,3,3,3,5,3,4,3,3,3,4,4,4.0,4,4,4,4,4,3,3,4,3,4,5,5
+R0736,33,Woman,Java,IDR 5–10M,2,Minimarket,Food & beverages,1530000,10,Rarely,2.0,4,4,3,3,4,4,4,3,3,3,3,2.0,2,2,1,4,5,5,4,4,3,4,3,4
+R0737,33,Woman,Kalimantan,IDR 5–10M,6,E-commerce,Food & beverages,700000,8,Sometimes,4.0,3,4,4,3,3,3,3,2,2,2,3,2.0,3,3,3,4,3,3,3,3,3,3,3,3
+R0738,29,Man,Java,> IDR 20M,2,Traditional market,Home care,720000,9,Sometimes,4.0,4,5,4,4,4,4,3,2,3,3,3,3.0,4,4,4,3,3,3,4,4,4,3,3,3
+R0739,27,Man,Java,< IDR 5M,3,E-commerce,Personal care,530000,10,Often,4.0,2,2,2,4,3,4,3,3,3,5,3,4.0,5,5,5,4,4,4,3,3,3,4,4,4
+R0740,30,Woman,Sulawesi,< IDR 5M,6,Minimarket,Home care,420000,9,Sometimes,5.0,5,4,5,3,3,4,2,3,3,2,3,2.0,2,3,2,4,3,4,3,4,3,3,2,3
+R0741,30,Woman,Sulawesi,IDR 5–10M,2,Supermarket,Home care,1190000,9,Rarely,3.0,3,2,3,5,4,4,4,4,4,4,4,3.0,3,3,4,2,3,3,4,4,4,4,4,4
+R0742,43,Woman,Java,IDR 10–20M,2,Minimarket,Personal care,1810000,8,Often,4.0,3,3,3,3,3,3,3,2,3,3,3,3.0,3,2,2,5,5,5,4,4,4,4,4,4
+R0743,34,Man,Java,IDR 5–10M,7,Traditional market,Food & beverages,700000,7,Sometimes,4.0,4,4,4,4,3,4,3,3,3,2,2,2.0,2,4,3,4,5,5,3,3,4,3,2,2
+R0744,55,Woman,Sumatra,> IDR 20M,3,Minimarket,Food & beverages,1380000,13,Sometimes,3.0,3,3,2,3,3,4,3,3,3,4,2,3.0,3,3,3,5,4,5,5,4,5,3,3,4
+R0745,36,Woman,Sumatra,< IDR 5M,3,E-commerce,Personal care,720000,5,Sometimes,3.0,3,3,4,3,3,4,4,4,3,4,4,3.0,5,4,5,5,5,4,4,3,4,4,4,4
+R0746,33,Woman,Kalimantan,< IDR 5M,2,Supermarket,Food & beverages,340000,10,Often,4.0,4,4,4,4,4,4,3,3,3,3,3,3.0,3,3,3,3,3,2,2,3,3,4,4,3
+R0747,31,Woman,Sulawesi,,4,Minimarket,Home care,550000,8,Sometimes,3.0,5,5,5,3,3,3,3,4,3,3,3,2.0,4,3,3,3,4,4,3,4,3,3,3,3
+R0748,33,Woman,Sumatra,< IDR 5M,2,E-commerce,Personal care,920000,7,Sometimes,5.0,3,3,3,4,4,4,4,4,4,3,4,4.0,5,4,4,3,3,3,4,4,3,4,4,4
+R0749,32,Woman,Sulawesi,< IDR 5M,5,Minimarket,Food & beverages,1110000,9,Sometimes,2.0,3,3,3,3,3,3,3,4,4,2,2,2.0,4,4,4,4,3,4,3,3,4,4,5,5
+R0750,44,Woman,Java,IDR 5–10M,3,Minimarket,Personal care,1370000,8,Never,2.0,2,3,3,5,5,5,4,4,3,3,3,3.0,3,3,3,4,4,4,4,4,4,2,2,3
+R0751,31,Woman,Sulawesi,IDR 5–10M,3,E-commerce,Personal care,640000,9,Rarely,5.0,5,4,5,4,4,4,4,3,3,3,3,3.0,4,3,4,4,3,4,3,3,3,2,3,3
+R0752,31,Man,Java,> IDR 20M,3,Supermarket,Personal care,1040000,8,Never,3.0,3,2,3,5,4,5,2,2,2,4,4,4.0,3,2,2,3,4,4,5,5,5,2,3,2
+R0753,30,Woman,Java,IDR 5–10M,4,E-commerce,Home care,1160000,13,Sometimes,3.0,2,2,3,4,4,4,4,4,3,4,4,3.0,3,3,4,3,4,3,4,2,4,4,3,3
+R0754,30,Woman,Java,IDR 5–10M,3,E-commerce,Home care,1690000,9,Rarely,3.0,3,3,4,4,5,5,4,3,4,4,3,4.0,2,4,3,3,3,3,5,5,4,5,4,4
+R0755,34,Man,Sumatra,IDR 5–10M,3,E-commerce,Home care,930000,8,Rarely,3.0,4,4,4,4,3,3,4,4,3,3,4,4.0,3,3,3,5,5,4,5,4,5,4,4,3
+R0756,21,Man,Kalimantan,< IDR 5M,2,Supermarket,Home care,690000,11,Often,5.0,4,4,5,4,3,3,3,4,3,3,3,3.0,3,4,4,3,4,3,3,4,3,3,3,3
+R0757,37,Woman,Sulawesi,> IDR 20M,5,Minimarket,Home care,1930000,8,Rarely,3.0,4,3,3,4,4,4,3,3,3,3,4,3.0,3,3,3,3,3,3,4,4,4,3,3,3
+R0758,25,Woman,Sulawesi,< IDR 5M,4,E-commerce,Food & beverages,820000,7,Often,3.0,4,4,4,4,4,5,3,3,2,3,4,3.0,4,5,4,3,4,3,3,3,4,5,4,3
+R0759,29,Woman,Java,IDR 10–20M,4,Supermarket,Food & beverages,1390000,10,Never,3.0,3,3,3,4,4,4,3,4,4,3,3,2.0,2,2,2,5,5,4,4,4,3,2,2,3
+R0760,29,Man,Java,IDR 5–10M,1,Traditional market,Food & beverages,510000,8,Sometimes,4.0,3,3,4,4,4,3,2,3,3,3,2,,2,2,3,3,4,3,4,3,3,3,3,3
+R0761,18,Woman,Sumatra,< IDR 5M,4,E-commerce,Personal care,860000,6,Often,4.0,4,3,3,5,4,5,3,3,3,4,3,3.0,4,5,5,4,4,5,4,3,3,4,4,4
+R0762,40,Woman,Kalimantan,IDR 10–20M,2,Minimarket,Personal care,1700000,8,Sometimes,3.0,4,3,4,4,3,3,3,3,3,3,4,3.0,3,3,3,4,4,4,4,5,5,3,3,4
+R0763,26,Man,Sumatra,IDR 5–10M,3,Traditional market,Home care,580000,8,Sometimes,5.0,5,5,5,3,3,3,3,3,3,3,3,3.0,3,3,4,4,3,3,3,2,4,2,2,2
+R0764,39,Woman,Kalimantan,IDR 10–20M,2,Minimarket,Personal care,1370000,6,Rarely,4.0,3,2,2,5,5,5,5,5,5,3,4,4.0,3,2,2,4,4,3,4,5,4,4,3,3
+R0765,32,Man,Java,< IDR 5M,3,Minimarket,Home care,660000,11,Rarely,3.0,3,3,3,4,4,4,3,2,3,3,3,3.0,4,4,4,5,5,5,4,4,4,3,4,4
+R0766,31,Man,Java,IDR 5–10M,5,E-commerce,Food & beverages,1140000,6,Sometimes,4.0,2,3,2,4,4,4,3,3,3,4,3,4.0,3,3,4,4,3,4,3,3,4,4,4,4
+R0767,41,Man,Java,IDR 5–10M,5,Supermarket,Food & beverages,1480000,11,Rarely,3.0,3,3,3,4,2,3,3,4,3,2,3,3.0,2,1,2,4,3,3,4,3,4,3,3,3
+R0768,40,Woman,Java,< IDR 5M,6,Supermarket,Home care,460000,7,Never,4.0,5,5,4,3,4,3,2,2,3,3,3,2.0,3,3,2,3,3,3,3,3,2,3,4,4
+R0769,29,Woman,Sumatra,IDR 10–20M,6,Supermarket,Personal care,1220000,8,Never,3.0,2,3,2,4,4,5,4,4,3,4,4,5.0,3,3,4,4,3,4,3,4,3,4,3,4
+R0770,32,Woman,Java,> IDR 20M,4,Minimarket,Home care,1230000,13,Never,3.0,3,3,2,4,5,5,3,3,3,3,4,3.0,2,3,4,4,3,3,3,3,3,3,4,3
+R0771,27,Man,Java,< IDR 5M,4,E-commerce,Food & beverages,870000,5,Often,4.0,4,3,4,3,4,3,3,3,3,3,3,3.0,4,4,4,3,3,4,4,3,3,5,4,4
+R0772,18,Man,Kalimantan,IDR 5–10M,5,Traditional market,Food & beverages,730000,10,Often,4.0,4,4,3,4,4,4,4,4,3,2,3,2.0,4,4,4,3,2,3,3,2,3,5,4,4
+R0773,32,Woman,Java,IDR 10–20M,3,Traditional market,Food & beverages,890000,6,Often,4.0,4,4,4,4,3,4,3,3,3,3,3,3.0,2,2,2,3,3,4,3,2,3,3,3,3
+R0774,23,Man,Bali & Nusa Tenggara,IDR 10–20M,2,E-commerce,Personal care,1090000,10,Sometimes,4.0,3,3,3,4,4,3,3,3,3,3,3,3.0,4,3,4,3,3,3,3,3,3,5,5,5
+R0775,25,Woman,Java,IDR 10–20M,2,E-commerce,Home care,1270000,9,Rarely,2.0,3,3,3,4,3,2,4,3,4,4,3,3.0,3,3,3,5,5,5,5,5,4,4,3,3
+R0776,37,Woman,Sumatra,< IDR 5M,7,Minimarket,Food & beverages,510000,6,Often,5.0,4,4,4,3,3,3,3,3,3,2,3,3.0,2,3,3,3,3,3,3,3,4,3,3,4
+R0777,41,Woman,Java,IDR 10–20M,3,Minimarket,Personal care,1410000,12,Never,3.0,3,3,3,3,4,3,3,4,3,4,3,3.0,3,4,3,5,4,4,5,4,4,3,4,3
+R0778,25,Woman,Java,IDR 5–10M,2,Traditional market,Personal care,1010000,9,Often,4.0,4,5,5,3,2,2,3,3,3,3,3,2.0,2,2,2,4,4,4,3,4,3,4,3,3
+R0779,36,Woman,Sumatra,> IDR 20M,3,E-commerce,Food & beverages,1570000,7,Never,3.0,3,3,2,4,4,4,3,3,4,3,3,3.0,3,3,3,5,5,5,5,4,4,3,4,3
+R0780,26,Woman,Java,IDR 5–10M,5,Minimarket,Home care,510000,8,Often,4.0,4,4,4,4,3,4,4,4,3,2,2,2.0,4,3,3,4,4,3,4,4,3,4,3,3
+R0781,34,Woman,Java,IDR 10–20M,3,Supermarket,Home care,960000,8,Sometimes,4.0,5,5,4,3,4,3,2,3,3,3,3,3.0,4,3,4,3,2,3,3,3,3,3,4,4
+R0782,34,Woman,Sumatra,< IDR 5M,3,E-commerce,Personal care,740000,10,Often,4.0,4,2,4,4,4,4,3,4,3,4,3,3.0,5,5,5,4,3,3,3,4,3,3,4,3
+R0783,38,Man,Sulawesi,< IDR 5M,3,Minimarket,Home care,560000,6,Sometimes,5.0,4,4,4,3,3,3,3,3,3,2,3,2.0,4,3,3,3,4,3,4,3,3,3,3,3
+R0784,43,Woman,Sumatra,> IDR 20M,5,E-commerce,Personal care,1710000,11,Rarely,4.0,3,2,3,5,5,5,4,5,5,4,4,4.0,3,3,4,3,4,3,4,4,4,4,4,4
+R0785,31,Man,Sumatra,IDR 5–10M,1,Minimarket,Personal care,870000,9,Sometimes,4.0,4,4,4,5,4,4,2,3,2,2,2,3.0,3,3,2,4,4,4,3,3,3,2,2,2
+R0786,47,Woman,Kalimantan,> IDR 20M,4,E-commerce,Food & beverages,1050000,10,Never,5.0,4,4,4,3,2,3,2,3,3,3,4,4.0,4,4,4,3,3,4,2,3,3,4,4,4
+R0787,30,Woman,Java,IDR 10–20M,4,E-commerce,Personal care,1200000,7,Sometimes,5.0,4,3,3,4,4,4,4,4,4,4,3,3.0,5,5,5,4,3,4,2,3,3,4,4,5
+R0788,46,Man,Bali & Nusa Tenggara,> IDR 20M,4,Minimarket,Personal care,1520000,8,Never,4.0,3,2,2,5,5,5,4,4,3,3,4,4.0,3,3,3,4,4,4,4,4,4,4,3,4
+R0789,21,Woman,Java,< IDR 5M,1,E-commerce,Food & beverages,580000,7,Rarely,,3,3,4,3,4,4,4,3,3,4,4,3.0,4,4,4,3,3,3,3,3,3,5,5,5
+R0790,39,Man,Sulawesi,> IDR 20M,1,Supermarket,Personal care,1350000,9,Rarely,3.0,3,3,3,4,4,5,3,2,3,2,3,3.0,4,3,3,4,5,4,5,3,5,2,3,2
+R0791,32,Woman,Sumatra,< IDR 5M,3,E-commerce,Food & beverages,500000,6,Sometimes,5.0,4,4,4,4,3,3,2,3,2,4,4,3.0,2,3,3,4,4,4,3,3,2,4,3,3
+R0792,39,Woman,Java,IDR 5–10M,5,Minimarket,Home care,840000,11,Rarely,2.0,4,3,3,3,3,3,4,3,4,2,2,2.0,3,3,3,4,3,4,4,4,4,4,4,4
+R0793,22,Woman,Sulawesi,> IDR 20M,5,Supermarket,Home care,1310000,9,Sometimes,4.0,3,4,4,4,3,4,4,3,4,2,3,3.0,3,3,3,3,4,4,2,2,2,4,3,3
+R0794,33,Man,Java,IDR 10–20M,3,Minimarket,Food & beverages,860000,7,Sometimes,3.0,3,2,3,4,4,4,3,4,3,3,3,3.0,2,2,2,5,5,4,5,5,5,2,3,3
+R0795,37,Man,Java,IDR 10–20M,5,Supermarket,Personal care,740000,5,Often,5.0,4,4,4,4,5,4,3,3,2,1,2,2.0,3,3,3,3,3,3,3,3,4,2,3,3
+R0796,28,Woman,Kalimantan,> IDR 20M,3,Minimarket,Home care,2330000,13,Never,4.0,5,4,4,4,4,4,3,4,3,4,4,4.0,3,3,3,4,5,5,5,5,5,4,4,3
+R0797,36,Woman,Bali & Nusa Tenggara,< IDR 5M,3,Minimarket,Food & beverages,540000,6,Sometimes,4.0,4,4,5,3,2,3,4,3,3,2,2,2.0,4,4,4,4,3,5,3,3,3,2,3,2
+R0798,32,Man,Sumatra,IDR 10–20M,1,E-commerce,Food & beverages,1770000,11,Often,4.0,3,3,3,3,4,4,2,3,3,3,3,4.0,3,4,3,4,4,4,4,2,3,5,5,4
+R0799,30,Man,Java,IDR 5–10M,3,Minimarket,Personal care,440000,6,Often,4.0,4,4,3,3,4,3,3,4,3,3,4,3.0,3,3,2,3,4,3,2,3,2,4,4,3
+R0800,18,Man,Java,IDR 10–20M,3,E-commerce,Personal care,850000,11,Often,4.0,4,4,3,3,4,4,4,3,3,4,4,4.0,4,5,4,4,3,3,4,3,4,5,5,5
