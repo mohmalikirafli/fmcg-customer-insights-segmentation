@@ -1,9 +1,8 @@
 # Final Portfolio Presentation
 
-The final FMCG Customer Insights portfolio deck contains 11 professionally designed pages and supersedes the earlier automatically generated executive-summary presentation.
+The final FMCG Customer Insights portfolio deck contains 11 professionally designed slides and supersedes the earlier automatically generated executive-summary presentation.
 
-- [View the final presentation in Canva](https://www.canva.com/d/29QvVaCztUkarUk)
-- [Open the editable Canva presentation](https://www.canva.com/d/u7HQMnrE_u6rotr)
+- [View the final portfolio presentation (PDF)](FMCG_Customer_Insights_Portfolio_Presentation.pdf)
 
 ## Content
 
