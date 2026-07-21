@@ -1,0 +1,36 @@
+name: Assemble final presentation PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '05_Presentation/_assemble.trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Reconstruct final PDF
+        run: |
+          cat 05_Presentation/_parts/part-*.b64 \
+            | tr -d '\n\r' \
+            | base64 --decode \
+            | gzip --decompress \
+            > 05_Presentation/FMCG_Customer_Insights_Portfolio_Presentation.pdf
+          test -s 05_Presentation/FMCG_Customer_Insights_Portfolio_Presentation.pdf
+
+      - name: Commit final PDF and remove temporary assembly files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add 05_Presentation/FMCG_Customer_Insights_Portfolio_Presentation.pdf
+          git rm -r 05_Presentation/_parts 05_Presentation/_assemble.trigger
+          git rm .github/workflows/assemble-presentation.yml
+          git commit -m 'Add final FMCG customer insights presentation PDF'
+          git push
