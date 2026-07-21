@@ -1,0 +1,45 @@
+variable,type,description,values_or_unit
+respondent_id,identifier,Synthetic respondent identifier,R0001-R0800
+age,integer,Age in years,18-55
+gender,categorical,Self-reported gender in synthetic survey,Woman; Man
+region,categorical,Indonesian macro-region,Java; Sumatra; Kalimantan; Sulawesi; Bali & Nusa Tenggara
+monthly_income_band,categorical,Monthly household income band,< IDR 5M; IDR 5-10M; IDR 10-20M; > IDR 20M
+household_size,integer,Number of household members,1-7
+primary_shopping_channel,categorical,Primary FMCG shopping channel,Minimarket; Supermarket; E-commerce; Traditional market
+most_purchased_category,categorical,Most frequently purchased FMCG category,Personal care; Home care; Food & beverages
+monthly_fmcg_spend_idr,continuous,Estimated monthly FMCG spending,Indonesian rupiah
+purchase_frequency_per_month,integer,Monthly FMCG purchase frequency,2-18
+promotion_response,ordinal,Responsiveness to promotions,1-5
+price_sensitivity_1,ordinal,Price-sensitivity item 1,1-5
+price_sensitivity_2,ordinal,Price-sensitivity item 2,1-5
+price_sensitivity_3,ordinal,Price-sensitivity item 3,1-5
+price_sensitivity,continuous,Mean price-sensitivity score,1.0-5.0; processed data
+quality_orientation_1,ordinal,Quality-orientation item 1,1-5
+quality_orientation_2,ordinal,Quality-orientation item 2,1-5
+quality_orientation_3,ordinal,Quality-orientation item 3,1-5
+quality_orientation,continuous,Mean quality-orientation score,1.0-5.0; processed data
+health_orientation_1,ordinal,Health-orientation item 1,1-5
+health_orientation_2,ordinal,Health-orientation item 2,1-5
+health_orientation_3,ordinal,Health-orientation item 3,1-5
+health_orientation,continuous,Mean health-orientation score,1.0-5.0; processed data
+sustainability_orientation_1,ordinal,Sustainability-orientation item 1,1-5
+sustainability_orientation_2,ordinal,Sustainability-orientation item 2,1-5
+sustainability_orientation_3,ordinal,Sustainability-orientation item 3,1-5
+sustainability_orientation,continuous,Mean sustainability-orientation score,1.0-5.0; processed data
+digital_influence_1,ordinal,Digital-influence item 1,1-5
+digital_influence_2,ordinal,Digital-influence item 2,1-5
+digital_influence_3,ordinal,Digital-influence item 3,1-5
+digital_influence,continuous,Mean digital-influence score,1.0-5.0; processed data
+convenience_orientation_1,ordinal,Convenience-orientation item 1,1-5
+convenience_orientation_2,ordinal,Convenience-orientation item 2,1-5
+convenience_orientation_3,ordinal,Convenience-orientation item 3,1-5
+convenience_orientation,continuous,Mean convenience-orientation score,1.0-5.0; processed data
+brand_trust_1,ordinal,Brand-trust item 1,1-5
+brand_trust_2,ordinal,Brand-trust item 2,1-5
+brand_trust_3,ordinal,Brand-trust item 3,1-5
+brand_trust,continuous,Mean brand-trust score,1.0-5.0; processed data
+new_product_intention_1,ordinal,New-product intention item 1,1-5
+new_product_intention_2,ordinal,New-product intention item 2,1-5
+new_product_intention_3,ordinal,New-product intention item 3,1-5
+new_product_intention,continuous,Mean new-product intention score,1.0-5.0; processed data
+segment,categorical,K-means consumer segment,Value Seekers; Digital Trend Explorers; Convenience Loyalists; Quality & Wellness Enthusiasts
