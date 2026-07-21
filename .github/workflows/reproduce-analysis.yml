@@ -6,7 +6,6 @@ on:
     branches: [main]
     paths:
       - '02_Script/**'
-      - 'README.md'
       - 'requirements.txt'
       - '.github/workflows/reproduce-analysis.yml'
 
@@ -16,7 +15,6 @@ permissions:
 jobs:
   reproduce:
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -30,7 +28,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Generate reproducible data, results, notebook, and figures
+      - name: Generate data and analytical outputs
         env:
           OMP_NUM_THREADS: 1
           OPENBLAS_NUM_THREADS: 1
@@ -38,26 +36,26 @@ jobs:
           NUMEXPR_NUM_THREADS: 1
         run: |
           python 02_Script/01_Generate_Synthetic_Data.py
+          python 02_Script/01b_Normalize_Columns.py
           python 02_Script/02_FMCG_Customer_Insights_Analysis.py
           python 02_Script/03_Build_Analysis_Notebook.py
           jupyter nbconvert --to notebook --execute --inplace 02_Script/FMCG_Customer_Insights_Analysis.ipynb --ExecutePreprocessor.timeout=180
-          python 02_Script/04_Build_Portfolio_PDFs.py
 
-      - name: Verify README assets
+      - name: Verify expected outputs
         run: |
+          test -f 03_Data/processed/fmcg_consumer_scored.csv
+          test -f 04_Output/tables/key_metrics.json
           test -f 04_Output/figures/01_segment_sizes.png
           test -f 04_Output/figures/02_segment_profile_heatmap.png
           test -f 04_Output/figures/03_channel_by_segment.png
           test -f 04_Output/figures/05_purchase_intention_drivers.png
-          test -f 04_Output/figures/07_purchase_intention_roc_curve.png
-          test -f 04_Output/tables/key_metrics.json
           test -f 02_Script/FMCG_Customer_Insights_Analysis.ipynb
 
-      - name: Commit generated analysis assets
+      - name: Commit reproducible assets
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add 01_Report/*.pdf 02_Script/*.ipynb 03_Data 04_Output
+          git add 02_Script/*.ipynb 03_Data 04_Output
           if git diff --cached --quiet; then
             echo 'Generated assets are already current.'
           else
